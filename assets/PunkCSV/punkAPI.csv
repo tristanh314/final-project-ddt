@@ -1,0 +1,326 @@
+Beer ID,Beer Name,EBC,IBU,ABV,Attenuation,ph
+1,Buzz,20,60,4.5,75,4.4
+2,Trashy Blonde,15,41.5,4.1,76,4.4
+3,Berliner Weisse With Yuzu - B-Sides,8,8,4.2,83,3.2
+4,Pilsen Lager,30,55,6.3,80,4.4
+5,Avery Brown Dredge,10,59,7.2,67,4.4
+6,Electric India,15,38,5.2,88.9,4.4
+7,AB:12,80,35,11.2,84,5.3
+8,Fake Lager,12,40,4.7,78,4.4
+9,AB:07,84,30,12.5,83,5.6
+10,Bramling X,22,75,7.5,80.9,4.4
+11,Misspent Youth,120,30,7.3,74.7,4.4
+12,Arcade Nation,200,60,5.3,77,4.2
+13,Movember,140,50,4.5,74.5,5.2
+14,Alpha Dog,62,42,4.5,72.8,4.4
+15,Mixtape 8,40,50,14.5,85,4.4
+16,Libertine Porter,219,45,6.1,70.1,4.4
+17,AB:06,70,150,11.2,87,null
+18,Russian Doll – India Pale Ale,25,70,6.0,79.3,5.2
+19,Hello My Name Is Mette-Marit,Null,70,8.2,83,4.4
+20,Rabiator,24,26,10.27,85,4.4
+21,Vice Bier,30,25,4.3,81.8,4
+22,Devine Rebel (w/ Mikkeller),36,100,12.5,68,4.4
+23,Storm,12,60,8.0,86,4.4
+24,The End Of History,Null,null,55.0,100,4.4
+25,Bad Pixie,8,45,4.7,79,4.4
+26,Skull Candy,50,33,3.5,68.4,4.4
+27,Dog B,100,90,15.0,98,4.4
+28,HBC 369,19,67,6.7,79.7,4.4
+29,10 Heads High,90,70,7.8,79.7,4.4
+30,Dana - IPA Is Dead,30,70,6.7,77.3,4.4
+31,Nanny State,30,55,0.5,28.6,4.4
+32,AB:05,180,40,12.5,76,4.4
+33,Sorachi Ace,30,75,7.5,82.1,4.4
+34,Bourbon Baby,44,35,5.8,90,4.4
+35,Berliner Weisse With Raspberries And Rhubarb - B-Sides,Null,8,3.6,83,3.2
+36,Shipwrecker Circus (w/ Oskar Blues),64,85,10.5,102,4.4
+37,Zephyr,40,125,12.5,81.2,4.4
+38,Belgian Trappist,30,55,6.3,80,4.4
+39,Kohatu - IPA Is Dead,30,70,7.2,82.1,4.4
+40,Hello My Name is Vladimir,16,70,8.2,83,4.4
+41,AB:17,300,100,10.7,76.2,4.3
+42,Hardcore IPA,40,125,9.2,81.2,4.4
+43,American Wheat,10,17,4.5,72,5.3
+44,Dog Wired (w/8 Wired),13,65,7.1,85,4.4
+45,The Physics,65,47,5.0,79.4,4.4
+46,Anarchist Alchemist,20,20.5,16.5,100,4.4
+47,AB:15,111,50,12.8,79.17,4.4
+48,Goldings - IPA Is Dead,30,70,6.7,77.3,4.4
+49,AB:14,20,30,10.0,83,4.4
+50,Lost Dog (w/Lost Abbey),80,35,10.0,85,4.4
+51,TM10,14,20,5.5,89.6,4.2
+52,Paradox Islay,300,55,10.0,84.4,4.4
+53,Baby Dogma,40,35,4.5,72.9,4.4
+54,Albino Squid Assasin,60,65,7.4,82.6,4.2
+55,Amarillo - IPA Is Dead,30,70,7.2,82.1,4.4
+56,Black Eyed King Imp,250,85,9.5,76.8,4.4
+57,Prototype 27,19.5,149,9.2,83,4.4
+58,Coffee Imperial Stout,97,65,9.0,76,4.4
+59,Mandarina Bavaria - IPA Is Dead,12,100,7.2,84,4.4
+60,Dogma,46,30,7.5,70,4.5
+61,Magic Stone Dog (w/Magic Rock & Stone Brewing Co.),15,30,4.6,81.4,4.4
+62,AB:08,23,65,10.43,83.2,4.4
+63,Sunk Punk,14,68,7.1,82.1,4.4
+64,Sub Hop,15,35,8.0,79.2,4.4
+65,Bracken's Porter,110,50,5.0,79,4.4
+66,Tokyo Rising Sun - Lowland,140,85,13.2,82.17,4.4
+67,Hunter Foundation Pale Ale,11.5,35,5.4,84,4.4
+68,Hype,17,65,4.1,76.2,4.4
+69,AB:16,30,55,10.6,86.7,4.4
+70,Sunmaid Stout,197,50,10.2,74.5,4.4
+71,Pale - Russian Doll,45,35,4.0,75.6,5.2
+72,Whisky Sour - B-Sides,12,20,7.0,74,3.2
+73,Black Eyed King Imp - Vietnamese Coffee Edition,250,85,12.7,76.8,5.2
+74,Eurotrash,17,52,4.1,76,5.2
+75,Never Mind The Anabolics,23,35,6.5,76,4.4
+76,#Mashtag 2013,40,50,7.5,81.4,4.4
+77,Hobo Pop,30,50,4.2,76.2,4.4
+78,AB:18,115,80,11.8,79.2,5.2
+79,Hops Kill Nazis,59,70,7.6,79.5,4.4
+80,AB:04,400,80,15.0,84.1,4
+81,India Session Lager - Prototype Challenge,12,35,4.4,79.5,4.4
+82,Hopped-Up Brown Ale - Prototype Challenge,24,85,6.3,82.6,4.2
+83,Comet,30,70,7.2,82.1,4.4
+84,Baby Saison - B-Sides,2,9,3.6,88,4.4
+85,Santa Paws,44,35,4.5,72.9,4.4
+86,Original Dogma (Née Speedball),31,60,7.8,83.2,4.3
+87,Alpha Pop,25,30,4.5,75.6,4.4
+88,Bavarian Weizen,30,55,6.3,80,4.4
+89,Citra,30,70,7.5,82.1,4.4
+90,#Mashtag 2015,130,85,10.0,79.6,4.4
+91,Dead Pony Club,25,35,3.8,70,4.4
+92,AB:09,265,77,11.6,80,5.2
+93,Mango Gose - B-Sides,10,40,6.4,87,3.5
+94,Everday Anarchy,15,45,10.5,93.8,4.4
+95,Peroxide Punk,18,40,4.0,76.9,4.4
+96,Lumberjack Stout,158,20,15.2,82,4.4
+97,Bowman's Beard - B-Sides,15,50,18.3,84,5.3
+98,Pumpkin King,30,20,5.4,74.6,4.4
+99,Hello My Name Is Päivi,30,70,8.3,82.9,4.4
+100,Elvis Juice V2.0 - Prototype Challenge,25,60,6.5,83.3,4.4
+101,Riptide,240,45,8.0,81.3,4.4
+102,Peach Therapy,12,30,9.0,87,3.6
+103,Clown King,24,85,12.0,102.3,4.4
+104,India Pale Weizen (w/ Weihenstephan),35,50,6.2,85,4
+105,Hello My Name Is Beastie,90,42,8.2,83.3,4.4
+106,Punk IPA 2010 - Current,15,40,5.6,78,4.4
+107,HBC 366 - IPA Is Dead,30,70,7.2,82.1,4.4
+108,American Ale,30,55,6.3,80,4.4
+109,Cocoa Psycho,30,85,10.0,70,4.4
+110,Truffle and Chocolate Stout - B-Sides,54,30,5.6,74,4.4
+111,Vagabond Pilsner,25,55,4.5,73.9,4.4
+112,Vote Sepp,8,20,3.6,75,4.1
+113,Hello My Name Is Ingrid,70,42,8.2,83.3,4.4
+114,U-Boat (w/ Victory Brewing),200,50,8.4,81.3,4.4
+115,Melon And Cucumber IPA - B-Sides,8,50,6.0,87,5.2
+116,Morag's Mojito - B-Sides,15,40,6.7,84,5.2
+117,Hop Rocker,25,40,5.5,80.7,4.2
+118,Bounty Hunter - Shareholder Brew,250,35,6.5,70.6,4.2
+119,Zeitgeist,120,32,4.9,79,4.3
+120,AB:10,115,80,11.5,79.2,4.4
+121,Punk Monk,17,60,6.0,82.1,4.4
+122,Dog Fight (w/ Flying Dog),31.2,65,8.5,84.6,4.4
+123,Candy Kaiser,45,45,5.2,81.6,4.2
+124,Chaos Theory,15,90,7.1,80.6,4.4
+125,Juniper Wheat Beer,15,40,5.0,83,4.1
+126,Jet Black Heart,200,45,4.7,70,4.4
+127,Galaxy,19,67,6.7,79.7,4.4
+128,White Noise,30,50,6.8,80,4.4
+129,Hinterland,400,85,9.0,73.4,4.3
+130,Spiced Cherry Sour - B-Sides,Null,20,6.5,87,3.2
+131,Motueka,19,67,6.7,79.7,4.4
+132,5am Saint,60,30,5.0,76,4.4
+133,Black Eye Joe (w/ Stone Brewing Co),177.3,40,5.8,84.9,4.4
+134,Mr.Miyagi's Wasabi Stout,200,90,7.5,79.2,4.4
+135,Growler,18,38,4.5,81,4.4
+136,#Mashtag 2014,20,50,9.0,82.1,4.4
+137,Sink The Bismarck!,40,1085,41.0,81.2,4.4
+138,Dog A,100,90,15.0,98,4.4
+139,Born To Die,15,85,8.5,90.3,4.4
+140,Pioneer - IPA Is Dead,12,100,7.2,84,4.4
+141,Cap Dog (w/ Cap Brewery),180,80,9.0,83.1,5.2
+142,Orange Blossom - B-Sides,6,20,3.8,87,5.2
+143,Lizard Bride - Prototype Challenge,25,35,5.7,79.3,4.4
+144,Tokyo*,250,85,16.2,82.2,4.4
+145,Sorachi Bitter - B-Sides,14,130,6.3,83,5.2
+146,Nelson Sauvin,30,75,7.5,82.1,4.4
+147,Hello My Name Is Little Ingrid,30,35,4.4,73.3,4.4
+148,AB:02,57,70,18.0,93.3,4.4
+149,AB:03,Null,14,10.5,80,4.4
+150,AB:13,164,50,11.3,79.6,4.4
+151,Rhubarb Saison - B-Sides,10,25,6.4,87,5.2
+152,Deaf Mermaid - B-Sides,16,65,5.2,79,5.2
+153,Hoppy Saison - B-Sides,8,40,6.4,87,5.2
+154,No Label,10,25,4.5,79.1,4.2
+155,Old World Russian Imperial Stout,195,80,9.5,81.3,4.5
+156,Hoppy Christmas,30,70,7.2,82.1,4.4
+157,Edge,57,36,2.7,70.8,4.4
+158,Hello My Name Is Zé (w/ 2Cabeças),20,50,6.4,80.3,4.4
+159,Black Tokyo Horizon (w/Nøgne Ø & Mikkeller),128,75,17.2,80.8,4.4
+160,Restorative Beverage For Invalids And Convalescents,15,100,8.5,95.6,4.4
+161,Tokyo Rising Sun - Highland,140,85,13.2,82.17,4.4
+162,77 Lager,12,30,4.9,80.7,4.4
+163,This. Is. Lager,10,37,4.7,83.7,4.2
+164,Ella - IPA Is Dead,12,100,7.2,84,4.4
+165,Barley Wine - Russian Doll,65,80,10.0,79.4,4.4
+166,Vagabond Pale ALe - Prototype Challenge,20,55,4.5,73.9,4.2
+167,Libertine Black Ale,150,50,7.2,78.6,4.4
+168,Jack Hammer,15,250,7.2,84.6,4.4
+169,AB:19,Null,null,13.1,null,null
+170,Bashah (w/ Stone Brewing Co),30,100,9.7,83,4.4
+171,Challenger,19,67,6.7,79.7,4.4
+172,Single Hop Enigma IPA - B-Sides,10,50,5.0,78,4.4
+173,Chinook - IPA Is Dead,12,100,7.2,84,4.4
+174,Konnichiwa Kitsune,30,70,4.4,82.9,4.4
+175,San Diego Scotch Ale (w/Ballast Point),190,70,9.0,80,4.4
+176,Old World India Pale Ale,50,80,7.5,82.6,4.4
+177,Dog D,400,85,16.1,84,4.3
+178,Simcoe,30,70,6.7,81,4.4
+179,How To Disappear Completely,37,198,3.5,73,4.4
+180,Doodlebug,10,35,2.5,70.4,4.2
+181,Vic Secret,30,70,7.4,82.6,4.4
+182,All Day Long - Prototype Challenge,42,30,2.8,63.1,4.4
+183,Nuns With Guns,19,25,4.2,72.7,4.4
+184,Atlantic IPA Ale,55,80,8.0,82,4.4
+185,Tactical Nuclear Penguin,250,1157,32.0,82.2,4.4
+186,Jasmine IPA,35,40,5.8,76.7,4.4
+187,Lichtenstein Pale Ale,17,50,5.2,80,4.4
+188,Paradox Jura,300,55,10.0,89,4.4
+189,AB:11,79,70,12.8,81.5,4.4
+190,Hello My Name is Sonja (w/ Evil Twin),30,70,8.3,82.9,4.4
+191,Interstellar,50,55,6.5,81.4,4.4
+192,Punk IPA 2007 - 2010,17,60,6.0,82.14,4.4
+193,Blitz Berliner Weisse,9,8,3.0,82.5,3.2
+194,Hardkogt IPA,40,175,7.6,80.6,4.4
+195,Hello My Name Is Holy Moose,25,35,5.5,79.3,4.4
+196,Catherine's Pony (w/ Beavertown),190,40,8.8,79.8,4.5
+197,Moshi Moshi 15,35,45,5.2,77.1,4.4
+198,AB:01,16,20,10.2,8.1,4.1
+199,Alice Porter,165,55,5.2,75.5,5.2
+200,Double IPA - Russian Doll,35,85,8.0,82.4,5.2
+201,Waimea - IPA Is Dead,30,70,6.7,77.3,4.4
+202,Dog C,100,90,15.0,98,4.4
+203,Bitch Please (w/ 3 Floyds),38,50,11.5,85,4.4
+204,"Cascade, Centennial & Willamette IPA - B-Sides",14,65,6.4,82,5.2
+205,Shareholder Black IPA 2011,71,80,7.1,79,4.4
+206,Black Jacques,15,45,11.1,94.4,4.4
+207,International Arms Race (w/ Flying Dog),50,null,7.5,81.1,4.4
+208,Sunshine On Rye - B-Sides,14,130,7.2,87,5.2
+209,Stereo Wolf Stout - Prototype Challenge,200,55,5.2,73.1,5.2
+210,Dead Metaphor,86,30,6.8,76.5,4.4
+211,Black Dog,230,60,5.5,67.7,4.4
+212,Hop Fiction - Prototype Challenge,13,40,5.2,79.2,4.4
+213,El Dorado - IPA Is Dead,30,70,6.7,77.3,4.4
+214,Cult Lager,19,50,5.4,83.7,4.1
+215,Brixton Porter,200,50,5.0,73.6,4.4
+216,Barrel Aged Hinterland,400,85,9.0,73.4,4.3
+217,Barrel Aged Albino Squid Assassin,60,65,9.2,82.6,4.2
+218,Monk Hammer,15,250,7.2,84.6,4.4
+219,Ship Wreck,25,60,13.8,83,4.4
+220,Ace Of Simcoe,18,40,4.5,75.6,4.2
+221,Blitz Series,8,8,3.2,78,3.2
+222,Dog E,500,100,16.1,84,4.4
+223,Prototype Pils 2.0,25,25,4.7,75.6,4.2
+224,AB:20,67,20,14.2,75.6,4
+225,Paradox Islay 2.0,300,100,13.0,84.4,4.4
+226,Chili Hammer,15,250,7.2,84.6,4.4
+227,Brewdog Vs Beavertown,78.8,50,9.2,81,4.2
+228,Prototype Helles,13,18,4.9,78.7,4.2
+229,Rye Hammer,17,250,7.2,84.6,4.4
+230,Black Hammer,104,250,7.2,84.6,4.4
+231,Ace Of Chinook,18,40,4.5,75.6,4.2
+232,Ace Of Equinox,18,40,4.5,75.6,4.2
+233,Ace Of Citra,18,40,4.5,75.6,4.2
+234,Neon Overlord,20,70,7.6,82,4.4
+235,Mango And Chili Barley Wine,20,null,12.0,84,4.4
+236,Science IPA,24,null,5.0,77,4.4
+237,Honey And Lemon Blitz,8,null,3.2,75,3.2
+238,Kingpin,14,40,4.7,79,4.2
+239,#Mashtag 2016,15,100,10.5,89.04,4.4
+240,Blitz Saison,7,8,3.2,77,3.2
+241,Hello My Name Is Ingrid 2016,30,70,8.2,83.3,5.2
+242,Crew Brew,28,100,8.0,84.62,5.2
+243,Gin Blitz,8,8,3.2,75,3.2
+244,AB:21,200,100,12.0,82,5.1
+245,Beatnik,60,60,8.0,83.78,5.2
+246,Casino Rye Ale,25,40,5.1,81.6,5.2
+247,Self Assembly Pope,200,75,7.4,82,5.1
+248,Twin Atlantic,19,80,5.0,77,5.2
+249,Hop Shot,15,250,7.0,85,4.4
+250,Small Batch: Rye IPA,8,100,7.2,84,4.4
+251,Small Batch: Sorachi Ace Session,15,25,4.0,79,5.1
+252,Small Batch: Dortmunder,15,32,4.9,81.5,5.2
+253,Small Batch: 90 Shilling,40,25,5.3,73,4.2
+254,Small Batch: Kellerbier,17,25,4.5,79,5.3
+255,Small Batch: Tripel,23,50,13.0,93,5.1
+256,Small Batch: Vermont IPA,15,35,6.9,79,4.2
+257,Semi Skimmed Occultist,160,70,8.0,73,4.1
+258,Paradox Rye,300,100,13.0,84,4.4
+259,Tropic Thunder,170,25,7.0,73,4.2
+260,New England IPA,17,45,6.8,79,4.2
+261,Small Batch: Nitro Breakfast Stout,88,80,8.0,70,5.2
+262,Small Batch: Vermont IPA V2.0,15,35,6.9,79,4.2
+263,Small Batch: Mandarina Lager,7,40,5.3,84,4.3
+264,Small Batch: East Coast Crush,15,25,4.8,79,4.2
+265,Pump Action Poet,12,40,7.5,81,5.2
+266,Small Batch: Lemon Meringue Pie,7,5,6.5,77,4
+267,AB:22,100,70,12.5,83,4.1
+268,Hazy Jane,15,30,7.2,86,4.2
+269,Small Batch: Imperial Pale Weizen,18,25,7.5,85,4.4
+270,Blonde Export Stout,16,55,7.0,73,4.4
+271,Small Batch: Cranachan Cream Ale,10,8,6.5,72,4.3
+272,Small Batch: Spelt & Honey Saison,8,22,5.2,83,4.1
+273,Prototype Double IPA,15,60,8.5,90,4.2
+274,Prototype Black Rye IPA,135,70,6.5,80,4.5
+275,Sidewalk Shark,7,22,5.2,85,3.8
+276,Nine To Five Wizard,20,35,7.5,83,4.3
+277,Prototype Blonde Ale,12,15,4.5,80,4.6
+278,AB:23,80,80,11.5,82,4.1
+279,Slot Machine,50,50,5.2,78,4.3
+280,Make Earth Great Again,9,35,7.5,94,4.6
+281,Homicidal Puppet Help Desk,45,132,11.5,81,4.1
+282,Pina Colada Sidewalk,15,10,5.2,85,3.8
+283,AB:24,220,50,11.5,83,4.4
+284,Hello My Name Is Helga,15,70,8.2,87,4.4
+285,Hello My Name Is Sari,15,70,8.2,87,4.4
+286,Hello My Name Is Aune,15,70,8.2,87,4.4
+287,Hello My Name Is Marianne,15,70,8.2,87,4.4
+288,Hello My Name Is Agnetha,15,70,8.2,87,4.4
+289,Hello My Name Is Lieke,15,70,8.2,87,4.4
+290,Hello My Name Is Niamh,15,70,8.2,87,4.4
+291,Hello My Name Is Sofia,15,70,8.2,87,4.4
+292,Hello My Name Is Maria,15,70,8.2,87,4.4
+293,I Wanna Be Your Dog,600,55,12.0,72,4.1
+294,Opaque Jake,20,20,7.2,86,4.4
+295,Choco Libre,190,25,9.0,77,4.2
+296,Off-Duty Alien,20,50,6.5,83,4.4
+297,East Of Vermont,20,15,7.8,77,4.4
+298,Declassified Demi-God,90,70,14.1,84,4.1
+299,Raspberry Popsicle Parade,8,8,0.5,44,3.5
+300,Indie Pale Ale,16.6,30,4.2,82,4.6
+301,Small Batch: Dry-hopped Pilsner,5,37,4.7,86,4.4
+302,Hazy Jane Bourbon Barrel Aged,15,30,7.2,86,4.2
+303,Hazy Jane Rye Barrel Aged,15,30,7.2,86,4.2
+304,Karma Cloud,35,50,6.5,83,4.4
+305,Native Son,18,70,8.5,86,4.6
+306,AB:25,90,35,13.3,82,4.2
+307,Kamikaze Knitting Club,130,30,7.5,82,4.6
+308,Very Big Moose,100,25,12.0,70,4.4
+309,Paradox Islay 2018,300,100,13.5,84,4.4
+310,Clockwork Tangerine,20,37,4.5,75,4.2
+311,Sonic Boom,11,60,6.5,86,4.6
+312,Dog G,500,100,17.0,84,4.4
+313,Mallow Mafia,390,75,12.0,78,4.4
+314,Manic Mango,12,20,6.0,82,4.4
+315,Baltic Fleet,120,45,7.2,77,4.2
+316,SOS! (May Day!),21,34,6.4,77,4.2
+317,Al Adjore!,35,65,9.0,79,79
+318,Neverland,12,40,5.0,85,4.2
+319,Grano Giusto,55,28,5.5,83,4.3
+320,King of Eights,20,20,7.4,86,4.4
+321,Jinx Pale Ale,13,35,4.7,81,4.6
+322,Jet Trash,18,65,6.9,87,4.6
+323,Interstate Vienna Lager.,14,25,5.0,84,4.2
+324,Fools Gold Dortmunder Lager,11,32,5.6,83,4.2
+325,Zipcode,5,37,5.0,86,4.4
