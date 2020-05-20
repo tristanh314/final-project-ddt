@@ -9,9 +9,6 @@ engine = create_engine(f"sqlite:///{database_path}")
 meta = MetaData(engine)
 conn = engine.connect()
 
-# Drop all current data.
-meta.drop_all()
-
 # Create the listings table.
 listings = Table(
     "listings", meta,
@@ -37,7 +34,7 @@ meta.create_all()
 scraped_data = pd.read_csv("Resources/housingData.csv")
 
 # Insert data into the database.
-for index, row in scraped_data.iterrows():
+for _, row in scraped_data.iterrows():
     ins = listings.insert().values(
       address = row["address"],
       price = row["price"],
