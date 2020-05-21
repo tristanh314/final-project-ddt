@@ -35,7 +35,6 @@ session = Session(bind=engine)
 # Clear out current data in the database.
 Base.metadata.drop_all(engine)
 
-<<<<<<< HEAD
 # Drop all current data.
 meta.drop_all()
 
