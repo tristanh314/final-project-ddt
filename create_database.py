@@ -17,6 +17,7 @@ class Listing(Base):
     bathrooms = Column(Float)
     square_feet = Column(Integer)
     built = Column(Integer)
+    lot_size = Column(Float)
     neighborhood = Column(String(255))
     county = Column(String(255))
     city = Column(String(255))
@@ -34,6 +35,32 @@ session = Session(bind=engine)
 # Clear out current data in the database.
 Base.metadata.drop_all(engine)
 
+<<<<<<< HEAD
+# Drop all current data.
+meta.drop_all()
+
+# Create the listings table.
+listings = Table(
+    "listings", meta,
+    Column("id", Integer, primary_key=True),
+    Column("address", String(255)),
+    Column("price", Integer),
+    Column("home_type", String(255)),
+    Column("bedrooms", Integer),
+    Column("bathrooms", Float),
+    Column("square_feet", Integer),
+    Column("built", Integer),
+    Column("lot_size", Float),
+    Column("neighborhood", String(255)),
+    Column("county", String(255)),
+    Column("city", String(255)),
+    Column("zipcode", Integer),
+    Column("high_school", String(255)),
+    Column("middle_school", String(255)),
+    Column("elementary_school", String(255))
+)
+meta.create_all()
+
 # Create a metadata layer that abstracts the database.
 Base.metadata.create_all(engine)
 
@@ -50,6 +77,7 @@ for _, row in scraped_data.iterrows():
       bathrooms = row["bathrooms"],
       square_feet = row["square_feet"],
       built = row["built"],
+      lot_size = row["lot_size"],
       neighborhood = row["neighborhood"],
       county = row["county"],
       city = row["city"],
