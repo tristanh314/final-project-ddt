@@ -1,0 +1,1084 @@
+price,home_type,bedrooms,bathrooms,square_feet,built,lot_size,county,zipcode,high_school
+157900,Single Family - Bungalow,2,1.0,879,1905,0.07,Multnomah,97203,Jefferson
+225000,Manufactured - Manufactured Home,3,2.0,1400,1999,0.1,Multnomah,97203,Roosevelt
+229800,Single Family - Ranch,3,1.0,1032,1959,0.16,Multnomah,97233,Centennial
+235000,Condo - 2 Story,3,2.0,1219,1988,0.06,Multnomah,97233,David Douglas
+239900,Single Family - Bungalow,1,1.0,456,1957,0.15,Multnomah,97230,Reynolds
+240000,Single Family - Ranch,2,1.0,900,1947,0.22,Multnomah,97230,Reynolds
+240000,Single Family - Townhouse,3,3.0,1339,2003,0.06,Multnomah,97266,Madison
+244900,Single Family - Traditional,3,2.0,1456,1981,0.17,Multnomah,97206,Cleveland
+249500,Single Family - Bungalow,2,1.0,784,1925,0.11,Multnomah,97221,Wilson
+249900,Condo - Traditional,3,3.0,1286,2003,0.04,Multnomah,97230,Reynolds
+249900,Condo - Row House,3,3.0,1066,1998,0.03,Multnomah,97233,Reynolds
+249900,Condo - Row House,3,2.0,1288,2000,0.02,Multnomah,97233,David Douglas
+249900,Single Family - Bungalow,3,2.0,1378,1926,0.32,Multnomah,97218,Madison
+249950,Single Family - 1 Story,1,1.0,904,1940,0.21,Multnomah,97266,Madison
+249999,Single Family - Ranch,2,1.0,780,1960,0.37,Multnomah,97266,David Douglas
+250000,Single Family - Ranch,1,1.0,1312,1962,0.22,Multnomah,97230,Parkrose
+250000,Single Family - Bungalow,2,1.0,1396,1920,0.21,Multnomah,97220,Parkrose
+255000,Single Family - Ranch,3,2.0,1180,1977,0.22,Multnomah,97230,Reynolds
+259900,Single Family - Ranch,2,1.0,982,1955,0.53,Multnomah,97230,Reynolds
+259950,Single Family - Bungalow,2,1.0,956,1950,0.18,Multnomah,97220,Madison
+259999,Single Family - Bungalow,1,1.0,490,1928,0.13,Multnomah,97221,Wilson
+265000,Single Family - Craftsman,4,1.0,2238,1910,0.11,Multnomah,97203,Roosevelt
+269900,Single Family - 2 Story,3,1.0,1202,1953,0.19,Multnomah,97233,David Douglas
+269995,Single Family - Bungalow,2,1.0,604,1924,0.11,Multnomah,97206,Cleveland
+270000,Single Family - 1 Story,2,1.0,680,1908,0.1,Multnomah,97206,Franklin
+270000,Single Family - Cottage,4,1.0,1556,1952,0.39,Multnomah,97230,Reynolds
+274900,Single Family - Bungalow,3,1.0,907,1913,0.23,Multnomah,97266,Franklin
+275000,Single Family - Bungalow,1,1.0,768,1944,0.16,Washington,97223,Tigard
+275000,Single Family - 1 Story,2,1.0,681,1915,0.1,Multnomah,97206,Cleveland
+275000,Single Family - 1 Story,1,1.0,604,1915,0.06,Multnomah,97203,Roosevelt
+279000,Condo - Townhouse,3,3.0,1066,1999,0.03,Multnomah,97233,Reynolds
+279000,Single Family - Bungalow,2,2.0,1964,1942,0.19,Multnomah,97236,Centennial
+279900,Condo - Row House,3,3.0,1692,2005,0.02,Multnomah,97266,Madison
+280000,Single Family - 1 Story,2,1.0,1215,1925,0.3,Multnomah,97236,Centennial
+285000,Single Family - Ranch,4,2.0,1224,1957,0.16,Multnomah,97233,Centennial
+289000,Single Family - Ranch,3,1.0,1248,1974,0.18,Multnomah,97233,Reynolds
+290000,Single Family - Cottage,3,1.0,1918,1921,0.1,Multnomah,97220,Parkrose
+290000,Single Family - 2 Story,1,1.0,1102,1944,0.06,Multnomah,97206,Cleveland
+295000,Single Family - Ranch,3,1.0,1174,1963,0.11,Multnomah,97216,David Douglas
+295000,Single Family - Ranch,1,3.0,1957,1957,0.18,Multnomah,97266,David Douglas
+299000,Condo - Row House,2,3.0,1387,1997,0.04,Multnomah,97211,Jefferson
+299000,Floating Home - Bungalow,2,2.0,1198,2005,0.25,Multnomah,97217,Jefferson
+299000,Single Family - Capecod,2,2.0,1240,1952,0.35,Multnomah,97216,David Douglas
+299000,Single Family - Bungalow,2,2.0,840,1960,0.11,Multnomah,97216,Madison
+299500,Single Family - Bungalow,2,1.0,770,1911,0.14,Multnomah,97266,Franklin
+299900,Single Family - Daylight Ranch,2,1.0,1674,1928,0.19,Multnomah,97236,David Douglas
+299900,Single Family - Ranch,2,1.0,896,1949,0.11,Multnomah,97216,David Douglas
+299900,Single Family - Ranch,2,1.0,806,1979,0.12,Multnomah,97203,Roosevelt
+299900,Single Family - Bungalow,3,1.0,984,1955,0.11,Multnomah,97266,Franklin
+299900,Single Family - Bungalow,2,1.0,960,1917,0.16,Multnomah,97266,Franklin
+299900,Single Family - Ranch,3,1.0,916,1953,0.13,Multnomah,97206,Cleveland
+299900,Single Family - 2 Story,2,1.0,1692,1930,0.18,Multnomah,97206,Franklin
+299900,Single Family - Ranch,2,2.0,1290,1951,0.17,Multnomah,97236,Centennial
+299950,Single Family - 2 Story,2,3.0,1392,2008,0.06,Multnomah,97206,Cleveland
+300000,Condo - Other,2,2.0,1936,1954,0.1,Multnomah,97216,David Douglas
+300000,Single Family - Traditional,2,2.0,1044,2015,0.02,Multnomah,97206,Franklin
+300000,Single Family - Ranch,3,1.0,1374,1963,0.15,Multnomah,97203,Roosevelt
+300000,Single Family - 1 Story,2,1.0,1028,1951,0.14,Multnomah,97206,Franklin
+305000,Single Family - Traditional,3,1.0,1177,1909,0.22,Multnomah,97266,David Douglas
+305000,Single Family - Ranch,2,1.0,650,1946,0.11,Multnomah,97206,Cleveland
+308000,Single Family - 1 Story,2,2.0,2388,1943,0.33,Multnomah,97211,Jefferson
+309000,Single Family - Ranch,2,1.0,729,1953,0.12,Multnomah,97266,Madison
+310000,Condo - Traditional,2,2.0,1219,1996,0.02,Multnomah,97229,Lincoln
+310000,Single Family - Bungalow,2,1.0,820,1904,0.09,Multnomah,97206,Franklin
+312000,Single Family - Traditional,3,2.0,1945,1924,0.11,Multnomah,97220,Parkrose
+314500,Single Family - Ranch,2,1.0,768,1951,0.13,Multnomah,97220,Parkrose
+314900,Single Family - Cottage,3,2.0,1200,1951,0.09,Multnomah,97216,David Douglas
+314900,Single Family - Ranch,3,1.0,1240,1955,0.14,Multnomah,97236,David Douglas
+315000,Condo - Townhouse,3,3.0,1183,2018,0.03,Multnomah,97266,Franklin
+315000,Single Family - Ranch,3,1.0,1160,1978,0.17,Multnomah,97266,Madison
+317000,Condo - Common Wall,3,2.0,1158,2005,0.05,Multnomah,97266,Franklin
+318950,Single Family - Ranch,3,1.0,960,1958,0.19,Multnomah,97230,Reynolds
+319000,Single Family - Ranch,3,1.0,912,1963,0.16,Multnomah,97236,Centennial
+319900,Single Family - Ranch,3,2.0,1092,1978,0.2,Multnomah,97236,David Douglas
+321250,Single Family - Traditional,4,3.0,1792,2007,0.07,Multnomah,97206,Franklin
+324900,Single Family - Cottage,3,1.0,1486,1926,0.13,Multnomah,97219,Wilson
+325000,Single Family - Ranch,3,2.0,1134,1996,0.1,Multnomah,97206,Franklin
+325000,Single Family - Ranch,3,2.0,2640,1950,0.21,Multnomah,97230,Reynolds
+325000,Single Family - Ranch,3,2.0,1008,1969,0.1,Multnomah,97206,Cleveland
+325000,Single Family - Bungalow,2,1.0,980,1924,0.11,Multnomah,97206,Cleveland
+325000,Single Family - 1 Story,3,1.0,1029,1953,0.28,Multnomah,97236,Centennial
+325990,Condo - English,2,3.0,1214,2020,0.03,Washington,97229,Westview
+329000,Single Family - Ranch,3,1.0,960,1925,0.5,Multnomah,97236,Centennial
+329000,Single Family - Ranch,3,2.0,888,1954,0.18,Multnomah,97230,David Douglas
+329500,Single Family - Cottage,3,2.0,966,1910,0.12,Clackamas,97206,Milwaukie
+329500,Single Family - Ranch,3,2.0,1006,1955,0.11,Multnomah,97266,David Douglas
+329850,Single Family - Ranch,3,2.0,1236,1953,0.15,Multnomah,97220,David Douglas
+329900,Condo - Townhouse,3,2.0,1230,1995,0.05,Multnomah,97202,Cleveland
+329900,Single Family - Ranch,3,2.0,1255,1968,0.18,Multnomah,97230,Parkrose
+331900,Single Family - Bungalow,2,1.0,1536,1911,0.05,Multnomah,97239,Wilson
+335000,Condo - Row House,2,3.0,1611,1997,0.04,Multnomah,97211,Jefferson
+335000,Single Family - 1 Story,3,2.0,1284,1993,0.16,Multnomah,97266,Franklin
+338500,Single Family - Ranch,3,2.0,1168,1955,0.17,Multnomah,97233,Centennial
+339000,Single Family - Ranch,2,1.0,884,1952,0.16,Multnomah,97206,Franklin
+339000,Single Family - Cottage,3,1.0,1386,1911,0.04,Multnomah,97212,Grant
+339950,Single Family - Ranch,3,1.0,1240,1984,0.29,Multnomah,97236,Centennial
+339995,Condo - Townhouse,2,3.0,1496,2020,0.02,Washington,97229,Westview
+339999,Single Family - Traditional,3,3.0,1500,2001,0.11,Multnomah,97230,Reynolds
+340000,Single Family - Bungalow,3,1.0,1404,1913,0.11,Multnomah,97266,Franklin
+344900,Single Family - Ranch,4,1.0,1453,1954,0.24,Multnomah,97266,Franklin
+349000,Single Family - Ranch,4,2.0,1568,1961,0.1,Multnomah,97206,Franklin
+349000,Single Family - Bungalow,2,1.0,760,1942,0.11,Multnomah,97206,Franklin
+349000,Single Family - Traditional,3,3.0,2133,2006,0.09,Multnomah,97230,Reynolds
+349000,Single Family - Bungalow,3,1.0,1244,1955,0.27,Multnomah,97266,David Douglas
+349500,Single Family - Traditional,5,2.0,1756,1896,0.11,Multnomah,97216,Madison
+349500,Single Family - Bungalow,3,1.0,1584,1914,0.09,Multnomah,97206,Franklin
+349900,Single Family - Ranch,3,2.0,1320,1979,0.13,Multnomah,97233,David Douglas
+349900,Single Family - Ranch,3,2.0,2380,1946,0.09,Multnomah,97236,David Douglas
+349900,Single Family - 1 Story,2,1.0,1639,1946,0.35,Clackamas,97206,Milwaukie
+349900,Single Family - Tudor,3,2.0,2198,1936,0.19,Multnomah,97266,David Douglas
+349900,Single Family - Tri Level,3,1.0,1758,1950,0.2,Multnomah,97220,Madison
+350000,Single Family - Bungalow,2,1.0,1112,1915,0.09,Multnomah,97206,Franklin
+350000,Single Family - Ranch,3,3.0,2400,1960,0.17,Multnomah,97236,Centennial
+350000,Single Family - Bungalow,3,2.0,1372,1925,0.11,Multnomah,97206,Cleveland
+350000,Single Family - Bungalow,3,1.0,2360,1908,0.16,Multnomah,97206,Cleveland
+350000,Single Family - 1 Story,3,2.0,1008,1996,0.09,Multnomah,97216,David Douglas
+350000,Single Family - Bungalow,4,2.0,1638,1941,0.13,Multnomah,97217,Roosevelt
+350000,Single Family - Ranch,3,2.0,1156,1986,0.17,Multnomah,97230,Reynolds
+353000,Single Family - Ranch,2,1.0,836,1950,0.11,Multnomah,97203,Roosevelt
+354500,Single Family - Ranch,4,2.0,1560,1960,0.37,Multnomah,97266,David Douglas
+354900,Single Family - Ranch,3,2.0,1368,1965,0.17,Multnomah,97230,Reynolds
+354900,Single Family - Bungalow,2,1.0,994,1917,0.1,Multnomah,97215,Franklin
+359000,Single Family - 2 Story,3,3.0,1496,2001,0.09,Multnomah,97266,Franklin
+359000,Single Family - Traditional,5,3.0,2678,1908,0.21,Multnomah,97266,Franklin
+359000,Single Family - Bungalow,3,1.0,1400,1906,0.12,Multnomah,97206,Franklin
+359900,Single Family - Ranch,2,2.0,1412,1982,0.16,Multnomah,97233,Centennial
+360000,Single Family - Bungalow,2,1.0,774,1951,0.12,Multnomah,97218,Madison
+364900,Single Family - Ranch,3,1.0,1136,1948,0.14,Multnomah,97218,Madison
+365000,Single Family - Ranch,4,2.0,1348,1955,0.23,Multnomah,97230,David Douglas
+367990,Condo - English,2,3.0,1386,2020,0.04,Washington,97229,Westview
+369000,Condo - Row House,3,3.0,1464,2003,0.05,Multnomah,97213,Madison
+369000,Single Family - Cottage,2,1.0,1106,1953,0.1,Multnomah,97218,Madison
+369500,Single Family - Ranch,3,2.0,1496,1950,1.09,Multnomah,97236,Centennial
+369900,Single Family - Traditional,3,3.0,1488,2004,0.07,Multnomah,97218,Madison
+369950,Condo - 2 Story,3,3.0,1476,2009,0.03,Washington,97229,Westview
+369995,Condo - Townhouse,3,3.0,1698,2020,0.03,Washington,97229,Westview
+369995,Condo - Townhouse,3,3.0,1698,2020,0.03,Washington,97229,Westview
+369995,Condo - Townhouse,3,3.0,1698,2020,0.03,Washington,97229,Westview
+369995,Condo - Townhouse,3,3.0,1698,2020,0.03,Washington,97229,Westview
+372900,Single Family - Ranch,3,2.0,1585,2001,0.13,Multnomah,97230,Reynolds
+374900,Single Family - Contemporary,4,3.0,1715,2007,0.06,Multnomah,97206,Franklin
+374900,Single Family - 2 Story,2,2.0,1444,1928,0.13,Multnomah,97220,Madison
+374900,Single Family - Ranch,3,2.0,1516,1965,0.21,Washington,97224,Tigard
+375000,Single Family - Bungalow,3,3.0,2248,1946,0.31,Washington,97223,Southridge
+375000,Single Family - 1 Story,2,1.0,892,1925,0.11,Multnomah,97213,Madison
+375000,Single Family - 1 Story,2,1.0,800,1947,0.09,Multnomah,97203,Roosevelt
+375000,Single Family - Tri Level,3,2.0,1882,1942,0.11,Multnomah,97218,Madison
+375000,Single Family - 2 Story,3,3.0,1384,2004,0.06,Multnomah,97206,Cleveland
+375000,Single Family - 1 Story,2,1.0,1082,1927,0.15,Multnomah,97216,Madison
+375995,Condo - Townhouse,3,3.0,1698,2020,0.03,Washington,97229,Westview
+376900,Single Family - Ranch,3,2.0,1219,1951,0.11,Multnomah,97211,Jefferson
+377000,Single Family - Bungalow,3,1.0,2414,1922,0.22,Multnomah,97216,Franklin
+378900,Single Family - 1 Story,3,4.0,1459,1992,0.15,Multnomah,97266,Madison
+379750,Condo - Townhouse,3,3.0,1594,2014,0.04,Multnomah,97219,Wilson
+379900,Single Family - Ranch,3,2.0,936,1955,0.1,Multnomah,97203,Roosevelt
+379900,Single Family - Contemporary,4,3.0,1638,2006,0.07,Multnomah,97206,Franklin
+379900,Single Family - Cottage,3,2.0,1540,1913,0.11,Multnomah,97203,Roosevelt
+379900,Single Family - Traditional,3,3.0,1552,1996,0.21,Multnomah,97220,Parkrose
+379900,Single Family - Cottage,1,1.0,1030,1949,0.11,Multnomah,97206,Franklin
+379950,Single Family - Traditional,4,3.0,1638,2005,0.07,Multnomah,97211,Jefferson
+379995,Condo - 2 Story,3,3.0,1426,2020,0.04,Washington,97229,Westview
+380000,Single Family - 1 Story,2,2.0,936,1910,0.21,Multnomah,97206,Franklin
+380000,Single Family - Bungalow,2,2.0,1404,1926,0.16,Multnomah,97220,Parkrose
+380000,Single Family - 2 Story,3,3.0,1358,2005,0.09,Multnomah,97211,Jefferson
+384900,Single Family - 2 Story,4,1.0,1444,1908,0.11,Multnomah,97206,Cleveland
+384900,Single Family - Daylight Ranch,3,3.0,1775,1964,0.34,Multnomah,97201,Lincoln
+385000,Single Family - 2 Story,3,3.0,1604,1927,0.18,Multnomah,97236,David Douglas
+385000,Single Family - Bungalow,2,2.0,1653,1908,0.09,Multnomah,97266,Franklin
+385650,Single Family - 1 Story,3,1.0,840,1951,0.11,Multnomah,97206,Cleveland
+388000,Single Family - 2 Story,3,3.0,1574,1990,0.11,Multnomah,97219,Wilson
+389000,Single Family - Ranch,3,2.0,1008,1994,0.11,Multnomah,97213,Madison
+389000,Single Family - 2 Story,2,2.0,1360,2015,0.06,Multnomah,97220,Madison
+389000,Single Family - Ranch,4,2.0,1706,1972,0.11,Multnomah,97216,Madison
+389000,Single Family - Ranch,3,2.0,1212,1972,0.09,Multnomah,97206,Franklin
+389900,Single Family - Ranch,3,1.0,1094,1951,0.47,Multnomah,97230,Reynolds
+389900,Single Family - 2 Story,4,2.0,2174,1921,0.17,Multnomah,97206,Cleveland
+389995,Condo - 2 Story,3,3.0,1426,2020,0.04,Washington,97229,Westview
+389995,Condo - 2 Story,3,3.0,1426,2020,0.04,Washington,97229,Westview
+389995,Condo - 2 Story,3,3.0,1426,2020,0.04,Washington,97229,Westview
+389995,Condo - 2 Story,3,3.0,1426,2020,0.04,Washington,97229,Westview
+389995,Condo - 2 Story,3,3.0,1426,2020,0.04,Washington,97229,Westview
+389995,Condo - 2 Story,3,3.0,1426,2020,0.04,Washington,97229,Westview
+389995,Condo - 2 Story,3,3.0,1426,2020,0.04,Washington,97229,Westview
+390000,Condo - Common Wall,3,4.0,1588,1999,0.03,Multnomah,97239,Wilson
+390000,Single Family - Ranch,3,3.0,2856,1964,0.28,Multnomah,97236,Centennial
+394500,Single Family - Ranch,4,2.0,1576,2003,0.14,Multnomah,97216,Madison
+395000,Single Family - Ranch,3,2.0,1058,1978,0.21,Washington,97223,Southridge
+395000,Single Family - Bungalow,4,2.0,2824,1916,0.11,Multnomah,97220,Parkrose
+397500,Single Family - 2 Story,3,3.0,1657,1989,0.26,Multnomah,97236,Centennial
+397800,Single Family - Townhouse,3,3.0,1478,2004,0.06,Multnomah,97217,Jefferson
+398000,Floating Home - Capecod,2,2.0,1390,1991,0.52,Multnomah,97211,Jefferson
+398000,Single Family - 1 Story,2,1.0,1320,1943,0.17,Multnomah,97217,Roosevelt
+398880,Single Family - Contemporary,4,3.0,2026,2007,0.07,Multnomah,97266,Madison
+399000,Condo - Townhouse,2,3.0,1800,1998,0.09,Washington,97229,Westview
+399000,Single Family - Ranch,2,1.0,1492,1948,0.7,Multnomah,97230,Reynolds
+399000,Single Family - Cottage,3,2.0,1470,1952,0.15,Washington,97229,Sunset
+399000,Single Family - 1 Story,3,1.0,1356,1956,0.08,Multnomah,97202,Cleveland
+399000,Single Family - Contemporary,4,2.0,1690,1956,0.3,Multnomah,97230,Parkrose
+399000,Single Family - Traditional,3,3.0,1268,1998,0.05,Washington,97229,Westview
+399000,Single Family - Bungalow,2,1.0,1152,1923,0.11,Multnomah,97217,Jefferson
+399500,Single Family - 1 Story,3,1.0,1096,1940,0.28,Multnomah,97233,Centennial
+399900,Single Family - Tri Level,5,2.0,2662,1957,0.16,Multnomah,97216,David Douglas
+399900,Single Family - Ranch,3,2.0,1622,1988,0.16,Multnomah,97218,Madison
+399900,Single Family - 1 Story,3,1.0,1149,1950,0.16,Multnomah,97215,Franklin
+399900,Single Family - Ranch,3,2.0,1429,1975,0.16,Multnomah,97236,Centennial
+399900,Single Family - Bungalow,4,2.0,2798,1917,0.1,Multnomah,97266,Franklin
+399900,Single Family - Cottage,3,2.0,1801,1909,0.09,Multnomah,97206,Franklin
+399900,Single Family - Ranch,5,2.0,1944,1956,0.15,Multnomah,97266,Franklin
+399900,Single Family - Traditional,3,3.0,1592,2003,0.08,Washington,97225,Beaverton
+399900,Single Family - Daylight Ranch,3,1.0,858,1980,0.11,Multnomah,97211,Jefferson
+399900,Single Family - Bungalow,3,2.0,1842,1909,0.14,Multnomah,97206,Franklin
+399900,Single Family - Traditional,4,3.0,2298,2012,0.08,Multnomah,97236,David Douglas
+399900,Single Family - Capecod,4,1.0,2002,1948,0.17,Multnomah,97220,Madison
+399950,Single Family - Bungalow,4,2.0,1600,1917,0.09,Multnomah,97206,Franklin
+399995,Condo - 2 Story,3,3.0,1763,2019,0.07,Washington,97229,Westview
+399995,Condo - Townhouse,4,4.0,1723,2020,0.03,Washington,97229,Westview
+399995,Condo - Townhouse,4,4.0,1723,2020,0.03,Washington,97229,Westview
+399995,Condo - Townhouse,4,4.0,1723,2020,0.03,Washington,97229,Westview
+399995,Single Family - 1 Story,3,2.0,2013,1957,0.18,Multnomah,97230,Parkrose
+399999,Single Family - 2 Story,4,3.0,1883,2006,0.09,Multnomah,97230,Reynolds
+400000,Condo - Townhouse,2,3.0,1393,2004,0.06,Multnomah,97215,Franklin
+400000,Condo - 2 Story,2,3.0,1733,1995,0.07,Washington,97229,Westview
+400000,Single Family - Bungalow,2,1.0,972,1925,0.08,Multnomah,97217,Jefferson
+400000,Single Family - Bungalow,2,1.0,1560,1941,0.11,Multnomah,97203,Roosevelt
+400000,Single Family - Bungalow,3,1.0,1224,1927,0.1,Multnomah,97217,Jefferson
+400000,Single Family - Ranch,3,2.0,1344,1974,0.11,Multnomah,97203,Roosevelt
+400995,Single Family - Split,5,3.0,2340,1963,0.16,Multnomah,97266,David Douglas
+404900,Single Family - Contemporary,3,3.0,1633,2020,0.07,Multnomah,97236,Cleveland
+404995,Condo - Townhouse,4,4.0,1723,2020,0.04,Washington,97229,Westview
+405000,Condo - 2 Story,2,3.0,1656,1995,0.07,Washington,97229,Westview
+405000,Condo - 2 Story,2,3.0,1679,1995,0.07,Washington,97229,Westview
+405000,Single Family - FourSquare,4,3.0,2784,1928,0.13,Multnomah,97220,David Douglas
+409900,Single Family - Tri Level,4,2.0,2199,1961,0.17,Multnomah,97236,Centennial
+409900,Single Family - Ranch,4,2.0,2200,1960,0.18,Multnomah,97233,David Douglas
+409995,Condo - Townhouse,4,4.0,1723,2020,0.03,Washington,97229,Westview
+410000,Single Family - Other,3,2.0,1758,1949,0.12,Multnomah,97206,Franklin
+410000,Single Family - Ranch,3,1.0,1032,1968,0.24,Multnomah,97216,Madison
+410000,Single Family - Other,5,3.0,2458,1945,0.14,Multnomah,97220,Parkrose
+410000,Single Family - Bungalow,4,2.0,1750,1946,0.13,Multnomah,97206,Franklin
+415000,Single Family - Ranch,3,2.0,1704,1975,0.57,Multnomah,97233,Centennial
+415000,Single Family - Bungalow,4,3.0,1784,1950,0.11,Multnomah,97213,Madison
+415000,Single Family - Bungalow,2,1.0,1630,1924,0.11,Multnomah,97213,Grant
+415000,Single Family - 2 Story,3,3.0,1506,2007,0.06,Multnomah,97213,Madison
+419000,Single Family - Bungalow,1,1.0,560,1928,0.23,Multnomah,97218,Grant
+419000,Single Family - 2 Story,4,2.0,1728,1960,0.36,Multnomah,97233,Reynolds
+419000,Single Family - Bungalow,2,1.0,1891,1921,0.32,Multnomah,97206,Reynolds
+419900,Single Family - 2 Story,3,3.0,1401,2006,0.06,Multnomah,97218,Madison
+419900,Single Family - Bungalow,4,2.0,2434,1927,0.13,Multnomah,97218,Madison
+419900,Single Family - Ranch,3,1.0,858,1970,0.17,Multnomah,97217,Roosevelt
+419900,Single Family - Ranch,3,2.0,1144,1977,0.12,Multnomah,97206,Franklin
+419995,Condo - 2 Story,3,3.0,1562,2020,0.05,Washington,97229,Westview
+419995,Condo - 2 Story,3,3.0,1562,2020,0.05,Washington,97229,Westview
+419995,Condo - 2 Story,3,3.0,1562,2020,0.05,Washington,97229,Westview
+420000,Condo - Townhouse,2,3.0,1750,2002,0.04,Multnomah,97239,Wilson
+420000,Single Family - Ranch,3,1.0,1486,1954,0.13,Multnomah,97213,Grant
+424000,Single Family - Bungalow,3,1.0,1794,1912,0.06,Multnomah,97202,Cleveland
+424000,Single Family - Mid-Century Modern,3,2.0,3040,1950,0.3,Multnomah,97220,David Douglas
+424900,Single Family - Ranch,5,3.0,2044,2009,0.26,Multnomah,97230,Reynolds
+424950,Single Family - Ranch,4,2.0,1602,1958,0.15,Multnomah,97266,Franklin
+425000,Single Family - Bungalow,2,1.0,1932,1906,0.12,Multnomah,97203,Roosevelt
+425000,Single Family - Ranch,3,2.0,1396,1979,0.13,Multnomah,97203,Roosevelt
+425000,Single Family - Bungalow,3,2.0,1123,1910,0.04,Multnomah,97217,Jefferson
+425000,Single Family - Ranch,2,1.0,936,1941,0.63,Multnomah,97229,Lincoln
+425000,Single Family - Ranch,3,2.0,1353,1915,0.06,Multnomah,97213,Madison
+425800,Single Family - Bungalow,2,1.0,1650,1926,0.23,Multnomah,97220,Parkrose
+429000,Single Family - Bungalow,3,2.0,1478,1926,0.11,Multnomah,97206,Franklin
+429700,Single Family - Bungalow,5,2.0,2190,1910,0.09,Multnomah,97206,Franklin
+429900,Single Family - Bungalow,3,1.0,2238,1923,0.15,Multnomah,97206,Franklin
+429900,Single Family - Traditional,4,3.0,1897,2017,0.09,Multnomah,97266,Franklin
+429995,Condo - 2 Story,3,3.0,1562,2020,0.06,Washington,97229,Westview
+430000,Condo - Row House,3,3.0,1584,1996,0.03,Multnomah,97211,Grant
+430000,Single Family - Bungalow,4,2.0,2698,1955,0.27,Multnomah,97266,David Douglas
+430000,Single Family - Traditional,4,3.0,2220,2004,0.12,Multnomah,97230,Reynolds
+434900,Single Family - Traditional,3,2.0,2828,1907,0.05,Multnomah,97212,Jefferson
+435000,Single Family - Bungalow,3,2.0,1569,1920,0.11,Multnomah,97213,Madison
+435000,Single Family - Bungalow,2,2.0,1636,1910,0.28,Multnomah,97266,Franklin
+435000,Single Family - Traditional,5,2.0,2343,1933,0.11,Multnomah,97202,Cleveland
+435000,Single Family - Saltbox,4,2.0,1403,1889,0.11,Multnomah,97202,Cleveland
+435000,Single Family - 2 Story,3,2.0,2450,1979,0.06,Multnomah,97266,David Douglas
+435000,Single Family - Ranch,3,2.0,2332,1966,0.23,Multnomah,97236,Centennial
+435500,Condo - Contemporary,3,4.0,2076,1999,0.03,Multnomah,97211,Jefferson
+437000,Single Family - Bungalow,2,1.0,1443,1898,0.28,Multnomah,97216,Madison
+438000,Single Family - Cottage,3,2.0,2584,1939,0.11,Multnomah,97217,Jefferson
+439000,Single Family - Victorian,4,1.0,2068,1916,0.11,Multnomah,97211,Jefferson
+439000,Single Family - Ranch,2,1.0,1000,1951,0.14,Multnomah,97211,Jefferson
+439900,Single Family - Traditional,3,2.0,1588,1972,0.16,Multnomah,97233,Centennial
+439900,Single Family - Ranch,3,1.0,1415,1947,0.12,Multnomah,97206,Cleveland
+440000,Condo - 2 Story,3,3.0,1870,2014,0.06,Washington,97229,Westview
+440000,Single Family - Traditional,3,1.0,1512,1952,0.11,Multnomah,97213,Madison
+440000,Single Family - Cabin,2,2.0,1079,1981,0.24,Washington,97225,Beaverton
+445000,Single Family - Traditional,3,1.0,1956,1907,0.05,Multnomah,97202,Cleveland
+449000,Single Family - Bungalow,2,1.0,1150,1928,0.47,Multnomah,97216,Madison
+449000,Single Family - English,5,2.0,2256,1923,0.07,Multnomah,97203,Roosevelt
+449221,Single Family - Tri Level,3,2.0,1215,1960,0.95,Washington,97223,Southridge
+449500,Condo - 2 Story,4,3.0,1972,2015,0.06,Washington,97229,Westview
+449500,Single Family - Daylight Ranch,3,3.0,1312,1937,2.1,Multnomah,97231,Lincoln
+449800,Single Family - Capecod,4,1.0,2389,1941,0.17,Multnomah,97220,Parkrose
+449900,Single Family - Bungalow,4,2.0,2160,1914,0.12,Multnomah,97202,Cleveland
+449900,Single Family - Ranch,5,3.0,2940,1960,0.21,Multnomah,97230,Reynolds
+449900,Single Family - Tudor,3,2.0,2197,1928,0.11,Multnomah,97213,Madison
+449900,Single Family - Bungalow,4,2.0,2036,1903,0.17,Multnomah,97213,Madison
+449900,Single Family - Bungalow,3,2.0,1736,1927,0.16,Multnomah,97203,Roosevelt
+449900,Single Family - Bungalow,3,2.0,2376,1911,0.11,Multnomah,97206,Franklin
+449900,Single Family - 2 Story,4,4.0,2584,1942,0.17,Washington,97223,Tigard
+449900,Single Family - Bungalow,3,2.0,2463,1914,0.11,Multnomah,97216,Madison
+449900,Single Family - Ranch,4,2.0,1450,1961,0.49,Multnomah,97233,Centennial
+449950,Single Family - Ranch,3,2.0,1366,1977,0.11,Multnomah,97217,Roosevelt
+449950,Single Family - Traditional,7,3.0,2742,1930,0.09,Multnomah,97206,Franklin
+449995,Condo - 2 Story,3,3.0,1925,2019,0.06,Washington,97229,Westview
+449999,Single Family - Traditional,2,1.0,787,1894,0.14,Multnomah,97212,Grant
+450000,Single Family - Bungalow,3,1.0,1588,1920,0.11,Multnomah,97213,Grant
+450000,Single Family - Mid-Century Modern,2,1.0,1062,1953,0.14,Multnomah,97206,Franklin
+450000,Single Family - 2 Story,2,2.0,2413,1900,0.06,Multnomah,97209,Lincoln
+450000,Single Family - Split,3,3.0,1694,1980,0.16,Multnomah,97219,Wilson
+450000,Single Family - Bungalow,2,1.0,2328,1943,0.23,Multnomah,97203,Roosevelt
+450000,Single Family - Ranch,3,2.0,1450,1949,0.48,Multnomah,97233,David Douglas
+450000,Single Family - Bungalow,4,2.0,2100,1947,0.11,Multnomah,97217,Jefferson
+450000,Single Family - Ranch,3,2.0,1407,1961,0.11,Multnomah,97206,Cleveland
+450000,Single Family - 1 Story,3,2.0,2062,1934,2.07,Multnomah,97231,Lincoln
+458999,Single Family - 2 Story,3,1.0,1188,1969,0.11,Multnomah,97217,Jefferson
+459000,Single Family - 2 Story,4,2.0,1383,1890,0.09,Multnomah,97212,Grant
+459000,Single Family - Craftsman,3,2.0,1416,2017,0.09,Multnomah,97211,Jefferson
+459000,Single Family - Ranch,3,2.0,2066,1976,0.17,Washington,97229,Liberty
+459900,Condo - Capecod,3,2.0,1648,1981,0.08,Washington,97223,Southridge
+459900,Single Family - Capecod,4,2.0,3224,1951,0.27,Multnomah,97230,David Douglas
+459900,Single Family - English,4,2.0,2885,1933,0.16,Multnomah,97220,Parkrose
+459900,Single Family - Traditional,4,4.0,2018,1976,0.2,Washington,97210,Liberty
+459950,Single Family - 1 Story,3,2.0,1510,1946,0.45,Multnomah,97220,Parkrose
+459995,Condo - Traditional,3,3.0,1925,2020,0.1,Washington,97229,Westview
+460000,Single Family - Daylight Ranch,3,3.0,2269,2000,0.17,Multnomah,97236,Centennial
+464900,Single Family - Bungalow,2,1.0,1950,1941,0.23,Washington,97225,Lincoln
+464900,Single Family - Bungalow,4,2.0,1784,1926,0.11,Multnomah,97231,Lincoln
+465000,Condo - Row House,2,3.0,1528,1991,0.07,Multnomah,97239,Wilson
+465000,Single Family - Contemporary,3,3.0,2222,2020,0.17,Multnomah,97218,Madison
+465000,Single Family - 2 Story,4,3.0,2406,1988,0.17,Multnomah,97230,Reynolds
+465000,Single Family - Daylight Ranch,3,3.0,2460,1981,0.21,Multnomah,97220,Parkrose
+465000,Single Family - Traditional,4,3.0,1742,2008,0.09,Multnomah,97203,Roosevelt
+469000,Single Family - Contemporary,4,3.0,2308,1988,0.23,Multnomah,97230,Reynolds
+469000,Single Family - Contemporary,4,3.0,1976,1990,0.13,Washington,97229,Westview
+469000,Single Family - Traditional,3,1.0,2024,1900,0.11,Multnomah,97211,Jefferson
+469900,Single Family - Bungalow,4,2.0,2036,1919,0.28,Multnomah,97220,Parkrose
+469950,Single Family - Bungalow,3,2.0,1289,1909,0.12,Multnomah,97202,Cleveland
+472500,Single Family - Dutch Colonial,3,3.0,2286,1898,0.09,Multnomah,97239,Lincoln
+474900,Single Family - Daylight Ranch,3,2.0,2536,1965,0.19,Multnomah,97230,Parkrose
+475000,Single Family - Victorian,3,2.0,2055,1892,0.03,Multnomah,97239,Wilson
+475000,Single Family - Ranch,4,3.0,2365,1944,0.35,Multnomah,97230,Parkrose
+475000,Single Family - Cottage,3,1.0,1608,1904,0.08,Multnomah,97227,Grant
+475000,Single Family - Tri Level,4,3.0,2321,1971,0.24,Washington,97229,Westview
+475000,Single Family - Bungalow,2,1.0,869,1948,1.3,Multnomah,97266,Franklin
+475000,Single Family - Contemporary,3,3.0,1896,2019,0.07,Multnomah,97206,Franklin
+475000,Single Family - 1 Story,1,1.0,1424,1923,0.09,Multnomah,97206,Franklin
+475000,Single Family - Capecod,5,3.0,2544,1976,0.19,Multnomah,97216,David Douglas
+475000,Single Family - Contemporary,4,3.0,2112,2018,0.07,Multnomah,97266,Franklin
+479000,Single Family - 2 Story,4,3.0,1911,2016,0.07,Washington,97229,Westview
+479000,Single Family - Contemporary,4,3.0,1965,2020,0.09,Multnomah,97236,David Douglas
+479000,Single Family - Contemporary,4,3.0,1965,2020,0.09,Multnomah,97236,David Douglas
+479900,Condo - Townhouse,3,4.0,1530,2017,0.01,Multnomah,97202,Cleveland
+479900,Single Family - Victorian,4,2.0,2578,1890,0.11,Multnomah,97213,Madison
+479999,Single Family - Craftsman,3,3.0,1644,2001,0.13,Multnomah,97220,Parkrose
+480000,Single Family - Bungalow,3,2.0,2013,1948,0.11,Multnomah,97213,Madison
+480000,Single Family - 2 Story,3,3.0,1634,2012,0.05,Washington,97229,Sunset
+484499,Single Family - Custom Style,3,3.0,2113,1925,0.23,Multnomah,97220,Parkrose
+484900,Single Family - 2 Story,4,3.0,2766,2007,0.14,Multnomah,97236,David Douglas
+485000,Single Family - Bungalow,3,1.0,2393,1940,0.11,Multnomah,97212,Grant
+485000,Single Family - Traditional,3,2.0,2408,1929,0.15,Multnomah,97206,Franklin
+485000,Single Family - 1 Story,3,2.0,2297,1956,0.2,Washington,97225,Beaverton
+485000,Single Family - Contemporary,3,3.0,1806,2001,0.23,Multnomah,97219,Wilson
+485000,Single Family - Bungalow,2,1.0,1396,1940,0.13,Multnomah,97215,Franklin
+488000,Single Family - Traditional,3,3.0,2260,2006,0.08,Washington,97229,Westview
+488800,Single Family - Split,4,3.0,2647,1947,0.38,Washington,97225,Beaverton
+489000,Single Family - Farmhouse,4,2.0,2548,1900,0.43,Multnomah,97220,David Douglas
+489000,Single Family - Traditional,3,3.0,2661,2005,0.23,Multnomah,97236,Centennial
+489900,Single Family - Split,4,3.0,1994,1973,0.18,Multnomah,97219,Wilson
+495000,Single Family - Ranch,3,2.0,1017,1980,0.11,Multnomah,97202,Cleveland
+495000,Single Family - Traditional,3,3.0,1543,2016,0.06,Multnomah,97213,Madison
+495000,Single Family - 2 Story,4,2.0,2037,1949,0.2,Multnomah,97216,David Douglas
+495000,Single Family - Bungalow,4,3.0,3548,1915,0.11,Multnomah,97220,Parkrose
+495000,Single Family - Split,4,2.0,2436,1980,0.18,Multnomah,97219,Wilson
+495000,Single Family - Other,3,1.0,1604,1902,0.12,Multnomah,97213,Madison
+499000,Condo - Row House,3,3.0,1901,1994,0.05,Multnomah,97239,Wilson
+499000,Single Family - Bungalow,3,2.0,2296,1951,0.11,Multnomah,97218,Madison
+499000,Single Family - Bungalow,3,2.0,2360,1958,0.22,Multnomah,97219,Wilson
+499000,Single Family - 2 Story,4,4.0,2662,2007,0.19,Multnomah,97266,Franklin
+499900,Single Family - Traditional,4,3.0,2005,2013,0.09,Multnomah,97206,Franklin
+499900,Single Family - Daylight Ranch,4,2.0,2423,1942,0.53,Multnomah,97219,Wilson
+499900,Single Family - Ranch,3,2.0,1936,1953,0.11,Multnomah,97202,Franklin
+499900,Single Family - Ranch,3,3.0,2049,1957,0.59,Multnomah,97236,Centennial
+499900,Single Family - 1 Story,1,2.0,2096,1915,0.14,Multnomah,97206,Franklin
+499999,Single Family - Ranch,3,3.0,1676,1991,0.21,Washington,97224,Tigard
+499999,Single Family - Daylight Ranch,4,3.0,2661,1978,0.17,Multnomah,97220,Madison
+500000,Single Family - Farmhouse,2,1.0,1850,1908,0.05,Multnomah,97227,Grant
+507000,Single Family - Daylight Ranch,5,2.0,2252,1959,0.11,Multnomah,97219,Wilson
+515000,Single Family - FourSquare,3,2.0,2448,1889,0.09,Multnomah,97212,Grant
+515000,Single Family - Split,3,2.0,1693,1973,0.19,Washington,97229,Sunset
+515000,Single Family - Daylight Ranch,4,3.0,2402,1965,0.21,Washington,97225,Beaverton
+515000,Single Family - English,6,2.0,3911,1932,0.19,Multnomah,97215,Franklin
+515737,Single Family - English,4,3.0,2189,2005,0.07,Washington,97229,Sunset
+517500,Single Family - Traditional,4,3.0,2105,1926,0.11,Multnomah,97213,Madison
+519000,Single Family - Farmhouse,2,2.0,2668,1941,0.35,Washington,97229,Sunset
+519995,Single Family - Daylight Ranch,4,3.0,2984,1966,0.19,Multnomah,97230,Parkrose
+520000,Single Family - Daylight Ranch,6,4.0,2940,1961,0.19,Multnomah,97230,Parkrose
+520000,Single Family - Craftsman,3,3.0,1689,2014,0.06,Multnomah,97217,Jefferson
+524200,Single Family - 2 Story,3,3.0,2022,1999,0.15,Washington,97229,Westview
+524900,Single Family - Traditional,4,2.0,1931,1935,0.85,Multnomah,97236,Centennial
+524900,Single Family - Daylight Ranch,4,3.0,2458,1966,0.18,Multnomah,97230,Parkrose
+525000,Condo - Contemporary,3,3.0,1509,2019,0.04,Multnomah,97217,Jefferson
+525000,Condo - Contemporary,3,3.0,1509,2019,0.04,Multnomah,97217,Jefferson
+525000,Condo - Common Wall,3,4.0,1719,2020,0.03,Multnomah,97206,Franklin
+525000,Condo - Common Wall,3,4.0,1728,2020,0.03,Multnomah,97206,Franklin
+525000,Condo - Contemporary,3,3.0,1507,2019,0.04,Multnomah,97217,Jefferson
+525000,Condo - Common Wall,3,4.0,1719,2020,0.03,Multnomah,97206,Franklin
+525000,Condo - Common Wall,3,4.0,1719,2020,0.03,Multnomah,97206,Franklin
+525000,Single Family - Cabin,2,2.0,2425,1948,0.47,Multnomah,97221,Lincoln
+525000,Single Family - FourSquare,3,3.0,2214,2015,0.09,Multnomah,97206,Franklin
+525000,Single Family - Bungalow,3,2.0,2082,1909,0.11,Multnomah,97213,Madison
+525000,Single Family - Bungalow,4,2.0,2412,1925,0.16,Multnomah,97213,Grant
+525000,Single Family - Contemporary,3,3.0,1874,1974,0.18,Washington,97223,Southridge
+525000,Single Family - Bungalow,3,3.0,2027,1917,0.11,Multnomah,97213,Madison
+525000,Single Family - Traditional,3,1.0,2904,1947,0.16,Washington,97225,Lincoln
+525000,Single Family - Bungalow,3,1.0,2316,1914,0.45,Multnomah,97206,Franklin
+525000,Single Family - Traditional,3,2.0,1716,1953,0.09,Multnomah,97211,Grant
+525000,Single Family - 2 Story,4,2.0,2246,1960,0.11,Multnomah,97203,Roosevelt
+525000,Single Family - Contemporary,4,3.0,2755,2003,0.08,Washington,97225,Beaverton
+529000,Single Family - Bungalow,3,2.0,2228,1944,0.11,Multnomah,97203,Roosevelt
+529500,Single Family - Cottage,3,1.0,1549,1947,0.42,Multnomah,97219,Wilson
+529900,Single Family - 2 Story,3,2.0,2521,1920,0.2,Washington,97225,Southridge
+530000,Single Family - Traditional,4,3.0,2162,2013,0.07,Washington,97229,Sunset
+534900,Single Family - Traditional,3,2.0,2830,1941,0.19,Multnomah,97219,Wilson
+534900,Single Family - Traditional,4,3.0,2040,1993,0.14,Multnomah,97219,Wilson
+535000,Single Family - Bungalow,3,2.0,2304,1928,0.11,Multnomah,97206,Franklin
+535000,Single Family - Craftsman,4,3.0,2328,2009,0.14,Multnomah,97219,Wilson
+536900,Single Family - 2 Story,3,3.0,2200,2014,0.09,Multnomah,97203,Roosevelt
+539777,Single Family - English,5,2.0,2596,1929,0.11,Multnomah,97213,Grant
+539900,Condo - Craftsman,2,3.0,2082,2007,0.05,Washington,97225,Beaverton
+539900,Single Family - Craftsman,3,3.0,1894,2017,0.09,Multnomah,97203,Roosevelt
+540000,Single Family - Traditional,4,3.0,3345,2002,0.11,Washington,97229,Sunset
+545000,Single Family - 2 Story,6,3.0,2918,1966,0.17,Multnomah,97266,David Douglas
+545000,Single Family - Traditional,4,3.0,2404,1997,0.14,Washington,97229,Westview
+545500,Single Family - Traditional,5,4.0,3150,2003,0.17,Multnomah,97236,Centennial
+549000,Condo - Townhouse,3,4.0,2012,2010,0.03,Multnomah,97211,Grant
+549000,Single Family - Ranch,4,3.0,2528,2015,0.24,Multnomah,97218,Madison
+549000,Single Family - Bungalow,3,2.0,2646,1928,0.1,Multnomah,97211,Jefferson
+549500,Single Family - Daylight Ranch,5,3.0,2668,1958,0.11,Multnomah,97219,Wilson
+549900,Condo - 2 Story,3,4.0,1650,2020,0.03,Multnomah,97203,Roosevelt
+549900,Single Family - 2 Story,3,3.0,2524,2004,0.13,Washington,97229,Liberty
+549900,Single Family - Farmhouse,2,1.0,2618,1891,0.11,Multnomah,97215,Franklin
+549900,Single Family - Daylight Ranch,3,2.0,3124,1953,0.31,Washington,97225,Beaverton
+549900,Single Family - Bungalow,4,3.0,2603,1921,0.11,Multnomah,97213,Madison
+549900,Single Family - Bungalow,3,2.0,2054,1911,0.1,Multnomah,97211,Jefferson
+549900,Single Family - Contemporary,3,3.0,1725,2020,0.06,Multnomah,97206,Cleveland
+549999,Single Family - Bungalow,4,2.0,2608,1949,0.15,Multnomah,97213,Madison
+550000,Single Family - Farmhouse,5,2.0,2180,1900,0.56,Washington,97224,Tigard
+550000,Single Family - Ranch,3,1.0,1111,1973,0.11,Multnomah,97210,Lincoln
+550000,Single Family - Tri Level,7,3.0,2672,1914,0.1,Multnomah,97213,Grant
+550000,Single Family - Cottage,3,2.0,1968,1927,0.11,Multnomah,97213,Madison
+550000,Single Family - Bungalow,4,2.0,1800,1909,0.11,Multnomah,97211,Jefferson
+550000,Single Family - A-Frame,5,1.0,2012,1949,0.2,Multnomah,97216,David Douglas
+550000,Single Family - Mid-Century Modern,3,2.0,2296,1950,0.11,Multnomah,97211,Jefferson
+555000,Single Family - English,4,2.0,2632,1929,0.11,Multnomah,97212,Grant
+555000,Single Family - 2 Story,3,3.0,2206,2003,0.17,Multnomah,97219,Wilson
+558000,Single Family - Traditional,4,3.0,2630,2004,0.08,Washington,97229,Sunset
+559000,Single Family - Traditional,4,3.0,2546,2002,0.1,Washington,97229,Sunset
+559000,Single Family - Capecod,3,2.0,1920,1945,0.13,Multnomah,97202,Franklin
+559900,Single Family - 2 Story,7,7.0,3183,1918,0.66,Multnomah,97219,Wilson
+559900,Single Family - Bungalow,3,3.0,1870,1928,0.13,Multnomah,97213,Madison
+559900,Single Family - Ranch,4,3.0,2449,1957,0.25,Multnomah,97266,David Douglas
+559900,Single Family - Mid-Century Modern,3,2.0,2364,1956,0.13,Multnomah,97206,Franklin
+560000,Condo - Traditional,3,3.0,2209,2005,0.05,Washington,97225,Beaverton
+560000,Single Family - Bungalow,3,2.0,1782,1911,0.15,Multnomah,97206,Cleveland
+560000,Single Family - Craftsman,3,3.0,1901,2017,0.09,Multnomah,97203,Roosevelt
+560000,Single Family - Farmhouse,4,2.0,1970,1897,0.16,Multnomah,97219,Wilson
+560000,Single Family - Ranch,3,2.0,1952,1995,0.23,Multnomah,97219,Wilson
+564900,Single Family - 2 Story,4,3.0,2035,2013,0.07,Washington,97229,Sunset
+564900,Single Family - Traditional,4,3.0,2763,2016,0.24,Multnomah,97236,Centennial
+565000,Single Family - 2 Story,4,3.0,2543,1979,0.16,Multnomah,97230,Reynolds
+565000,Single Family - Traditional,3,3.0,1564,1988,0.19,Multnomah,97221,Wilson
+565000,Single Family - Traditional,4,3.0,2565,1999,0.14,Washington,97229,Westview
+565000,Single Family - 2 Story,3,2.0,2675,1907,0.11,Multnomah,97210,Lincoln
+565000,Single Family - Daylight Ranch,4,4.0,4322,1965,0.38,Multnomah,97230,Parkrose
+565000,Single Family - Daylight Ranch,4,3.0,3011,1961,0.22,Multnomah,97219,Wilson
+569000,Single Family - Traditional,4,2.0,2186,1953,0.11,Multnomah,97211,Jefferson
+569800,Single Family - Traditional,4,3.0,2122,1995,0.15,Washington,97229,Sunset
+569950,Single Family - FourSquare,3,3.0,2175,2014,0.11,Multnomah,97206,Franklin
+574900,Condo - Common Wall,3,4.0,1796,2020,0.04,Multnomah,97206,Franklin
+574900,Single Family - Bungalow,5,2.0,2194,1929,0.11,Multnomah,97213,Madison
+574900,Single Family - Traditional,4,3.0,2523,1923,0.13,Multnomah,97213,Madison
+574999,Single Family - Traditional,4,3.0,1874,1911,0.06,Multnomah,97214,Franklin
+575000,Single Family - Capecod,5,2.0,2688,1960,1.78,Multnomah,97231,Lincoln
+575000,Single Family - Daylight Ranch,6,3.0,3831,1962,0.26,Multnomah,97221,Wilson
+575000,Single Family - Traditional,5,4.0,3820,2007,0.18,Multnomah,97236,David Douglas
+575000,Single Family - FourSquare,5,2.0,3595,1915,0.38,Multnomah,97220,Parkrose
+575000,Single Family - Ranch,4,2.0,2336,1965,0.38,Multnomah,97219,Wilson
+575000,Single Family - 2 Story,3,2.0,2332,1955,0.14,Multnomah,97215,Franklin
+576000,Condo - 2 Story,6,6.0,2454,2020,0.11,Multnomah,97236,David Douglas
+579000,Single Family - Dutch Colonial,3,2.0,2872,1936,0.49,Multnomah,97219,Wilson
+579000,Single Family - Split,3,3.0,2254,1975,0.16,Multnomah,97221,Lincoln
+579000,Single Family - Daylight Ranch,5,2.0,2772,1950,0.71,Multnomah,97219,Wilson
+579000,Single Family - Craftsman,4,3.0,2158,2013,0.09,Multnomah,97203,Roosevelt
+579000,Single Family - 2 Story,4,4.0,2766,2015,0.18,Multnomah,97233,Reynolds
+579900,Single Family - Daylight Ranch,4,3.0,3762,1962,0.19,Multnomah,97221,Wilson
+579900,Single Family - Ranch,6,2.0,2258,1956,0.27,Multnomah,97222,Cleveland
+580000,Single Family - Ranch,4,2.0,2186,1962,0.1,Multnomah,97215,Franklin
+580000,Single Family - Craftsman,4,3.0,2536,2019,0.09,Multnomah,97206,Franklin
+580000,Single Family - Cottage,3,3.0,1976,2006,0.1,Multnomah,97202,Cleveland
+585000,Single Family - Traditional,3,3.0,2341,1910,0.04,Multnomah,97239,Wilson
+585000,Single Family - Traditional,5,4.0,3650,1951,0.19,Multnomah,97206,Cleveland
+585000,Single Family - Contemporary,4,3.0,2546,1971,0.13,Multnomah,97219,Wilson
+585000,Single Family - Traditional,4,3.0,2217,2012,0.08,Multnomah,97217,Jefferson
+585000,Single Family - Split,3,3.0,1935,1968,0.15,Multnomah,97202,Cleveland
+589000,Single Family - Capecod,3,2.0,2036,1927,0.11,Multnomah,97202,Cleveland
+589000,Single Family - Ranch,4,3.0,2655,1916,0.2,Multnomah,97219,Wilson
+589000,Single Family - Bungalow,4,2.0,2498,1946,0.14,Multnomah,97202,Cleveland
+589900,Single Family - Contemporary,3,3.0,1687,2016,0.06,Multnomah,97211,Jefferson
+589950,Single Family - Contemporary,7,3.0,2772,1989,0.14,Multnomah,97219,Wilson
+590000,Single Family - Bungalow,6,2.0,2584,1910,0.11,Multnomah,97213,Grant
+590000,Single Family - Traditional,3,3.0,2252,1996,0.11,Multnomah,97219,Wilson
+594900,Single Family - 2 Story,5,3.0,2312,2001,0.13,Washington,97229,Sunset
+595000,Single Family - Traditional,4,3.0,2622,1986,0.16,Washington,97229,Westview
+595000,Single Family - Custom Style,3,3.0,2120,1925,0.11,Multnomah,97239,Wilson
+595000,Single Family - Contemporary,3,3.0,1752,1973,0.22,Multnomah,97219,Wilson
+599000,Single Family - Capecod,3,3.0,2777,1941,0.11,Multnomah,97217,Jefferson
+599000,Single Family - Contemporary,3,3.0,1682,2020,0.05,Multnomah,97211,Jefferson
+599000,Single Family - Saltbox,3,2.0,1724,1948,0.77,Multnomah,97219,Riverdale
+599000,Single Family - Daylight Ranch,4,2.0,2212,1971,0.16,Multnomah,97219,Wilson
+599000,Single Family - FourSquare,4,3.0,2890,2012,0.08,Multnomah,97217,Roosevelt
+599000,Single Family - Bungalow,5,2.0,4169,1918,0.15,Multnomah,97219,Wilson
+599000,Single Family - Bungalow,3,2.0,2428,1911,0.12,Multnomah,97215,Franklin
+599500,Single Family - Contemporary,6,5.0,2326,2018,0.17,Multnomah,97236,David Douglas
+599500,Single Family - Bungalow,4,3.0,2016,1927,0.06,Multnomah,97202,Franklin
+599900,Single Family - Victorian,4,2.0,2018,1926,0.09,Multnomah,97212,Grant
+599900,Single Family - NW Contemporary,5,4.0,2735,2015,0.08,Washington,97229,Westview
+599900,Single Family - Bungalow,4,2.0,2424,1916,0.06,Multnomah,97211,Grant
+599900,Single Family - Traditional,3,3.0,2107,1988,0.09,Washington,97223,Southridge
+599900,Single Family - Daylight Ranch,4,3.0,3130,1971,0.09,Multnomah,97239,Wilson
+599900,Single Family - Daylight Ranch,4,2.0,3472,1955,0.24,Multnomah,97202,Cleveland
+599900,Single Family - FourSquare,4,3.0,2252,2015,0.05,Multnomah,97214,Franklin
+599900,Single Family - Bungalow,5,3.0,2347,1947,0.11,Multnomah,97217,Jefferson
+599900,Single Family - Farmhouse,3,3.0,3395,1917,0.3,Multnomah,97219,Wilson
+599950,Single Family - 2 Story,5,3.0,3110,1974,0.24,Washington,97229,Westview
+599999,Single Family - 2 Story,3,6.0,2400,2009,0.05,Multnomah,97203,Roosevelt
+600000,Single Family - Contemporary,2,3.0,3060,1982,0.11,Multnomah,97217,Jefferson
+600000,Single Family - Bungalow,3,2.0,2544,1917,0.1,Multnomah,97213,Grant
+609000,Single Family - Traditional,4,4.0,3050,1966,0.21,Multnomah,97266,David Douglas
+609000,Single Family - Tudor,4,2.0,2227,1931,0.11,Multnomah,97215,Franklin
+609000,Single Family - Ranch,2,2.0,2280,1954,0.18,Multnomah,97215,Franklin
+610000,Single Family - Contemporary,4,3.0,2407,1997,0.14,Washington,97229,Westview
+610000,Single Family - FourSquare,3,1.0,2749,1908,0.11,Multnomah,97214,Franklin
+614000,Single Family - Bungalow,3,2.0,2328,1952,0.12,Multnomah,97219,Wilson
+614900,Single Family - Traditional,4,3.0,2920,1995,0.16,Multnomah,97219,Wilson
+614990,Single Family - Traditional,4,3.0,2698,2003,0.09,Washington,97229,Sunset
+615000,Single Family - Traditional,3,3.0,3381,1915,0.17,Multnomah,97219,Wilson
+619000,Single Family - Bungalow,3,2.0,2185,1905,0.11,Multnomah,97202,Cleveland
+619000,Single Family - Daylight Ranch,4,2.0,2502,1942,0.11,Multnomah,97206,Franklin
+619900,Single Family - Ranch,4,3.0,3375,1968,0.28,Multnomah,97221,Lincoln
+620000,Condo - Row House,3,3.0,2501,2006,0.06,Multnomah,97212,Grant
+620000,Single Family - Traditional,4,4.0,2652,1999,0.11,Multnomah,97219,Wilson
+624900,Single Family - Ranch,3,2.0,2415,1957,0.11,Multnomah,97206,Cleveland
+624900,Single Family - 2 Story,4,4.0,2212,2015,0.05,Multnomah,97202,Cleveland
+624950,Single Family - Bungalow,5,2.0,1840,1909,0.07,Multnomah,97202,Cleveland
+625000,Condo - Contemporary,3,3.0,2503,2016,0.06,Multnomah,97202,Cleveland
+625000,Single Family - Tri Level,7,3.0,3676,1909,0.11,Multnomah,97211,Jefferson
+625000,Single Family - Traditional,4,3.0,2547,2005,0.14,Washington,97225,Beaverton
+625000,Single Family - FourSquare,4,2.0,3234,1890,0.17,Multnomah,97217,Jefferson
+625000,Single Family - Contemporary,4,3.0,3264,1988,0.3,Washington,97229,Sunset
+625000,Single Family - Bungalow,5,3.0,2732,1907,0.13,Multnomah,97217,Roosevelt
+625000,Single Family - Traditional,4,3.0,2195,1996,0.18,Multnomah,97219,Wilson
+626000,Single Family - Traditional,3,2.0,1494,1949,0.11,Multnomah,97201,Lincoln
+629000,Single Family - Bungalow,2,2.0,2647,1912,0.16,Multnomah,97201,Lincoln
+629000,Single Family - FourSquare,3,2.0,2700,1918,0.11,Multnomah,97213,Grant
+629000,Single Family - 2 Story,5,4.0,3304,1920,0.17,Multnomah,97217,Jefferson
+629000,Single Family - FourSquare,4,3.0,2334,1906,0.08,Multnomah,97211,Jefferson
+629000,Single Family - Traditional,4,3.0,3000,2004,0.14,Washington,97225,Beaverton
+629000,Single Family - Daylight Ranch,6,4.0,2866,1968,0.26,Multnomah,97221,Wilson
+629000,Single Family - Ranch,3,3.0,2956,1940,0.39,Washington,97225,Beaverton
+629900,Single Family - Craftsman,4,4.0,2630,2017,0.08,Multnomah,97266,Franklin
+630000,Single Family - Contemporary,3,3.0,2168,1977,1.29,Multnomah,97230,Reynolds
+632500,Single Family - Traditional,4,3.0,2514,2016,0.14,Multnomah,97219,Wilson
+635000,Single Family - 2 Story,6,4.0,3212,1955,0.32,Multnomah,97206,Cleveland
+635000,Single Family - Capecod,5,4.0,2970,1947,0.26,Multnomah,97219,Wilson
+635000,Single Family - Bungalow,3,2.0,2120,1907,0.08,Multnomah,97214,Franklin
+638990,Single Family - Craftsman,3,3.0,2089,2020,0.09,Washington,97229,Westview
+639000,Single Family - Bungalow,5,4.0,3017,1927,0.14,Multnomah,97217,Jefferson
+639000,Single Family - Tudor,3,3.0,3104,1910,0.11,Multnomah,97211,Madison
+639000,Single Family - Contemporary,2,2.0,1630,1985,0.13,Washington,97223,Southridge
+639900,Single Family - Craftsman,3,2.0,2705,1914,0.12,Multnomah,97213,Madison
+639900,Single Family - Bungalow,4,2.0,2114,1910,0.11,Multnomah,97213,Madison
+639900,Single Family - Capecod,4,2.0,2090,1943,0.11,Multnomah,97214,Cleveland
+639950,Single Family - 2 Story,4,3.0,2219,2020,0.08,Washington,97229,Sunset
+640000,Single Family - Traditional,4,3.0,3095,1995,0.16,Washington,97229,Westview
+644600,Single Family - 2 Story,4,3.0,2840,2005,0.11,Multnomah,97219,Wilson
+648800,Single Family - Capecod,4,3.0,3186,1942,0.22,Multnomah,97221,Lincoln
+648900,Single Family - Traditional,5,4.0,2966,1986,0.17,Multnomah,97219,Wilson
+649000,Single Family - Daylight Ranch,5,3.0,2824,1961,0.21,Washington,97225,Beaverton
+649000,Single Family - English,3,1.0,2575,1932,5.04,Multnomah,97229,Sunset
+649000,Single Family - Craftsman,3,2.0,3548,1888,0.11,Multnomah,97219,Wilson
+649000,Single Family - Capecod,4,2.0,2404,1931,0.12,Multnomah,97217,Jefferson
+649800,Single Family - Traditional,4,3.0,2538,1992,0.14,Multnomah,97219,Wilson
+649900,Single Family - Craftsman,4,3.0,2832,1962,0.24,Washington,97210,Beaverton
+649900,Single Family - 2 Story,4,3.0,2526,2019,0.13,Multnomah,97203,Roosevelt
+649900,Single Family - Traditional,3,2.0,2262,1952,0.14,Multnomah,97215,Franklin
+649900,Single Family - Craftsman,3,2.0,2364,1910,0.11,Multnomah,97227,Jefferson
+649900,Single Family - 2 Story,4,3.0,2603,2019,0.06,Multnomah,97206,Cleveland
+650000,Condo - Craftsman,4,3.0,2662,2005,0.04,Washington,97225,Beaverton
+650000,Single Family - Daylight Ranch,3,3.0,2988,1961,0.5,Washington,97210,Sunset
+650000,Single Family - Traditional,5,3.0,3042,2002,0.13,Washington,97225,Beaverton
+650000,Single Family - Farmhouse,4,3.0,4000,1920,0.3,Multnomah,97201,Lincoln
+650000,Single Family - Ranch,3,1.0,2601,1948,0.28,Multnomah,97218,Madison
+650000,Single Family - Traditional,4,3.0,2455,2007,0.38,Multnomah,97233,Centennial
+650000,Single Family - Traditional,3,4.0,2722,1995,0.21,Multnomah,97229,Lincoln
+650000,Single Family - Farmhouse,4,4.0,2914,1988,0.25,Multnomah,97219,Wilson
+650100,Single Family - Craftsman,3,3.0,2220,1928,0.11,Multnomah,97213,Grant
+659000,Single Family - Traditional,4,3.0,2678,2008,0.13,Washington,97229,Westview
+659000,Single Family - English,3,3.0,2205,1945,0.13,Multnomah,97211,Jefferson
+659900,Single Family - Cottage,3,3.0,1770,1925,0.06,Multnomah,97212,Grant
+659900,Single Family - Contemporary,4,4.0,2968,2009,0.14,Multnomah,97221,Wilson
+659900,Single Family - 2 Story,4,3.0,2121,2020,0.09,Multnomah,97213,Madison
+659950,Single Family - Craftsman,4,3.0,2980,2007,0.23,Multnomah,97236,Centennial
+659995,Single Family - Capecod,3,2.0,2720,1924,0.1,Multnomah,97212,Grant
+660000,Single Family - Traditional,6,4.0,4151,1997,0.17,Washington,97229,Sunset
+665000,Single Family - Traditional,4,4.0,3064,2000,0.12,Washington,97229,Sunset
+669000,Single Family - Ranch,3,3.0,2724,1955,0.18,Multnomah,97239,Wilson
+669000,Single Family - Traditional,4,3.0,2408,2017,0.11,Washington,97229,Westview
+669900,Single Family - Bungalow,4,2.0,2185,1922,0.15,Multnomah,97219,Wilson
+669900,Single Family - Contemporary,4,3.0,2862,1976,0.46,Washington,97229,Sunset
+669900,Single Family - Traditional,4,3.0,2656,2015,0.11,Washington,97229,Westview
+669900,Single Family - Contemporary,5,4.0,4183,2002,0.22,Multnomah,97236,David Douglas
+669999,Single Family - Bungalow,3,2.0,3149,1913,0.1,Multnomah,97215,Franklin
+670000,Single Family - Craftsman,5,4.0,4037,1997,0.18,Washington,97229,Sunset
+674900,Single Family - Bungalow,4,4.0,2679,1912,0.12,Multnomah,97202,Cleveland
+675000,Single Family - Bungalow,6,4.0,3130,1923,0.11,Multnomah,97213,Grant
+675000,Single Family - Daylight Ranch,3,2.0,2312,1968,0.22,Multnomah,97230,Parkrose
+675000,Single Family - Daylight Ranch,4,3.0,2912,1960,0.2,Washington,97225,Beaverton
+675000,Single Family - Craftsman,5,3.0,2790,2009,0.11,Multnomah,97203,Roosevelt
+675000,Single Family - Craftsman,3,3.0,2476,2000,0.11,Multnomah,97219,Wilson
+675000,Single Family - Traditional,4,3.0,3149,2015,0.09,Washington,97229,Westview
+675000,Single Family - Craftsman,4,4.0,3187,1925,0.13,Multnomah,97203,Roosevelt
+675000,Single Family - Craftsman,5,3.0,3216,1914,0.09,Multnomah,97217,Jefferson
+675000,Single Family - Bungalow,4,4.0,3153,2020,0.1,Multnomah,97203,Roosevelt
+675000,Single Family - Craftsman,4,3.0,2505,2016,0.09,Washington,97229,Westview
+675000,Single Family - Lodge,4,3.0,2662,1973,0.55,Multnomah,97221,Wilson
+675000,Single Family - NW Contemporary,4,3.0,2796,1978,0.4,Multnomah,97229,Lincoln
+675000,Single Family - 2 Story,4,3.0,2400,2017,0.09,Multnomah,97219,Wilson
+679000,Single Family - Bungalow,3,3.0,2397,1923,0.11,Multnomah,97213,Grant
+679900,Single Family - Traditional,2,2.0,2081,1997,0.13,Washington,97229,Westview
+679900,Single Family - Traditional,3,3.0,2304,2017,0.09,Multnomah,97215,Franklin
+685000,Single Family - Bungalow,5,2.0,3160,1932,0.11,Multnomah,97202,Cleveland
+685000,Single Family - Cottage,4,3.0,2982,1929,0.12,Multnomah,97217,Jefferson
+685900,Single Family - Traditional,3,3.0,2306,1993,0.2,Multnomah,97229,Lincoln
+689000,Single Family - Daylight Ranch,3,4.0,3295,1976,0.27,Washington,97229,Beaverton
+689500,Single Family - Traditional,4,2.0,2526,1938,0.11,Multnomah,97202,Cleveland
+689950,Single Family - Contemporary,3,3.0,2024,1979,0.16,Multnomah,97201,Lincoln
+689995,Single Family - Ranch,3,2.0,2199,1993,0.2,Multnomah,97229,Lincoln
+690000,Single Family - Other,4,3.0,2329,2004,15.23,Multnomah,97231,Lincoln
+694900,Single Family - 1 Story,2,2.0,1944,1979,0.23,Multnomah,97239,Wilson
+694995,Single Family - Traditional,4,3.0,2237,2020,0.11,Washington,97229,Sunset
+695000,Single Family - 2 Story,3,1.0,2784,1937,0.69,Multnomah,97210,Lincoln
+695000,Single Family - 1 Story,3,1.0,1334,1921,0.76,Multnomah,97219,Wilson
+695000,Single Family - Traditional,3,3.0,2355,1992,0.16,Washington,97229,Sunset
+695000,Single Family - Cottage,4,2.0,1445,1953,0.13,Multnomah,97202,Cleveland
+695900,Single Family - Contemporary,3,3.0,3386,1974,0.19,Multnomah,97219,Wilson
+697500,Single Family - Traditional,4,3.0,2646,1999,0.15,Multnomah,97219,Wilson
+698900,Single Family - Lodge,2,2.0,2427,1986,0.46,Multnomah,97219,Wilson
+699000,Single Family - Bungalow,6,2.0,2650,1934,0.88,Multnomah,97218,Madison
+699000,Single Family - Traditional,6,3.0,2768,1952,0.17,Multnomah,97202,Cleveland
+699000,Single Family - Traditional,3,3.0,2465,2013,0.11,Multnomah,97217,Jefferson
+699000,Single Family - Craftsman,3,4.0,3354,1928,3.12,Multnomah,97210,Lincoln
+699000,Single Family - Contemporary,4,3.0,3661,1975,0.29,Washington,97229,Liberty
+699000,Single Family - Traditional,4,3.0,3488,1988,0.23,Multnomah,97219,Wilson
+699000,Single Family - Contemporary,4,3.0,2510,1964,0.25,Multnomah,97221,Wilson
+699000,Single Family - Split,3,3.0,1950,1968,0.34,Washington,97229,Sunset
+699100,Single Family - NW Contemporary,5,4.0,2504,2017,0.06,Multnomah,97218,Madison
+699899,Single Family - Craftsman,5,2.0,3508,1926,0.11,Multnomah,97212,Grant
+699900,Single Family - Contemporary,4,4.0,2165,2019,0.06,Multnomah,97217,Grant
+699900,Single Family - Traditional,4,3.0,2996,1990,0.34,Washington,97229,Sunset
+699900,Single Family - Traditional,3,2.0,2241,1951,0.21,Multnomah,97202,Cleveland
+699900,Single Family - Traditional,5,4.0,3916,1993,0.25,Multnomah,97229,Lincoln
+699900,Single Family - Craftsman,4,3.0,3185,1907,0.11,Multnomah,97217,Jefferson
+699900,Single Family - Ranch,3,2.0,2400,2020,0.23,Washington,97223,Southridge
+699900,Single Family - Contemporary,5,4.0,3098,1949,0.71,Multnomah,97233,David Douglas
+699900,Single Family - 2 Story,4,3.0,2673,2020,0.12,Multnomah,97203,Roosevelt
+699900,Single Family - 2 Story,4,3.0,2053,2020,0.05,Multnomah,97202,Cleveland
+699900,Single Family - 2 Story,4,3.0,2673,2020,0.12,Multnomah,97203,Roosevelt
+699900,Single Family - 2 Story,5,3.0,2781,2020,0.15,Washington,97223,Southridge
+699900,Single Family - Traditional,5,4.0,4329,1997,0.16,Washington,97229,Lincoln
+699900,Single Family - 2 Story,4,3.0,2673,2020,0.12,Multnomah,97203,Roosevelt
+699999,Single Family - Custom Style,5,3.0,3462,1938,0.26,Multnomah,97220,Parkrose
+700000,Condo - Contemporary,4,4.0,2462,2019,0.06,Multnomah,97217,Jefferson
+700000,Single Family - Mid-Century Modern,3,3.0,3316,1959,0.17,Multnomah,97211,Madison
+700000,Single Family - Bungalow,4,3.0,2531,1927,0.11,Multnomah,97202,Cleveland
+700000,Single Family - Bungalow,3,3.0,2661,2013,0.09,Multnomah,97213,Madison
+700000,Single Family - 2 Story,4,1.0,1526,1938,0.63,Multnomah,97230,Reynolds
+700000,Single Family - Craftsman,5,4.0,2895,2017,0.06,Multnomah,97217,Jefferson
+716625,Single Family - Traditional,4,3.0,3128,2016,0.09,Washington,97229,Westview
+719000,Single Family - Tudor,4,3.0,3320,1938,0.13,Multnomah,97211,Madison
+719900,Single Family - Contemporary,5,3.0,2862,2003,0.13,Washington,97229,Sunset
+719900,Single Family - 2 Story,4,4.0,2600,2016,0.08,Multnomah,97217,Roosevelt
+724900,Single Family - Custom Style,5,5.0,4781,2006,0.18,Multnomah,97266,David Douglas
+724999,Single Family - Traditional,2,2.0,2117,1904,0.17,Multnomah,97212,Jefferson
+725000,Single Family - Bungalow,3,3.0,2730,1952,0.2,Multnomah,97239,Wilson
+725000,Single Family - Traditional,6,3.0,3250,1994,0.16,Washington,97229,Westview
+725000,Single Family - 2 Story,4,2.0,3063,1907,0.11,Multnomah,97213,Madison
+725000,Single Family - Craftsman,5,4.0,2432,2016,0.05,Multnomah,97217,Jefferson
+727000,Single Family - Ranch,4,5.0,3676,1940,0.44,Washington,97223,Tigard
+729000,Condo - Contemporary,2,3.0,1887,2017,0.06,Multnomah,97212,Jefferson
+729000,Single Family - 2 Story,5,2.0,4848,1930,0.33,Multnomah,97266,David Douglas
+729000,Single Family - Farmhouse,4,3.0,2701,1903,0.12,Multnomah,97215,Franklin
+729000,Single Family - Traditional,5,3.0,2957,1999,0.15,Washington,97229,Sunset
+729950,Single Family - Daylight Ranch,4,3.0,2500,1953,0.21,Washington,97225,Southridge
+735000,Single Family - Ranch,5,4.0,3304,1960,0.25,Washington,97225,Beaverton
+735000,Single Family - FourSquare,5,3.0,2370,1910,0.11,Multnomah,97202,Franklin
+735900,Single Family - Traditional,5,4.0,4310,2005,0.13,Washington,97223,Southridge
+737500,Single Family - Craftsman,5,4.0,2335,2020,0.07,Multnomah,97215,Franklin
+739000,Condo - Contemporary,3,4.0,2142,2019,0.03,Multnomah,97213,Franklin
+739500,Single Family - English,3,3.0,2921,1926,0.14,Multnomah,97202,Cleveland
+739900,Single Family - FourSquare,6,5.0,3165,1999,0.11,Multnomah,97217,Jefferson
+739900,Single Family - Contemporary,4,4.0,2268,2018,0.05,Multnomah,97211,Jefferson
+740000,Single Family - Ranch,3,1.0,968,1970,0.97,Multnomah,97219,Wilson
+744350,Single Family - 2 Story,5,3.0,3000,2020,0.11,Washington,97224,Tualatin
+749000,Single Family - Ranch,4,2.0,3726,1949,0.88,Multnomah,97219,Wilson
+749000,Single Family - Bungalow,4,2.0,2041,1926,0.09,Multnomah,97212,Grant
+749647,Single Family - Bungalow,4,2.0,2956,1956,0.12,Multnomah,97215,Franklin
+749900,Single Family - Ranch,3,3.0,2386,1973,0.28,Multnomah,97202,Cleveland
+749900,Single Family - FourSquare,4,4.0,2678,2011,0.07,Multnomah,97202,Cleveland
+749900,Single Family - NW Contemporary,5,3.0,3279,2020,0.13,Washington,97229,Sunset
+749900,Single Family - Farmhouse,6,3.0,2940,1945,0.27,Multnomah,97206,Franklin
+749900,Single Family - Contemporary,4,4.0,2777,2018,0.08,Multnomah,97211,Jefferson
+749950,Single Family - Craftsman,4,4.0,3304,2008,0.16,Multnomah,97219,Wilson
+750000,Single Family - FourSquare,3,4.0,3468,1935,3.9,Multnomah,97236,Centennial
+750000,Single Family - Capecod,3,2.0,2340,1931,0.83,Multnomah,97201,Lincoln
+750000,Single Family - Daylight Ranch,3,3.0,2752,1947,0.33,Washington,97225,Beaverton
+750000,Single Family - 2 Story,8,3.0,3220,1954,0.23,Multnomah,97220,David Douglas
+750000,Single Family - Craftsman,5,4.0,4140,2019,0.28,Multnomah,97236,Centennial
+750000,Single Family - Bungalow,7,5.0,3720,2009,0.21,Multnomah,97206,Cleveland
+750000,Single Family - Daylight Ranch,3,4.0,3004,1953,0.28,Multnomah,97220,Madison
+750000,Single Family - FourSquare,4,2.0,2860,1915,0.1,Multnomah,97202,Cleveland
+750000,Single Family - Farmhouse,3,3.0,3295,1897,1.0,Multnomah,97221,Lincoln
+750000,Single Family - Bungalow,3,3.0,2989,1913,0.07,Multnomah,97215,Franklin
+755000,Single Family - Traditional,4,3.0,3398,2005,0.14,Washington,97229,Sunset
+759000,Single Family - Custom Style,5,3.0,4285,1958,0.14,Multnomah,97217,Jefferson
+759900,Single Family - Craftsman,4,3.0,3552,1950,0.14,Multnomah,97239,Wilson
+759900,Single Family - Bungalow,3,2.0,3012,1923,0.13,Multnomah,97212,Grant
+764000,Single Family - 2 Story,4,3.0,3408,2020,0.12,Washington,97224,Tualatin
+765000,Single Family - 2 Story,4,3.0,2614,2020,0.14,Washington,97223,Southridge
+767500,Single Family - Traditional,4,3.0,3911,1989,0.37,Washington,97223,Southridge
+769000,Single Family - 2 Story,4,3.0,2573,1994,0.24,Washington,97229,Sunset
+769900,Single Family - Tudor,5,3.0,2871,1938,0.11,Multnomah,97232,Grant
+774900,Single Family - Daylight Ranch,3,2.0,3124,1953,0.58,Washington,97225,Beaverton
+774950,Single Family - Contemporary,3,4.0,2167,2020,0.06,Multnomah,97211,Grant
+775000,Single Family - 2 Story,5,3.0,2751,2017,0.09,Multnomah,97211,Jefferson
+775000,Single Family - Capecod,3,3.0,2200,1990,0.19,Multnomah,97229,Lincoln
+775000,Single Family - Traditional,4,5.0,3869,1997,0.16,Multnomah,97266,Franklin
+775000,Single Family - FourSquare,4,2.0,2943,1909,0.14,Multnomah,97215,Franklin
+775000,Single Family - Bungalow,4,3.0,2751,1927,0.1,Multnomah,97202,Cleveland
+775757,Single Family - Farmhouse,4,4.0,2677,1946,0.51,Multnomah,97219,Wilson
+779000,Single Family - Traditional,4,4.0,3415,1997,0.18,Washington,97229,Sunset
+779000,Single Family - Traditional,3,3.0,2895,2012,0.11,Multnomah,97211,Madison
+779999,Single Family - Contemporary,5,3.0,3142,2017,0.13,Washington,97229,Sunset
+780000,Single Family - Farmhouse,3,2.0,2909,1860,0.22,Multnomah,97215,Franklin
+787000,Single Family - 2 Story,5,4.0,3529,2019,0.19,Washington,97223,Tigard
+789000,Single Family - Craftsman,5,3.0,3705,2016,0.13,Washington,97229,Sunset
+789000,Single Family - 2 Story,4,3.0,2679,2020,0.17,Washington,97223,Southridge
+789000,Single Family - Colonial,4,2.0,2942,1928,0.23,Multnomah,97239,Wilson
+789900,Single Family - Traditional,3,2.0,2441,1930,0.7,Washington,97225,Beaverton
+789900,Single Family - Traditional,4,3.0,2856,2017,0.14,Washington,97229,Sunset
+790000,Single Family - Contemporary,4,3.0,3222,1998,0.2,Multnomah,97229,Lincoln
+795000,Single Family - Mid-Century Modern,4,3.0,2644,1958,0.18,Multnomah,97239,Wilson
+797000,Single Family - Daylight Ranch,2,2.0,1760,1975,0.8,Washington,97229,Sunset
+797000,Single Family - Capecod,5,3.0,3732,1966,0.19,Washington,97223,Beaverton
+797495,Single Family - Traditional,5,4.0,2821,2020,0.1,Washington,97229,Sunset
+797950,Single Family - 2 Story,4,4.0,2957,2019,0.1,Washington,97229,Sunset
+798500,Single Family - 2 Story,5,4.0,3478,1949,0.12,Multnomah,97202,Cleveland
+798950,Single Family - Farmhouse,4,4.0,2995,2020,0.1,Washington,97229,Sunset
+799000,Condo - Contemporary,4,4.0,2771,2016,0.06,Multnomah,97217,Jefferson
+799000,Single Family - Traditional,2,3.0,2147,1966,0.21,Multnomah,97210,Lincoln
+799000,Single Family - Bungalow,4,2.0,4800,1909,0.11,Multnomah,97211,Jefferson
+799000,Single Family - Traditional,4,2.0,2792,1940,0.11,Multnomah,97202,Cleveland
+799000,Single Family - Traditional,5,4.0,4682,1913,0.12,Multnomah,97232,Grant
+799000,Single Family - FourSquare,3,3.0,2815,1905,0.11,Multnomah,97232,Grant
+799000,Single Family - Contemporary,4,3.0,2858,2015,0.11,Multnomah,97202,Cleveland
+799000,Single Family - Bungalow,4,3.0,2750,1922,0.11,Multnomah,97202,Cleveland
+799000,Single Family - Traditional,6,5.0,4792,1994,0.44,Multnomah,97219,Wilson
+799000,Single Family - Daylight Ranch,3,2.0,2400,1955,0.13,Multnomah,97214,Franklin
+799000,Single Family - Bungalow,5,4.0,3244,1910,0.13,Multnomah,97211,Jefferson
+799000,Single Family - Capecod,4,3.0,3630,1955,0.23,Multnomah,97219,Wilson
+799900,Single Family - Daylight Ranch,4,4.0,4111,1997,0.2,Washington,97229,Lincoln
+799900,Single Family - FourSquare,4,3.0,3224,2019,0.12,Multnomah,97211,Jefferson
+799900,Single Family - Dutch Colonial,4,3.0,3567,1990,0.46,Multnomah,97231,Lincoln
+799900,Single Family - Contemporary,3,3.0,2201,1981,0.13,Multnomah,97210,Lincoln
+799900,Single Family - Colonial,3,2.0,2448,1926,0.11,Multnomah,97212,Grant
+799900,Single Family - Traditional,4,4.0,4580,1992,0.23,Multnomah,97220,Madison
+799900,Single Family - Craftsman,6,3.0,3295,1912,0.16,Multnomah,97214,Grant
+799900,Single Family - English,4,4.0,4083,2006,0.28,Multnomah,97219,Wilson
+799900,Single Family - Bungalow,4,2.0,2137,1936,0.11,Multnomah,97202,Cleveland
+799900,Single Family - Craftsman,4,3.0,3233,2019,0.12,Washington,97223,Southridge
+799999,Single Family - Traditional,4,4.0,3500,2016,0.1,Washington,97229,Westview
+799999,Single Family - Contemporary,5,4.0,4310,1973,0.61,Washington,97224,Tualatin
+800000,Single Family - Traditional,5,3.0,4447,1996,0.45,Multnomah,97219,Wilson
+804950,Single Family - Traditional,3,3.0,3850,1992,0.75,Multnomah,97236,David Douglas
+805000,Single Family - Traditional,5,3.0,3050,1990,0.3,Washington,97229,Sunset
+809950,Single Family - 2 Story,5,3.0,3025,2020,0.1,Washington,97229,Sunset
+811995,Single Family - Colonial,5,3.0,2998,2019,0.1,Washington,97229,Sunset
+815000,Single Family - Contemporary,4,4.0,2402,2016,0.04,Multnomah,97202,Cleveland
+818950,Single Family - 2 Story,5,3.0,3462,2018,0.11,Washington,97229,Sunset
+819000,Single Family - Traditional,5,4.0,4037,2001,0.19,Multnomah,97219,Wilson
+819000,Single Family - NW Contemporary,4,2.0,3259,1976,0.26,Multnomah,97221,Lincoln
+819900,Single Family - Ranch,3,4.0,3080,1998,0.33,Multnomah,97229,Lincoln
+819950,Single Family - Farmhouse,5,3.0,3069,2020,0.1,Washington,97229,Sunset
+820000,Single Family - Contemporary,3,3.0,2662,1992,3.55,Multnomah,97231,Lincoln
+820000,Single Family - Craftsman,3,4.0,2388,2006,0.1,Multnomah,97219,Wilson
+825000,Single Family - Traditional,3,3.0,3339,1950,0.64,Multnomah,97229,Lincoln
+825000,Single Family - Daylight Ranch,5,3.0,3624,1969,0.28,Washington,97225,Beaverton
+825000,Single Family - English,3,3.0,2618,1936,0.27,Washington,97225,Lincoln
+829000,Single Family - Traditional,5,4.0,4568,1996,0.18,Washington,97229,Sunset
+831800,Single Family - Traditional,5,5.0,5664,2002,0.32,Multnomah,97229,Lincoln
+835000,Single Family - NW Contemporary,4,4.0,3186,1978,0.53,Multnomah,97229,Lincoln
+838950,Single Family - Farmhouse,5,3.0,3121,2019,0.11,Washington,97229,Sunset
+839000,Single Family - Traditional,4,2.0,2736,1909,0.11,Multnomah,97215,Franklin
+840000,Single Family - 2 Story,4,3.0,3066,2020,0.14,Washington,97223,Southridge
+842000,Single Family - Craftsman,4,3.0,3236,2015,0.13,Washington,97229,Sunset
+849000,Single Family - Farmhouse,3,1.0,3284,1911,0.21,Multnomah,97214,Cleveland
+849000,Single Family - Bungalow,5,3.0,3600,1912,0.11,Multnomah,97215,Franklin
+849900,Condo - Contemporary,4,4.0,3124,2020,0.07,Multnomah,97217,Jefferson
+849900,Condo - Contemporary,4,4.0,3124,2020,0.07,Multnomah,97217,Jefferson
+849900,Single Family - 2 Story,4,3.0,3039,2020,0.17,Washington,97229,Sunset
+849900,Single Family - Bungalow,4,3.0,3550,1922,0.11,Multnomah,97212,Grant
+849900,Single Family - Craftsman,6,3.0,4473,1925,0.16,Multnomah,97211,Grant
+849900,Single Family - Craftsman,4,3.0,3088,2000,0.52,Washington,97229,Sunset
+849900,Single Family - Traditional,4,3.0,3422,1926,0.12,Multnomah,97205,Lincoln
+850000,Single Family - Contemporary,4,4.0,3553,2000,0.23,Multnomah,97229,Lincoln
+850000,Single Family - FourSquare,5,4.0,3416,1907,0.11,Multnomah,97211,Jefferson
+850000,Single Family - Mid-Century Modern,5,4.0,4110,1958,5.0,Multnomah,97231,Lincoln
+850000,Single Family - Contemporary,4,3.0,3816,2000,0.11,Multnomah,97219,Wilson
+850000,Single Family - Contemporary,3,4.0,2909,1979,0.14,Multnomah,97205,Lincoln
+850000,Single Family - Capecod,4,3.0,3287,1937,0.27,Washington,97225,Beaverton
+850000,Single Family - English,5,3.0,3515,2008,0.16,Washington,97229,Westview
+850000,Single Family - Bungalow,5,3.0,3814,1922,0.11,Multnomah,97211,Grant
+859000,Single Family - FourSquare,4,3.0,2900,1912,0.11,Multnomah,97202,Cleveland
+868000,Single Family - Traditional,5,3.0,3427,1994,0.26,Washington,97229,Sunset
+869900,Single Family - Traditional,4,3.0,3913,2015,0.17,Washington,97229,Westview
+870000,Single Family - Custom Style,3,3.0,3431,1979,0.21,Multnomah,97220,Madison
+870000,Single Family - Contemporary,4,4.0,3826,1959,0.55,Washington,97225,Beaverton
+875000,Single Family - Traditional,5,4.0,4374,2003,0.24,Multnomah,97229,Lincoln
+875000,Single Family - English,5,4.0,3745,1995,0.29,Multnomah,97219,Wilson
+875000,Single Family - Contemporary,4,4.0,3898,1989,0.4,Washington,97229,Sunset
+875000,Single Family - Craftsman,5,3.0,4354,1917,0.16,Multnomah,97214,Grant
+875000,Single Family - Daylight Ranch,4,3.0,5224,1989,0.27,Washington,97223,Southridge
+879000,Single Family - Traditional,5,4.0,3801,2010,0.15,Washington,97225,Beaverton
+885000,Single Family - Craftsman,3,3.0,3071,2013,0.09,Multnomah,97202,Cleveland
+889900,Single Family - Contemporary,4,3.0,2766,2018,0.09,Multnomah,97202,Franklin
+889950,Single Family - Contemporary,4,4.0,2800,2020,0.05,Multnomah,97202,Cleveland
+890000,Single Family - FourSquare,5,4.0,3766,1908,0.08,Multnomah,97212,Grant
+890000,Single Family - Traditional,3,2.0,2924,1954,0.28,Multnomah,97201,Lincoln
+895000,Single Family - Craftsman,4,2.0,3802,1913,0.15,Multnomah,97232,Grant
+895000,Single Family - Craftsman,4,2.0,2902,1917,0.22,Multnomah,97219,Wilson
+895000,Single Family - FourSquare,3,3.0,2347,1910,0.19,Multnomah,97211,Madison
+895725,Single Family - FourSquare,5,5.0,4872,1910,0.13,Multnomah,97211,Grant
+899000,Condo - Row House,3,4.0,2098,2002,0.05,Multnomah,97210,Lincoln
+899000,Single Family - Traditional,4,3.0,4526,1987,0.24,Washington,97225,Sunset
+899000,Single Family - Country French,3,4.0,3624,2002,2.08,Multnomah,97231,Lincoln
+899000,Single Family - Ranch,4,3.0,2719,1948,0.36,Washington,97225,Beaverton
+899500,Single Family - Daylight Ranch,3,3.0,3475,1955,0.32,Washington,97225,Beaverton
+899900,Single Family - Colonial,3,4.0,2924,1922,0.11,Multnomah,97212,Grant
+899900,Single Family - NW Contemporary,4,3.0,3886,2013,0.16,Washington,97229,Sunset
+899900,Single Family - FourSquare,3,3.0,3127,1908,0.22,Multnomah,97215,Franklin
+899950,Single Family - Traditional,7,5.0,4224,2013,0.12,Washington,97229,Sunset
+915000,Single Family - Traditional,5,4.0,3564,1964,0.24,Multnomah,97221,Wilson
+924500,Single Family - Tudor,3,3.0,3527,1932,0.14,Multnomah,97202,Cleveland
+924700,Single Family - Contemporary,4,4.0,4297,2003,0.22,Multnomah,97219,Wilson
+925000,Single Family - Contemporary,4,3.0,2608,1991,0.1,Multnomah,97201,Lincoln
+925000,Single Family - Dutch Colonial,4,5.0,5374,1905,0.23,Multnomah,97212,Grant
+925000,Single Family - Craftsman,3,4.0,2984,1912,0.11,Multnomah,97201,Lincoln
+934000,Single Family - Contemporary,5,3.0,3555,2020,0.13,Washington,97225,Beaverton
+935000,Single Family - Traditional,4,3.0,4062,2006,0.25,Multnomah,97221,Lincoln
+935000,Single Family - Tudor,4,3.0,2663,1929,0.1,Multnomah,97214,Cleveland
+935995,Single Family - Traditional,6,4.0,3796,2020,0.12,Washington,97229,Sunset
+939000,Single Family - Tudor,3,3.0,3582,1926,0.17,Multnomah,97215,Franklin
+939900,Single Family - Victorian,4,3.0,3451,1886,0.06,Multnomah,97210,Lincoln
+945000,Single Family - Other,4,3.0,3021,2020,0.16,Washington,97223,Southridge
+949000,Single Family - Victorian,6,4.0,3571,1890,0.13,Multnomah,97205,Lincoln
+949900,Condo - Contemporary,5,4.0,2853,2020,0.06,Multnomah,97211,Grant
+949950,Single Family - Contemporary,5,4.0,2878,2020,0.1,Multnomah,97215,Franklin
+950000,Condo - Contemporary,2,4.0,4172,1999,0.05,Multnomah,97210,Lincoln
+950000,Single Family - Traditional,5,4.0,4161,1990,0.53,Multnomah,97221,Wilson
+950000,Single Family - FourSquare,4,3.0,3673,1911,0.11,Multnomah,97212,Grant
+950000,Single Family - Craftsman,9,7.0,4927,1926,0.11,Multnomah,97206,Cleveland
+955000,Single Family - Tudor,3,3.0,3527,1932,0.14,Multnomah,97202,Cleveland
+959000,Single Family - Contemporary,4,4.0,2894,2020,0.1,Multnomah,97215,Franklin
+960000,Single Family - Contemporary,4,4.0,2233,1980,0.13,Multnomah,97201,Lincoln
+965000,Single Family - Craftsman,4,3.0,3766,1913,0.11,Multnomah,97212,Grant
+970000,Single Family - Craftsman,5,3.0,3090,2018,0.18,Multnomah,97221,Wilson
+974500,Single Family - Traditional,4,4.0,4638,2006,0.4,Multnomah,97229,Lincoln
+975000,Single Family - Craftsman,4,4.0,3668,2005,2.01,Multnomah,97229,Lincoln
+975000,Single Family - Contemporary,4,3.0,3629,2000,0.23,Multnomah,97229,Lincoln
+975000,Single Family - Traditional,4,4.0,3495,1989,0.33,Washington,97225,Beaverton
+975000,Single Family - Contemporary,3,3.0,2578,2020,0.14,Multnomah,97219,Wilson
+977000,Single Family - Traditional,4,4.0,4540,1999,0.29,Multnomah,97229,Lincoln
+978000,Single Family - FourSquare,6,4.0,4091,1906,0.11,Multnomah,97212,Grant
+979000,Single Family - Contemporary,4,4.0,2832,2019,0.26,Multnomah,97221,Lincoln
+983000,Single Family - Victorian,2,3.0,4304,1880,0.11,Multnomah,97209,Lincoln
+984500,Single Family - Daylight Ranch,5,3.0,3216,1960,0.41,Multnomah,97215,Franklin
+984950,Single Family - Contemporary,4,4.0,2878,2020,0.1,Multnomah,97211,Grant
+985000,Single Family - Ranch,4,4.0,3495,1954,0.35,Multnomah,97239,Wilson
+985000,Single Family - Ranch,3,3.0,2935,1942,0.89,Multnomah,97219,Wilson
+989000,Single Family - Victorian,3,3.0,4328,1991,0.43,Washington,97229,Sunset
+989000,Single Family - Contemporary,4,4.0,3010,2019,0.24,Multnomah,97221,Lincoln
+989500,Single Family - Contemporary,4,5.0,3853,1977,0.44,Washington,97225,Beaverton
+995000,Single Family - Traditional,4,4.0,3348,1929,0.08,Multnomah,97210,Lincoln
+995000,Single Family - Craftsman,5,4.0,4180,2017,0.13,Washington,97229,Sunset
+995000,Single Family - Mediterranean/Missio,5,4.0,4335,1911,0.11,Multnomah,97211,Jefferson
+995000,Single Family - Contemporary,4,3.0,3083,2019,0.22,Washington,97225,Beaverton
+995000,Single Family - Traditional,5,5.0,5363,1995,0.26,Multnomah,97229,Beaverton
+995000,Single Family - Traditional,4,5.0,4525,1999,0.41,Multnomah,97229,Lincoln
+995000,Single Family - Bungalow,8,5.0,6372,1915,0.34,Multnomah,97220,Parkrose
+995000,Single Family - Traditional,3,3.0,2740,1925,0.14,Multnomah,97202,Cleveland
+995000,Single Family - Craftsman,5,4.0,4616,2003,0.15,Washington,97229,Sunset
+995000,Single Family - Victorian,4,3.0,3850,1900,0.11,Multnomah,97212,Grant
+997500,Single Family - Craftsman,5,3.0,4986,1908,1.62,Multnomah,97219,Riverdale
+998000,Single Family - FourSquare,4,3.0,3791,2002,0.11,Multnomah,97239,Lincoln
+999000,Single Family - Tri Level,4,3.0,3946,1912,0.13,Multnomah,97212,Grant
+999999,Single Family - 2 Story,6,5.0,4655,1974,0.49,Washington,97224,Tigard
+1025000,Single Family - Contemporary,4,3.0,3205,1927,0.1,Multnomah,97212,Grant
+1025000,Single Family - Contemporary,4,4.0,4595,2006,0.41,Multnomah,97239,Wilson
+1029000,Single Family - Traditional,6,4.0,4377,1992,0.35,Washington,97229,Sunset
+1030000,Single Family - Traditional,4,4.0,3281,1986,0.46,Multnomah,97219,Riverdale
+1040000,Single Family - Craftsman,1,2.0,1928,1885,0.07,Multnomah,97214,Cleveland
+1050000,Single Family - English,3,3.0,3218,1939,0.12,Multnomah,97210,Lincoln
+1050000,Single Family - Ranch,3,4.0,2706,1956,0.25,Multnomah,97227,Jefferson
+1050000,Single Family - Custom Style,3,3.0,3316,1993,0.13,Multnomah,97201,Lincoln
+1050000,Single Family - English,4,3.0,2800,1924,0.11,Multnomah,97201,Lincoln
+1070000,Single Family - Traditional,6,6.0,6100,2006,0.56,Multnomah,97231,Lincoln
+1070000,Single Family - Traditional,4,4.0,5803,2000,0.24,Multnomah,97229,Lincoln
+1075000,Single Family - Craftsman,4,4.0,3675,1917,0.11,Multnomah,97212,Grant
+1085000,Single Family - FourSquare,5,4.0,3011,2009,0.11,Multnomah,97211,Grant
+1090000,Single Family - NW Contemporary,4,3.0,3154,2020,0.16,Washington,97225,Beaverton
+1095000,Single Family - NW Contemporary,4,4.0,4026,2019,0.14,Multnomah,97229,Lincoln
+1095000,Single Family - Traditional,4,4.0,3707,1999,0.94,Multnomah,97221,Wilson
+1095000,Single Family - Contemporary,4,4.0,3898,1990,0.29,Washington,97225,Beaverton
+1095000,Single Family - Ranch,4,3.0,3828,1951,0.27,Washington,97225,Beaverton
+1099000,Single Family - Daylight Ranch,5,5.0,5150,1967,0.58,Washington,97225,Beaverton
+1100000,Single Family - Bungalow,3,2.0,2264,1904,0.34,Multnomah,97239,Lincoln
+1100000,Single Family - Custom Style,4,4.0,3294,2020,0.16,Washington,97229,Sunset
+1100000,Single Family - Traditional,5,5.0,4852,2000,0.32,Multnomah,97225,Lincoln
+1100000,Single Family - 2 Story,6,6.0,3486,2020,0.11,Multnomah,97206,Cleveland
+1100000,Single Family - Contemporary,5,5.0,3436,1942,0.46,Multnomah,97219,Wilson
+1100000,Single Family - 2 Story,6,6.0,3486,2020,0.11,Multnomah,97206,Cleveland
+1115000,Single Family - Contemporary,4,3.0,3103,1951,1.37,Clackamas,97219,Lake Oswego
+1118000,Single Family - Contemporary,6,5.0,3102,2020,0.11,Multnomah,97211,Jefferson
+1125000,Single Family - Contemporary,4,3.0,3154,2020,0.2,Washington,97225,Beaverton
+1145000,Single Family - Traditional,4,3.0,3944,1988,0.37,Washington,97229,Sunset
+1149000,Single Family - Traditional,4,4.0,4517,1995,0.29,Washington,97229,Sunset
+1149100,Single Family - Traditional,4,5.0,5785,1995,0.69,Multnomah,97219,Riverdale
+1149900,Single Family - Bungalow,5,5.0,3802,1910,0.11,Multnomah,97201,Lincoln
+1150000,Single Family - NW Contemporary,4,4.0,3684,2019,0.15,Multnomah,97229,Lincoln
+1150000,Single Family - Mid-Century Modern,3,3.0,2591,1983,0.11,Multnomah,97210,Lincoln
+1150000,Single Family - Colonial,5,4.0,4191,1941,0.54,Multnomah,97201,Lincoln
+1150000,Single Family - Traditional,5,4.0,3854,1982,0.39,Multnomah,97215,Franklin
+1150000,Single Family - Traditional,5,5.0,5678,2005,0.17,Multnomah,97229,Lincoln
+1150000,Single Family - Victorian,4,2.0,4509,1908,0.08,Multnomah,97210,Lincoln
+1170000,Single Family - 2 Story,4,3.0,5024,1988,1.12,Multnomah,97231,Lincoln
+1189000,Single Family - English,4,6.0,5101,1941,0.28,Multnomah,97201,Lincoln
+1190000,Single Family - Traditional,4,6.0,5399,2002,0.22,Washington,97229,Sunset
+1195000,Single Family - Farmhouse,5,2.0,4956,1892,0.46,Multnomah,97202,Cleveland
+1195000,Single Family - Contemporary,3,3.0,2878,1993,0.56,Multnomah,97221,Lincoln
+1199000,Single Family - Contemporary,4,4.0,3515,2019,0.18,Washington,97225,Beaverton
+1199000,Single Family - Bungalow,3,2.0,2030,1897,0.26,Multnomah,97217,Jefferson
+1200000,Single Family - Custom Style,9,1.0,6345,1991,0.25,Multnomah,97202,Cleveland
+1200000,Single Family - Traditional,4,3.0,4525,1948,0.45,Clackamas,97202,Cleveland
+1200000,Single Family - Traditional,5,4.0,5049,1908,0.29,Multnomah,97239,Lincoln
+1200000,Single Family - Daylight Ranch,5,4.0,5204,1971,0.42,Multnomah,97221,Wilson
+1200000,Single Family - Tudor,4,3.0,3270,1932,0.13,Multnomah,97212,Grant
+1200000,Single Family - Traditional,4,4.0,4164,2019,0.14,Multnomah,97219,Wilson
+1200000,Single Family - Contemporary,3,4.0,5084,1993,0.78,Washington,97229,Sunset
+1225000,Single Family - Mediterranean/Missio,5,5.0,4531,1930,0.34,Multnomah,97205,Lincoln
+1225000,Single Family - Contemporary,3,5.0,5217,2002,0.2,Multnomah,97229,Lincoln
+1225000,Single Family - Traditional,4,3.0,3702,2002,0.12,Multnomah,97201,Lincoln
+1235000,Single Family - Craftsman,7,6.0,3415,1922,0.1,Multnomah,97214,Cleveland
+1240000,Single Family - Contemporary,4,4.0,4427,2003,0.23,Multnomah,97229,Lincoln
+1245000,Single Family - Contemporary,3,3.0,2676,2019,0.11,Multnomah,97210,Lincoln
+1249000,Single Family - Custom Style,4,3.0,4352,2000,2.86,Washington,97229,Sunset
+1249000,Single Family - English,5,4.0,3417,1941,0.48,Multnomah,97221,Lincoln
+1250000,Single Family - Contemporary,5,4.0,4440,2011,0.16,Multnomah,97229,Lincoln
+1269000,Single Family - Contemporary,5,4.0,3700,1968,0.56,Multnomah,97221,Lincoln
+1275000,Single Family - Contemporary,3,4.0,2515,1971,0.23,Multnomah,97219,Riverdale
+1275000,Single Family - Colonial,4,4.0,4307,1941,0.36,Multnomah,97202,Cleveland
+1295000,Single Family - Colonial,5,5.0,5083,1916,0.13,Multnomah,97205,Lincoln
+1295000,Single Family - Traditional,4,4.0,5363,2005,0.19,Multnomah,97229,Lincoln
+1295000,Single Family - Contemporary,5,4.0,3174,2019,0.11,Multnomah,97210,Lincoln
+1295000,Single Family - Mediterranean/Missio,4,5.0,5461,2005,0.38,Multnomah,97229,Lincoln
+1295000,Single Family - Traditional,4,5.0,3443,1915,0.12,Multnomah,97201,Lincoln
+1298000,Single Family - Daylight Ranch,5,3.0,4708,1957,0.21,Multnomah,97201,Lincoln
+1299000,Single Family - English,4,5.0,5169,1999,1.0,Multnomah,97231,Lincoln
+1300000,Single Family - FourSquare,5,3.0,4903,1910,0.11,Multnomah,97212,Jefferson
+1319000,Single Family - Traditional,4,5.0,6533,1998,0.34,Multnomah,97229,Lincoln
+1320000,Single Family - Capecod,3,3.0,4521,1942,0.46,Multnomah,97202,Cleveland
+1325000,Single Family - Traditional,4,3.0,4268,1995,0.44,Multnomah,97225,Lincoln
+1325000,Single Family - Contemporary,3,4.0,3752,1969,0.88,Multnomah,97221,Lincoln
+1350000,Single Family - Contemporary,3,3.0,3572,1964,0.14,Multnomah,97201,Lincoln
+1350000,Single Family - 1 Story,3,3.0,2389,1952,0.46,Washington,97210,Lincoln
+1350000,Single Family - Mediterranean/Missio,4,4.0,4336,1987,0.5,Multnomah,97221,Lincoln
+1350000,Single Family - Contemporary,5,4.0,4162,2020,0.24,Washington,97229,Sunset
+1350000,Single Family - Contemporary,3,3.0,2464,1969,0.16,Multnomah,97239,Wilson
+1375000,Single Family - Contemporary,3,4.0,3188,1987,0.2,Multnomah,97239,Lincoln
+1395000,Single Family - Mediterranean/Missio,4,4.0,5103,1927,0.32,Multnomah,97210,Lincoln
+1395000,Single Family - Contemporary,3,3.0,2916,1979,0.25,Multnomah,97201,Lincoln
+1395000,Single Family - Custom Style,4,5.0,5602,2006,0.59,Washington,97229,Sunset
+1399000,Single Family - Traditional,4,6.0,5331,1909,0.22,Multnomah,97210,Lincoln
+1399999,Single Family - Traditional,5,6.0,5505,2006,0.2,Multnomah,97229,Lincoln
+1400000,Single Family - Traditional,3,6.0,4045,1978,0.71,Multnomah,97221,Lincoln
+1400000,Single Family - Craftsman,5,3.0,4645,1924,0.17,Multnomah,97202,Cleveland
+1400000,Single Family - Contemporary,5,4.0,4058,2020,0.26,Washington,97229,Sunset
+1425000,Single Family - Contemporary,4,5.0,6244,1982,0.34,Multnomah,97239,Lincoln
+1425000,Single Family - Other,4,5.0,4231,1992,0.28,Washington,97225,Lincoln
+1425000,Single Family - Contemporary,4,3.0,3460,1967,0.41,Multnomah,97219,Riverdale
+1425000,Single Family - Traditional,5,4.0,3858,2011,1.68,Multnomah,97210,Lincoln
+1449000,Single Family - Country French,3,4.0,5236,1992,4.85,Multnomah,97210,Lincoln
+1450000,Single Family - Contemporary,4,3.0,3506,1974,0.4,Multnomah,97205,Lincoln
+1450000,Single Family - Contemporary,4,3.0,3672,1949,0.42,Multnomah,97210,Lincoln
+1474900,Single Family - Contemporary,4,5.0,5425,1956,0.43,Multnomah,97210,Lincoln
+1475000,Single Family - Traditional,5,5.0,6649,2006,0.24,Multnomah,97229,Lincoln
+1475000,Single Family - Traditional,4,4.0,4494,1984,0.24,Multnomah,97201,Lincoln
+1489000,Single Family - Traditional,4,5.0,4644,1994,0.23,Multnomah,97219,Riverdale
+1490000,Single Family - English,5,5.0,5710,1939,0.21,Multnomah,97202,Cleveland
+1495000,Single Family - English,4,3.0,4233,1928,0.16,Multnomah,97212,Grant
+1495000,Single Family - English,5,4.0,3621,1936,0.17,Multnomah,97212,Grant
+1495000,Single Family - Mid-Century Modern,4,5.0,4703,1966,1.06,Washington,97229,Sunset
+1499900,Single Family - Farmhouse,4,4.0,3784,2020,0.33,Washington,97225,Lincoln
+1499900,Single Family - Contemporary,8,8.0,5114,2020,0.11,Multnomah,97217,Jefferson
+1499999,Single Family - Victorian,8,1.0,9212,1906,0.23,Multnomah,97212,Grant
+1549900,Single Family - 2 Story,5,3.0,3808,2020,0.14,Multnomah,97239,Wilson
+1550000,Single Family - Traditional,5,4.0,5144,1956,0.73,Washington,97225,Beaverton
+1575000,Single Family - Country French,5,6.0,6772,1991,0.9,Multnomah,97219,Riverdale
+1580000,Single Family - Tudor,5,4.0,3838,1925,0.17,Multnomah,97210,Lincoln
+1590000,Single Family - Traditional,5,5.0,6178,1951,0.38,Washington,97225,Beaverton
+1597500,Single Family - Capecod,4,4.0,3836,1939,1.3,Multnomah,97239,Lincoln
+1599900,Single Family - Custom Style,6,6.0,6451,2005,0.38,Multnomah,97229,Lincoln
+1600000,Single Family - Craftsman,4,6.0,5873,2007,7.44,Multnomah,97231,Lincoln
+1600000,Single Family - Craftsman,2,4.0,9268,1913,0.17,Multnomah,97213,Madison
+1600000,Single Family - English,4,4.0,4537,1943,0.23,Multnomah,97201,Lincoln
+1650000,Single Family - Farmhouse,5,4.0,4585,1989,0.79,Washington,97229,Sunset
+1650000,Single Family - Traditional,5,5.0,6830,1909,0.52,Multnomah,97201,Lincoln
+1688000,Single Family - Contemporary,3,5.0,3928,1941,0.17,Multnomah,97239,Lincoln
+1688000,Single Family - Lodge,5,6.0,4910,2006,0.71,Multnomah,97229,Lincoln
+1695000,Single Family - Traditional,4,4.0,4924,2001,1.22,Multnomah,97219,Riverdale
+1695000,Single Family - Custom Style,4,6.0,6454,2006,0.26,Multnomah,97229,Lincoln
+1699000,Single Family - Traditional,6,6.0,8094,2010,0.9,Washington,97225,Tigard
+1699000,Single Family - FourSquare,5,5.0,7059,1911,0.23,Multnomah,97212,Jefferson
+1745000,Single Family - Traditional,5,5.0,4908,2003,0.37,Washington,97229,Sunset
+1749000,Single Family - Contemporary,5,5.0,6747,1951,0.5,Multnomah,97221,Lincoln
+1795000,Single Family - English,5,6.0,5429,1932,0.37,Multnomah,97221,Lincoln
+1799000,Single Family - Contemporary,3,4.0,4398,2010,0.52,Multnomah,97219,Wilson
+1799000,Single Family - Traditional,7,8.0,9389,2007,2.0,Multnomah,97229,Lincoln
+1849000,Single Family - FourSquare,4,6.0,4602,1910,0.29,Multnomah,97219,Riverdale
+1850000,Single Family - Colonial,5,5.0,4599,1917,0.26,Multnomah,97213,Madison
+1850000,Single Family - Contemporary,4,4.0,4593,2016,0.53,Multnomah,97229,Lincoln
+1850000,Single Family - Colonial,6,6.0,6850,1913,0.23,Multnomah,97215,Franklin
+1888000,Single Family - Mid-Century Modern,4,3.0,3467,1961,0.35,Multnomah,97219,Riverdale
+1899000,Single Family - Georgian,4,7.0,7254,1999,1.0,Multnomah,97231,Lincoln
+1899900,Single Family - Tudor,6,5.0,10014,1992,25.25,Multnomah,97231,Lincoln
+1925000,Single Family - FourSquare,8,6.0,7870,1908,0.31,Multnomah,97201,Lincoln
+1950000,Single Family - Traditional,4,6.0,5884,1989,0.23,Multnomah,97201,Lincoln
+1995000,Single Family - Traditional,6,6.0,5792,1959,1.03,Multnomah,97219,Riverdale
+2095000,Single Family - Traditional,4,4.0,6174,1914,0.39,Multnomah,97201,Lincoln
+2100000,Single Family - Ranch,3,2.0,2504,1974,72.71,Multnomah,97231,Scappoose
+2200000,Single Family - Traditional,4,5.0,4817,1965,3.06,Multnomah,97221,Lincoln
+2200000,Single Family - Saltbox,6,6.0,7805,1927,1.31,Multnomah,97219,Riverdale
+2245000,Single Family - Traditional,5,6.0,6638,1923,0.48,Multnomah,97201,Lincoln
+2250000,Single Family - Contemporary,3,3.0,5231,1993,0.25,Multnomah,97210,Lincoln
+2295000,Single Family - Country French,5,6.0,7089,2002,0.72,Multnomah,97219,Riverdale
+2388000,Single Family - Traditional,5,7.0,7906,1928,0.57,Multnomah,97202,Cleveland
+2390000,Single Family - Colonial,6,5.0,6437,1918,0.64,Multnomah,97205,Lincoln
+2450000,Single Family - Traditional,5,3.0,5394,1928,6.35,Multnomah,97229,Lincoln
+2675000,Single Family - Custom Style,3,3.0,4448,2011,0.11,Multnomah,97210,Lincoln
+2795000,Single Family - Contemporary,4,6.0,5420,2010,1.91,Multnomah,97229,Lincoln
+2798000,Single Family - Mediterranean/Missio,5,6.0,6310,2005,0.61,Multnomah,97211,Roosevelt
+2799000,Single Family - Contemporary,3,4.0,4664,2002,0.19,Multnomah,97201,Lincoln
+2950000,Single Family - Other,3,3.0,2422,1919,0.14,Multnomah,97035,Wilson
+2950000,Single Family - 1 Story,1,1.0,896,1971,0.13,Multnomah,97203,Roosevelt
+3250000,Single Family - Mid-Century Modern,5,3.0,3450,1963,10.09,Multnomah,97229,Lincoln
+3850000,Single Family - Mediterranean/Missio,5,7.0,7088,1930,0.31,Multnomah,97201,Lincoln
+3900000,Single Family - Other,5,6.0,13000,2013,6.4,Multnomah,97231,Lincoln
+3950000,Single Family - Traditional,5,1.0,8580,1938,1.23,Multnomah,97219,Riverdale
+3995000,Single Family - Colonial,6,7.0,8919,1916,1.77,Multnomah,97219,Riverdale
+4495000,Single Family - Colonial,4,6.0,9829,1916,1.57,Multnomah,97219,Riverdale
