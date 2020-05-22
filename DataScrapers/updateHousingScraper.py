@@ -59,7 +59,7 @@ for p in range(1, page_count):
 print(len(updated_links))
 
 # List of links of the data previously scrape
-with open("Resources/housing_linksUpdated.txt", "rb") as fp:   # Unpickling
+with open("../Resources/housing_linksUpdated.txt", "rb") as fp:   # Unpickling
     link_list = pickle.load(fp)
 
 # Create variables
@@ -174,15 +174,15 @@ new_housing_data_df = pd.DataFrame(list_home_dict)
 new_housing_data_df.drop_duplicates(inplace=True)
 
 # Combine new data, drop duplicates
-scraped_data = pd.read_csv("Resources/housingDataUpdated.csv")
+scraped_data = pd.read_csv("../Resources/housingDataUpdated.csv")
 data_combined = scraped_data.append(new_housing_data_df)
 data_combined.drop_duplicates(inplace=True)
 
 # Drop duplicates and save housing data
-data_combined.to_csv("Resources/housingDataUpdated.csv", index = False, header = True)
+data_combined.to_csv("../Resources/housingDataUpdated.csv", index = False, header = True)
 
 # Save updated list of links
-with open("Resources/housing_linksUpdated.txt", "wb") as fp:   #Pickling
+with open("../Resources/housing_linksUpdated.txt", "wb") as fp:   #Pickling
     pickle.dump(link_list, fp)
 
 print(data_combined.shape)
@@ -213,7 +213,7 @@ class Listing(Base):
     elementary_school = Column(String(255))
 
 # Create the database connection.
-database_path = "Resources/housingUpdated.sqlite"
+database_path = "../Resources/housingUpdated.sqlite"
 engine = create_engine(f"sqlite:///{database_path}")
 conn = engine.connect()
 session = Session(bind=engine)
