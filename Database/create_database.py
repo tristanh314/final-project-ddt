@@ -1,4 +1,3 @@
-# Import dependencies.
 import pandas as pd
 from sqlalchemy import create_engine
 from sqlalchemy import Table, Column, Integer, String, Float
@@ -17,6 +16,7 @@ class Listing(Base):
     bathrooms = Column(Float)
     square_feet = Column(Integer)
     built = Column(Integer)
+    lot_size = Column(Float)
     neighborhood = Column(String(255))
     county = Column(String(255))
     city = Column(String(255))
@@ -26,7 +26,7 @@ class Listing(Base):
     elementary_school = Column(String(255))
 
 # Create the database connection.
-database_path = "Resources/housing.sqlite"
+database_path = "Resources/housingUpdated.sqlite"
 engine = create_engine(f"sqlite:///{database_path}")
 conn = engine.connect()
 session = Session(bind=engine)
@@ -34,11 +34,39 @@ session = Session(bind=engine)
 # Clear out current data in the database.
 Base.metadata.drop_all(engine)
 
+<<<<<<< HEAD
+=======
+# Drop all current data.
+meta.drop_all()
+
+# Create the listings table.
+listings = Table(
+    "listings", meta,
+    Column("id", Integer, primary_key=True),
+    Column("address", String(255)),
+    Column("price", Integer),
+    Column("home_type", String(255)),
+    Column("bedrooms", Integer),
+    Column("bathrooms", Float),
+    Column("square_feet", Integer),
+    Column("built", Integer),
+    Column("lot_size", Float),
+    Column("neighborhood", String(255)),
+    Column("county", String(255)),
+    Column("city", String(255)),
+    Column("zipcode", Integer),
+    Column("high_school", String(255)),
+    Column("middle_school", String(255)),
+    Column("elementary_school", String(255))
+)
+meta.create_all()
+
+>>>>>>> 1828e83715b0f524ed4bdd9f51f2101c759438e7
 # Create a metadata layer that abstracts the database.
 Base.metadata.create_all(engine)
 
 # Store the scraped data as a data frame.
-scraped_data = pd.read_csv("Resources/housingData.csv")
+scraped_data = pd.read_csv("Resources/housingDataUpdated.csv")
 
 # Insert data into the database.
 for _, row in scraped_data.iterrows():
@@ -50,6 +78,7 @@ for _, row in scraped_data.iterrows():
       bathrooms = row["bathrooms"],
       square_feet = row["square_feet"],
       built = row["built"],
+      lot_size = row["lot_size"],
       neighborhood = row["neighborhood"],
       county = row["county"],
       city = row["city"],
