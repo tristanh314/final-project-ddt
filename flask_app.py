@@ -17,7 +17,7 @@ from flask_cors import CORS
 #################################################
 # Database Setup
 #################################################
-engine = create_engine("sqlite:///Resources/housing.sqlite")
+engine = create_engine("sqlite:///Resources/housingUpdated.sqlite")
 
 Base = automap_base()
 Base.prepare(engine, reflect=True)
@@ -47,7 +47,7 @@ CORS(app)
 def welcome():
     """List all available aqi routes."""
     return (
-        f"Welcome to Portland Housing API!<br/>"
+        f"Welcome to Portland Housing API!<br/><br/>"
         f"Available Routes:<br/>"
         f"<a href='/api/v1.0/listings'>Housing Data from past listings in Portland, OR</a><br/>"
     )
