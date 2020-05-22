@@ -34,34 +34,6 @@ session = Session(bind=engine)
 # Clear out current data in the database.
 Base.metadata.drop_all(engine)
 
-<<<<<<< HEAD
-=======
-# Drop all current data.
-meta.drop_all()
-
-# Create the listings table.
-listings = Table(
-    "listings", meta,
-    Column("id", Integer, primary_key=True),
-    Column("address", String(255)),
-    Column("price", Integer),
-    Column("home_type", String(255)),
-    Column("bedrooms", Integer),
-    Column("bathrooms", Float),
-    Column("square_feet", Integer),
-    Column("built", Integer),
-    Column("lot_size", Float),
-    Column("neighborhood", String(255)),
-    Column("county", String(255)),
-    Column("city", String(255)),
-    Column("zipcode", Integer),
-    Column("high_school", String(255)),
-    Column("middle_school", String(255)),
-    Column("elementary_school", String(255))
-)
-meta.create_all()
-
->>>>>>> 1828e83715b0f524ed4bdd9f51f2101c759438e7
 # Create a metadata layer that abstracts the database.
 Base.metadata.create_all(engine)
 
