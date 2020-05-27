@@ -8,7 +8,7 @@ from sqlalchemy import create_engine, inspect, func
 from flask import Flask, jsonify
 from flask_cors import CORS
 from flask import request
-from flask import render_template
+from flask import render_template, redirect
 from tensorflow.keras.models import load_model
 
 #################################################
@@ -79,7 +79,6 @@ def welcome():
         f"<a href='/homeDataAPI/v1.0/listings'>Housing Data from past listings in Portland, OR</a><br/>"
     )
 
-
 @app.route("/housingDataAPI/v1.0/listings")   
 def boise():
     # Create our session (link) from Python to the DB
@@ -129,6 +128,6 @@ def boise():
         listing_data.append(structure_dict)
 
     return jsonify(listing_data)
-
+  
 if __name__ == '__main__':
     app.run(debug=True)
