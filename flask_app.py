@@ -108,7 +108,6 @@ def welcome():
         f"<a href='/housingDataAPI/v1.0/listings'>Housing Data from past listings in Portland, OR</a><br/>"
     )
 
-
 @app.route("/housingDataAPI/v1.0/listings")   
 def boise():
     # Create our session (link) from Python to the DB
@@ -158,6 +157,6 @@ def boise():
         listing_data.append(structure_dict)
 
     return jsonify(listing_data)
-
+  
 if __name__ == '__main__':
     app.run(debug=True)
