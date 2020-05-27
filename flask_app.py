@@ -9,7 +9,8 @@ from sqlalchemy import create_engine, inspect, func
 from flask import Flask, jsonify
 from flask_cors import CORS
 from flask import request
-from flask import render_template
+from flask import render_template, redirect
+from flask import url_for
 
 from flask_cors import CORS
 
@@ -43,14 +44,20 @@ CORS(app)
 # Flask Routes
 #################################################
 
-@app.route("/")
-def welcome():
-    """List all available aqi routes."""
-    return (
-        f"Welcome to Portland Housing API!<br/><br/>"
-        f"Available Routes:<br/>"
-        f"<a href='/api/v1.0/listings'>Housing Data from past listings in Portland, OR</a><br/>"
-    )
+# @app.route("/")
+# def welcome():
+#     """List all available aqi routes."""
+#     return (
+#         f"Welcome to Portland Housing API!<br/><br/>"
+#         f"Available Routes:<br/>"
+#         f"<a href='/api/v1.0/listings'>Housing Data from past listings in Portland, OR</a><br/>"
+#     )
+
+
+@app.route("/test/dev/", methods=['POST'])
+def testingDev():
+    bathrooms = request.values['bathrooms']
+    return redirect(url_for("home", numBed="2"))
 
 @app.route("/api/v1.0/listings")   
 def boise():
@@ -103,15 +110,15 @@ def boise():
     return jsonify(listing_data)
 
 # # Route to render index.html
-# @app.route("/")
-# def home():
-#     # Return template and data
-#     return render_template("index.html")
+@app.route("/")
+def home():
+    # Return template and data
+    return render_template("index.html", numBed="Enter Number of Bedrooms", numBath="Enter Number of Bathrooms:")
 
 
 # @app.route("/<city_name>")
-# def city(city_name):
-#     return render_template("dashboard.html", urlOne= city_name)
+def city(city_name):
+    return render_template("dashboard.html", urlOne= city_name)
 
 if __name__ == '__main__':
     app.run(debug=True)
