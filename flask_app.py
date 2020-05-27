@@ -8,7 +8,8 @@ from sqlalchemy import create_engine, inspect, func
 from flask import Flask, jsonify
 from flask_cors import CORS
 from flask import request
-from flask import render_template
+from flask import render_template, redirect
+from flask import url_for
 from tensorflow.keras.models import load_model
 
 #################################################
@@ -46,14 +47,42 @@ CORS(app)
 # Route to render index.html
 @app.route("/")
 def home():
-    
-    
-    # model = load_model("<filepath>")
+    # 
+    bathrooms = 2
+    bedrooms = 3
+    built = 1975
+    lot_size = 0.15
+    square_feet = 1500
+
+
+    # model = load_model("ML Models/housing_model_trained.h5")
+
+    # low = model.predict(<inputs>).left
+    # high = model.predict(<inputs>).right
+    # models_range = (f'{low} - {high}')
+
+    models_range = np.nan 
+    if models_range != np.nan:
+        models_range = "Input values to find your price range."
+    else:
+        pass
 
     # Return template and data
-    return render_template("index.html")
+    return render_template("index.html", prediction = models_range)
 
+@app.route("/test/dev/", methods=['POST'])
+def testingDev():
+    # Grabs the entire request dictionary
+    user_input = request.values
+        
+    # Printing the method
+    print(f"The method was {request.method}")
+    print("Are you sure you are working?")
+        
+    # Debugging the entire dictionary
+    print(float(initial_request["sqFoot"]) + float(initial_request["lotSize"]))
 
+    return jsonify(initial_request)
 # @app.route("/machineLearning")
 # def city(city_name):
     
@@ -76,7 +105,7 @@ def welcome():
     return (
         f"Welcome to Portland Housing API!<br/><br/>"
         f"Available Routes:<br/>"
-        f"<a href='/homeDataAPI/v1.0/listings'>Housing Data from past listings in Portland, OR</a><br/>"
+        f"<a href='/housingDataAPI/v1.0/listings'>Housing Data from past listings in Portland, OR</a><br/>"
     )
 
 
