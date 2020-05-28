@@ -17,9 +17,9 @@
   <body>
 
     <div class="container-fluid">
-		<a>
+		<!-- <a>
 			<img class="banner" src="../static/images/skyline-of-portland-oregon.jpg">
-		</a>
+		</a> -->
 	<div class="row">
 		<div class="col-md-12">
 			<h2>
@@ -28,45 +28,52 @@
 			<p>
 				Below are input fields you must fill out to return a suggested buying/selling price for your home. 
 			</p>
-			<form role="form">
+			<form role="form" action="{{ url_for('machineLearning')}}" method="POST">
 				<div class="form-group">
 					 
 					<label for="Bedrooms">
 						Number of Bedrooms:
 					</label>
-					<input type="integer" class="form-control" id="exampleInputEmail1">
+					<input  type="integer" class="form-control"  name="bedrooms">
 				</div>
 				<div class="form-group">
 					 
 					<label for="Bathrooms">
 						Number of Bathrooms:
 					</label>
-					<input type="integer" class="form-control" id="exampleInputPassword1">
+					<input  type="float" class="form-control" name="bathrooms">
 				</div>
 				<div class="form-group">
 					 
 					<label for="Year built">
 						Year Built:
 					</label>
-					<input type="Date Object" class="form-control" id="exampleInputEmail1">
+					<input type="integer" class="form-control" name="yearBuilt">
 				</div>
 				<div class="form-group">
 					 
 					<label for="Square Footage">
 						Square Feet:
 					</label>
-					<input type="integer" class="form-control" id="exampleInputEmail1">
+					<input type="integer" class="form-control" name="sqFoot">
 				</div>
+
+				<div class="form-group">
+					 
+					<label for="Square Footage">
+						Lot Size (Acres):
+					</label>
+					<input type="float" class="form-control" name="lotSize">
+				</div>
+
+				<button type="submit" class="btn btn-primary">Submit</button>
 			</form>
-			<button type="button" class="btn btn-success">
-				Calculate
-			</button>
 			<div class="card">
 				<h5 class="card-header">
 					Your Expected Price
 				</h5>
 				<div class="card-footer">
-					$230,000
+					{{prediction}}
 				</div>
 			</div>
 		</div>
