@@ -4,7 +4,6 @@ from flask_cors import CORS
 from flask import request
 from flask import render_template, redirect
 from flask import url_for
-
 from flask_cors import CORS
 
 # Flask Setup
@@ -31,8 +30,8 @@ def testingDev():
         
     # Debugging the entire dictionary
     print(float(initial_request["sqFoot"]) + float(initial_request["lotSize"]))
-
-    return jsonify(initial_request)
+    return jsonify(initial_request['bathrooms'])
+    
 
 if __name__ == '__main__':
     app.run(debug=True)
