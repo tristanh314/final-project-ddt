@@ -11,6 +11,7 @@ from flask import request
 from flask import render_template, redirect
 from flask import url_for
 from tensorflow.keras.models import load_model
+from joblib import load
 
 #################################################
 # Database Setup - Housing Data
@@ -47,57 +48,55 @@ CORS(app)
 # Route to render index.html
 @app.route("/")
 def home():
-    # 
-    bathrooms = 2
-    bedrooms = 3
-    built = 1975
-    lot_size = 0.15
-    square_feet = 1500
 
-
-    # model = load_model("ML Models/housing_model_trained.h5")
-
-    # low = model.predict(<inputs>).left
-    # high = model.predict(<inputs>).right
-    # models_range = (f'{low} - {high}')
-
-    models_range = np.nan 
-    if models_range != np.nan:
-        models_range = "Input values to find your price range."
-    else:
-        pass
+    models_range = "Input values to find your price range."
 
     # Return template and data
     return render_template("index.html", prediction = models_range)
 
-@app.route("/test/dev/", methods=['POST'])
-def testingDev():
+@app.route("/machineLearning", methods=['POST'])
+def machineLearning():
+    # Load the model, scaler and label encoder.
+    model = load_model("ML Models/housing_model_trained.h5")
+    scaler = load("ML Models/minmax_scaler.bin")
+    label_encoder = load("ML Models/label_encoder.bin")
+    
     # Grabs the entire request dictionary
     user_input = request.values
-        
-    # Printing the method
-    print(f"The method was {request.method}")
-    print("Are you sure you are working?")
-        
-    # Debugging the entire dictionary
-    print(float(initial_request["sqFoot"]) + float(initial_request["lotSize"]))
 
-    return jsonify(initial_request)
-# @app.route("/machineLearning")
-# def city(city_name):
-    
-#     # Run data through Predictor Model
-#     models_prediction = final_model.make_prediction()
-    
-#     # # Time delay
-#     # time.sleep(10)
-    
-#     # Update the Mongo database using update and upsert=True
-#     mongo.db.collection.update({}, updated_prediction, upsert=True)
+    if user_input["bathrooms"]:
+        bath = float(user_input["bathrooms"])
+    else:
+        bath = 0
+    if user_input["bedrooms"]:
+        bed = int(user_input["bedrooms"])
+    else:
+        bed = 0
+    if user_input["yearBuilt"]:
+        built = int(user_input["yearBuilt"])
+    else:
+        built = 0
+    if user_input["lotSize"]:
+        lot = float(user_input["lotSize"])
+    else:
+        lot = 0
+    if user_input["sqFoot"]:
+        sq = int(user_input["sqFoot"])
+    else:
+        sq = 0
 
-#      # Return template and data
-#     return render_template("index.html", make_prediction=models_prediction)
+    # Input data as bathrooms, bedrooms, built, lot_size, square_feet
+    input_data = np.array([[bath,bed,built,lot,sq]])
+    print(input_data)
+    
+    encoded_predictions = model.predict_classes(input_data)
+    prediction_labels = label_encoder.inverse_transform(encoded_predictions)
 
+    models_range = prediction_labels
+
+    # Return template and data
+    return render_template("index.html", prediction = models_range)
+    # return jsonify(initial_request)
 
 @app.route("/housingDataAPI")
 def welcome():
@@ -108,8 +107,9 @@ def welcome():
         f"<a href='/housingDataAPI/v1.0/listings'>Housing Data from past listings in Portland, OR</a><br/>"
     )
 
+
 @app.route("/housingDataAPI/v1.0/listings")   
-def boise():
+def housing_data():
     # Create our session (link) from Python to the DB
     session = Session(engine)
 
@@ -157,6 +157,6 @@ def boise():
         listing_data.append(structure_dict)
 
     return jsonify(listing_data)
-  
+
 if __name__ == '__main__':
     app.run(debug=True)
