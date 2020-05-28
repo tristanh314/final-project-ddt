@@ -89,7 +89,7 @@ def machineLearning():
     input_data = np.array([[bath,bed,built,lot,sq]])
     print(input_data)
     
-    encoded_predictions = model.predict_classes(input_data)
+    encoded_predictions = model.predict_classes(scaler.transform(input_data))
     prediction_labels = label_encoder.inverse_transform(encoded_predictions)
 
     models_range = prediction_labels
