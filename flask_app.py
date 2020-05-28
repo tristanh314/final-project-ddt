@@ -92,7 +92,9 @@ def machineLearning():
     encoded_predictions = model.predict_classes(input_data)
     prediction_labels = label_encoder.inverse_transform(encoded_predictions)
 
-    models_range = prediction_labels
+    high = prediction_labels[0].right
+    low = prediction_labels[0].left
+    models_range = f'${low:,.0f} - ${high:,.0f}'
 
     # Return template and data
     return render_template("index.html", prediction = models_range)
