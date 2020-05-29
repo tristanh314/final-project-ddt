@@ -105,11 +105,20 @@
 					</div>
 					<p class="caution-sign">
 						*** Generic values (unless changed): <br>
-						2 beds, 1 bath, 700 sqft, 2000, 0 acres, Portland Public, 97266 <br>
-						*** Zipcodes: <br>
-						{{list[1]}}<br>
-						*** School Districts:<br>
-						{{list[0]}}
+						2 beds, 1 bath, 700 sqft, 1950, 0 acres, Portland Public, 97266 <br>
+						*** List of Zipcodes: <br>
+						{% for z in list[1] %}
+						{{z}}, 
+						{% endfor %}
+						<br>
+						*** List of School Districts:<br>
+						{% for d in list[0] %}
+						{{d}}, 
+						{% endfor %}
+					</p>
+					<p class="caution-sign" style="color:maroon">
+						{{list[2]}}<br>
+						{{list[3]}}
 					</p>
 				</div>
 			</div> <!-- closes ML output -->
