@@ -48,9 +48,10 @@ button {
     margin-left: 15px;
     background-color: black !important;
     border-color: rgb(136,165,142) !important;
-    /* position: absolute; 
-    bottom: 0px; */
-    width: 98%; 
+    position: absolute; 
+    bottom: 0px;
+    left: 10%;
+    width: 70%; 
 }
 
 .card {
