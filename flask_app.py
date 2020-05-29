@@ -1,4 +1,5 @@
 import numpy as np
+import pandas as pd
 import requests
 from flask_pymongo import PyMongo
 import sqlalchemy
@@ -48,11 +49,18 @@ CORS(app)
 # Route to render index.html
 @app.route("/")
 def home():
+    # Load the model, scaler and label encoder.
+    district_df = pd.read_csv("Resources/district.csv")
+    zipcode_df = pd.read_csv("Resources/zipcode.csv")	
 
+    # Zipcodes and Districts accepted by model
+    listD = district_df.district.tolist()
+    listZ = zipcode_df.zipcode.tolist()
+    listDisZip = [listD,listZ]
     models_range = "Input values to find your price range."
 
     # Return template and data
-    return render_template("index.html", prediction = models_range)
+    return render_template("index.html", prediction = models_range, list = listDisZip)
 
 @app.route("/machineLearning", methods=['POST'])
 def machineLearning():
@@ -60,10 +68,18 @@ def machineLearning():
     model = load_model("ML Models/housing_model_trained.h5")
     scaler = load("ML Models/minmax_scaler.bin")
     label_encoder = load("ML Models/label_encoder.bin")
+    district_df = pd.read_csv("Resources/district.csv")
+    zipcode_df = pd.read_csv("Resources/zipcode.csv")	
+
+    # Zipcodes and Districts accepted by model
+    listD = district_df.district.tolist()
+    listZ = zipcode_df.zipcode.tolist()
+    listDisZip = [listD,listZ]
     
     # Grabs the entire request dictionary
     user_input = request.values
 
+    # Grab user data (bath, bed, built, lot, sqfoot)
     if user_input["bathrooms"]:
         bath = float(user_input["bathrooms"])
     else:
@@ -85,8 +101,37 @@ def machineLearning():
     else:
         sq = 0
 
+    # Print user input
+    print(user_input["zipcode"])
+    print(user_input["schoolDistrict"])
+
+    # Grab complicated user data (zipcode, school district)
+    try:
+        zipcodeRank = zipcode_df.loc[zipcode_df["zipcode"]==(user_input["zipcode"]),
+                                                        "zipcode_rank"].values[0]
+        zipcodeAVG = zipcode_df.loc[zipcode_df["zipcode"]==(user_input["zipcode"]),
+                                                        "zipcodeAVGcost"].values[0]
+    except:
+        zipcodeRank = zipcode_df.loc[zipcode_df["zipcode"] == 97266,
+                                            "zipcode_rank"].values[0]
+        zipcodeAVG = zipcode_df.loc[zipcode_df["zipcode"] == 97266,
+                                            "zipcodeAVGcost"].values[0]
+        
+    try:
+        districtRank = district_df.loc[district_df["district"]==(user_input["schoolDistrict"]),
+                                                        "district_rank"].values[0]
+        districtAVG = district_df.loc[district_df["district"]==(user_input["schoolDistrict"]),
+                                                        "districtAVGcost"].values[0]
+    except:
+        districtRank = district_df.loc[district_df["district"]=="Portland Public",
+                                                "district_rank"].values[0]
+        districtAVG = district_df.loc[district_df["district"]=="Portland Public",
+                                                "districtAVGcost"].values[0]
+        
+   
     # Input data as bathrooms, bedrooms, built, lot_size, square_feet
-    input_data = np.array([[bath,bed,built,lot,sq]])
+    input_data = np.array([[bath,bed,built,lot,sq, districtAVG, 
+                        districtRank, zipcodeAVG, zipcodeRank]])
     print(input_data)
     
     encoded_predictions = model.predict_classes(scaler.transform(input_data))
@@ -97,7 +142,7 @@ def machineLearning():
     models_range = f'${low:,.0f} - ${high:,.0f}'
 
     # Return template and data
-    return render_template("index.html", prediction = models_range)
+    return render_template("index.html", prediction = models_range, list = listDisZip)
     # return jsonify(initial_request)
 
 @app.route("/housingDataAPI")
