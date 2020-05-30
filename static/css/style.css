@@ -28,9 +28,14 @@
 
 .title {
     padding-top: 10px;
-    padding-bottom: 5px;
+    padding-bottom: 10px;
 }
 
+.instructions {
+    margin: auto;
+    padding-bottom: 10px;
+    text-align: center;
+}
 .form-control{
     width: 100%;
 }
