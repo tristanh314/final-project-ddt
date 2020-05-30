@@ -1975,7 +1975,6 @@ address,price,home_type,bedrooms,bathrooms,square_feet,built,lot_size,neighborho
 "3690 NW TUSTIN RANCH DR, Portland OR 97229",569900,Single Family - Traditional,4,3.0,2294,2001,0.11,ARBOR CREEK,Washington,Portland,97229,Sunset,Stoller,Findley
 "6332 NE 30th AVE, Portland OR 97211",569950,Single Family - Contemporary,3,3.0,1682,2020,0.05,unknown,Multnomah,Portland,97211,Jefferson,Vernon,Faubion
 "5949 NE 24TH AVE, Portland OR 97211",574900,Single Family - Tudor,3,4.0,3845,1939,0.13,CONCORDIA / ALBERTA,Multnomah,Portland,97211,Jefferson,Vernon,Vernon
-"7245 N LANCASTER AVE, Portland OR 97217",585000,Single Family - Traditional,4,3.0,2217,2012,0.08,ARBOR LODGE,Multnomah,Portland,97217,Jefferson,Ockley Green,Chief Joseph
 "5540 SE STARK ST, Portland OR 97215",597000,Single Family - English,4,1.0,2421,1927,0.11,MT TABOR,Multnomah,Portland,97215,Franklin,Mt Tabor,Glencoe
 "3404 SE 51ST AVE, Portland OR 97206",599000,Single Family - Craftsman,5,2.0,3387,1908,0.11,Richmond,Multnomah,Portland,97206,Franklin,Creston,Creston
 "5827 NE 32ND PL, Portland OR 97211",600000,Single Family - Tudor,4,2.0,2642,1949,0.11,Concordia,Multnomah,Portland,97211,Madison,Beaumont,Faubion
@@ -2052,7 +2051,6 @@ address,price,home_type,bedrooms,bathrooms,square_feet,built,lot_size,neighborho
 "758 NW 12TH AVE, Portland OR 97209",1050000,Condo - Townhouse,3,4.0,1917,2000,,unknown,Multnomah,Portland,97209,Lincoln,West Sylvan,Chapman
 "6481 SW RANGE TER, Portland OR 97223",1070000,Single Family - Traditional,4,4.0,3904,2008,0.15,Arbor Greens,Washington,Portland,97223,Beaverton,Whitford,Raleigh Hills
 "6719 S CORBETT AVE, Portland OR 97219",1075000,Single Family - Contemporary,3,3.0,2924,2003,0.12,unknown,Multnomah,Portland,97219,Wilson,Jackson,Capitol Hill
-"820 NW 12TH AVE 604, Portland OR 97209",1099000,Condo - Contemporary,2,2.0,1969,1999,,RIVERSTONE/PEARL DISTRICT,Multnomah,Portland,97209,Lincoln,West Sylvan,Chapman
 "1990 SE MULBERRY AVE, Portland OR 97214",1100000,Single Family - FourSquare,4,3.0,3820,1910,0.12,LADD'S ADDITION,Multnomah,Portland,97214,Cleveland,Hosford,Abernethy
 "843 S PALATINE HILL RD, Portland OR 97219",1175000,Single Family - Traditional,5,3.0,3975,1989,0.46,DUNTHORPE RIVERDALE,Multnomah,Portland,97219,Riverdale,Riverdale,Riverdale
 "2697 SW Vista AVE, Portland OR 97201",1185000,Single Family - English,4,4.0,4964,1928,0.22,unknown,Multnomah,Portland,97201,Lincoln,West Sylvan,Ainsworth
@@ -2063,3 +2061,187 @@ address,price,home_type,bedrooms,bathrooms,square_feet,built,lot_size,neighborho
 "14561 NW Larson RD 16,17, Portland OR 97231",1475000,Floating Home - 2 Story,2,3.0,3925,2001,,Channel Island Marina,Multnomah,Portland,97231,Lincoln,Skyline,Skyline
 "1001 NW LOVEJOY ST 1412, Portland OR 97209",1560000,Condo - Contemporary,2,2.0,1651,2006,,Pearl District / Metropol,Multnomah,Portland,97209,Lincoln,West Sylvan,Chapman
 "1225 SW MARY FAILING DR, Portland OR 97219",1895000,Single Family - Traditional,6,6.0,5792,1959,1.03,unknown,Multnomah,Portland,97219,Riverdale,Riverdale,Riverdale
+"2109 NW IRVING ST 111, Portland OR 97210",173850,Condo - FourSquare,1,1.0,437,1910,,NW 23RD/ALPHABET DISTRICT,Multnomah,Portland,97210,Lincoln,West Sylvan,Chapman
+"535 NE Bridgeton ST 4, Portland OR 97211",179000,Floating Home - Other,1,1.0,607,1940,,BRIDGETON,Multnomah,Portland,97211,Jefferson,Faubion,Faubion
+"6222 SE 84TH AVE, Portland OR 97266",212800,Single Family - 1 Story,2,1.0,1132,1902,0.1,unknown,Multnomah,Portland,97266,Other,Other,Other
+"16502 SE MARKET ST, Portland OR 97233",235000,Single Family - Ranch,3,1.0,1188,1955,0.17,unknown,Multnomah,Portland,97233,Centennial,Other,Patrick Lynch
+"863 NE 90TH AVE, Portland OR 97220",244900,Condo - Common Wall,3,3.0,1224,1976,,unknown,Multnomah,Portland,97220,Madison,Roseway Heights,Vestal
+"6500 N MICHIGAN AVE 4, Portland OR 97217",259900,Condo - Row House,1,1.0,544,1941,,PIEDMONT,Multnomah,Portland,97217,Jefferson,Ockley Green,Chief Joseph
+"23586 NW St Helens RD U-76, Portland OR 97231",270000,Floating Home - Contemporary,2,1.0,1050,2002,,Rocky Pointe Marina,Multnomah,Portland,97231,Scappoose,Scappoose,Scappoose
+"590 NW LOST SPRINGS TER 303, Portland OR 97229",279900,Condo - Craftsman,2,2.0,1089,2012,,unknown,Washington,Portland,97229,Sunset,Cedar Park,Cedar Mill
+"2137 SE 180TH AVE, Portland OR 97233",290000,Single Family - Ranch,3,1.0,1008,1959,0.16,CENTENNIAL,Multnomah,Portland,97233,Centennial,Centennial,Patrick Lynch
+"16322 NW CHADWICK WAY 303, Portland OR 97229",294900,Condo - Common Wall,2,2.0,964,2019,,unknown,Washington,Portland,97229,Westview,Stoller,Springville
+"1494 NE 176TH AVE, Portland OR 97230",299000,Condo - 2 Story,3,3.0,1509,2007,0.06,unknown,Multnomah,Portland,97230,Reynolds,H.B. Lee,Wilkes
+"13703 SE GLADSTONE ST, Portland OR 97236",299000,Single Family - Ranch,3,2.0,1040,1981,0.13,unknown,Multnomah,Portland,97236,David Douglas,Alice Ott,Gilbert Hts
+"4508 SE 87TH AVE SE, Portland OR 97266",299000,Single Family - Bungalow,4,1.0,2032,1914,0.1,LENTS,Multnomah,Portland,97266,Franklin,Lent,Lent
+"527 NE SUTTLE ST, Portland OR 97211",299900,Condo - 2 Story,2,3.0,1408,1997,0.04,unknown,Multnomah,Portland,97211,Jefferson,Faubion,Faubion
+"6625 W BURNSIDE RD 228, Portland OR 97210",299900,Condo - Contemporary,2,2.0,1192,1996,,The Qunitet,Washington,Portland,97210,Beaverton,Cedar Park,W Tualatin View
+"240 NE 106TH AVE, Portland OR 97220",299900,Single Family - Cottage,2,1.0,810,1947,0.2,HAZELWOOD,Multnomah,Portland,97220,David Douglas,Floyd Light,Cherry Park
+"544 SE 137TH AVE, Portland OR 97233",299900,Single Family - Ranch,3,1.0,912,1954,0.18,unknown,Multnomah,Portland,97233,David Douglas,Floyd Light,Menlo Park
+"1720 SE 181ST AVE, Portland OR 97233",309900,Single Family - Ranch,3,1.0,1093,1959,0.19,GRESHAM - CENTENNIAL,Multnomah,Portland,97233,Centennial,Centennial,Patrick Lynch
+"9105 SE MORRISON ST, Portland OR 97216",315000,Single Family - Bungalow,3,1.0,966,1947,0.11,MONTAVILLA,Multnomah,Portland,97216,Madison,Harrison Park,Harrison Park
+"4830 SE STARK ST, Portland OR 97215",319000,Condo - Common Wall,2,2.0,821,1971,,NORTH TABOR,Multnomah,Portland,97215,Franklin,Mt Tabor,Glencoe
+"13905 SE RHONE ST, Portland OR 97236",329900,Single Family - 1 Story,3,1.0,816,1953,0.21,unknown,Multnomah,Portland,97236,David Douglas,Alice Ott,Lincoln Park
+"3319 SE 143RD AVE, Portland OR 97236",330000,Condo - Detached Condo,2,2.0,1486,2008,,unknown,Multnomah,Portland,97236,Centennial,Centennial,Pleasant Valley
+"7827 SE 103RD AVE, Portland OR 97266",330000,Single Family - Ranch,3,2.0,1156,1973,0.12,Mt Scott,Multnomah,Portland,97266,David Douglas,Alice Ott,Gilbert Park
+"1500 SW 11TH AVE 606, Portland OR 97201",345000,Condo - Contemporary,1,1.0,603,2006,,CULTURAL ARTS DISTRICT,Multnomah,Portland,97201,Lincoln,West Sylvan,Chapman
+"8005 SE TOLMAN ST, Portland OR 97206",349000,Single Family - Ranch,3,1.0,984,1965,0.1,MT. SCOTT - ARLETA,Multnomah,Portland,97206,Franklin,Lane,Woodmere
+"925 NE 117TH AVE, Portland OR 97220",349000,Single Family - Ranch,3,1.0,1102,1955,0.22,unknown,Multnomah,Portland,97220,David Douglas,Floyd Light,Ventura Park
+"11605 SW 64TH AVE, Portland OR 97219",349900,Single Family - Traditional,3,1.0,936,1939,0.23,ASHCREEK,Multnomah,Portland,97219,Wilson,Jackson,Markham
+"14535 NE BROADWAY ST, Portland OR 97230",349900,Single Family - Daylight Ranch,5,2.0,2322,1963,0.19,RUSSELL,Multnomah,Portland,97230,Reynolds,H.B. Lee,Margaret Scott
+"3703 SE 167TH AVE, Portland OR 97236",350000,Single Family - Ranch,4,2.0,1729,1963,0.17,CENTENNIAL,Multnomah,Portland,97236,Centennial,Centennial,Powell Butte
+"5205 NE 48TH AVE, Portland OR 97218",350000,Single Family - Ranch,3,1.0,1822,1946,,unknown,Multnomah,Portland,97218,Madison,Beaumont,Rigler
+"6817 SE 66TH AVE, Portland OR 97206",355000,Single Family - Bungalow,2,1.0,1858,1913,0.17,BRENTWOOD / DARLINGTON,Multnomah,Portland,97206,Franklin,Lane,Whitman
+"12710 SE LINCOLN ST, Portland OR 97233",359900,Single Family - Bungalow,4,1.0,1741,1945,0.22,unknown,Multnomah,Portland,97233,David Douglas,Ron Russell,Mill Park
+"3821 NE 74TH AVE, Portland OR 97213",365000,Single Family - Bungalow,2,1.0,1018,1926,0.11,ROSEWAY,Multnomah,Portland,97213,Madison,Roseway Heights,Scott
+"19657 NE MULTNOMAH ST, Portland OR 97230",369500,Single Family - Ranch,3,2.0,1408,1968,0.17,unknown,Multnomah,Portland,97230,Reynolds,Reynolds,Salish Ponds
+"9920 N DECATUR ST, Portland OR 97203",369900,Condo - Common Wall,3,3.0,1522,2005,0.05,unknown,Multnomah,Portland,97203,Roosevelt,George,Sitton
+"10020 N MOHAWK AVE, Portland OR 97203",369900,Single Family - Ranch,3,1.0,960,1958,0.11,ST. JOHNS,Multnomah,Portland,97203,Roosevelt,George,Sitton
+"639 N Tomahawk Island DR 639, Portland OR 97217",379900,Condo - 2 Story,3,3.0,2031,1972,,HAYDEN ISLAND / JANTZEN B,Multnomah,Portland,97217,Jefferson,Faubion,Faubion
+"416 NW 13TH AVE, Portland OR 97209",379900,Condo - Loft,1,1.0,740,1910,,CHOWN PELLA,Multnomah,Portland,97209,Lincoln,West Sylvan,Chapman
+"12828 NE HASSALO ST, Portland OR 97230",385000,Single Family - Ranch,4,2.0,2016,1954,0.18,unknown,Multnomah,Portland,97230,David Douglas,Floyd Light,Menlo Park
+"1115 NE 71ST AVE, Portland OR 97213",389900,Single Family - Bungalow,2,1.0,1064,1951,0.12,unknown,Multnomah,Portland,97213,Madison,Vestal,Vestal
+"7388 NW ELISE AVE, Portland OR 97229",389990,Condo - English,3,4.0,1625,2020,0.05,unknown,Washington,Portland,97229,Westview,Stoller,Sato
+"13726 NE SHAVER ST, Portland OR 97230",394900,Single Family - Ranch,4,2.0,1764,1974,0.19,Argay/Strathmore,Multnomah,Portland,97230,Parkrose,Parkrose,Shaver
+"255 SW HARRISON ST 22d, Portland OR 97201",398000,Condo - Contemporary,2,2.0,980,1965,,Harrison West OHSU PSU,Multnomah,Portland,97201,Lincoln,West Sylvan,Ainsworth
+"6217 N ASTOR ST, Portland OR 97203",399000,Single Family - 2 Story,3,3.0,1261,2004,0.11,unknown,Multnomah,Portland,97203,Roosevelt,George,James John
+"3612 SW CUSTER ST, Portland OR 97219",399000,Single Family - Custom Style,3,2.0,1248,1981,0.12,MULTNOMAH VILLAGE,Multnomah,Portland,97219,Wilson,Jackson,Maplewood
+"8601 NE HOLLADAY ST, Portland OR 97220",399900,Single Family - Ranch,3,1.0,1201,1950,0.13,MONTAVILLA,Multnomah,Portland,97220,Madison,Roseway Heights,Vestal
+"7789 NW SPIREA ST, Portland OR 97229",399995,Condo - Contemporary,4,4.0,1723,2020,0.03,THE CROSSING AT ABBEY CRE,Washington,Portland,97229,Westview,Stoller,Springville
+"15859 NE MORRIS ST, Portland OR 97230",400000,Single Family - Tri Level,4,3.0,3792,1966,0.26,unknown,Multnomah,Portland,97230,Reynolds,H.B. Lee,Margaret Scott
+"11932 NE SAN RAFAEL ST, Portland OR 97220",400000,Single Family - Ranch,3,2.0,1608,1962,0.24,unknown,Multnomah,Portland,97220,Parkrose,Parkrose,Sacramento
+"3974 N MONTANA AVE, Portland OR 97227",400000,Single Family - Bungalow,3,1.0,2136,1926,0.07,OVERLOOK,Multnomah,Portland,97227,Jefferson,Ockley Green,Beach
+"6910 SE HENRY ST, Portland OR 97206",400000,Single Family - Traditional,4,3.0,1816,2007,0.08,unknown,Multnomah,Portland,97206,Cleveland,Hosford,Woodstock
+"9619 N KALMAR ST, Portland OR 97203",409900,Single Family - 2 Story,3,3.0,1430,2020,0.06,SAINT JOHNS,Multnomah,Portland,97203,Roosevelt,George,Sitton
+"4812 NE 100TH AVE, Portland OR 97220",409999,Single Family - Ranch,4,2.0,1720,1996,0.17,unknown,Multnomah,Portland,97220,Parkrose,Parkrose,Prescott
+"4738 NW GANNET TER, Portland OR 97229",415000,Condo - Common Wall,3,3.0,2000,1998,0.06,Bethany Knoll,Washington,Portland,97229,Sunset,Stoller,Jacob Wismer
+"4617 SE 33rd AVE, Portland OR 97202",415000,Single Family - Ranch,2,1.0,1142,1964,0.17,Reed,Multnomah,Portland,97202,Cleveland,Hosford,Grout
+"16430 SE HIGH MEADOW LOOP, Portland OR 97236",419000,Single Family - 2 Story,3,3.0,1849,2000,0.21,unknown,Multnomah,Portland,97236,Centennial,Centennial,Butler Creek
+"6949 NE STANTON ST, Portland OR 97213",419000,Single Family - Bungalow,2,1.0,1317,1927,0.13,unknown,Multnomah,Portland,97213,Madison,Roseway Heights,Rose City Park
+"1815 N PRESCOTT ST, Portland OR 97217",419900,Single Family - Ranch,2,1.0,960,1948,0.1,OVERLOOK,Multnomah,Portland,97217,Jefferson,Ockley Green,Beach
+"10232 NW 110TH AVE, Portland OR 97231",419900,Single Family - Bungalow,3,2.0,1555,1929,0.12,unknown,Multnomah,Portland,97231,Lincoln,Skyline,Skyline
+"16178 NW RELIANCE LN 34, Portland OR 97229",419995,Condo - 2 Story,3,3.0,1763,2019,0.04,VINEYARDS AT ABBEY CREEK,Washington,Portland,97229,Westview,Stoller,Springville
+"4794 NE Going ST, Portland OR 97218",420000,Condo - Craftsman,2,2.0,1012,2020,,CULLY,Multnomah,Portland,97218,Madison,Beaumont,Rigler
+"8504 SW 43RD AVE, Portland OR 97219",424000,Single Family - Ranch,3,2.0,1101,1974,0.16,MULTNOMAH VILLAGE AREA,Multnomah,Portland,97219,Wilson,Gray,Maplewood
+"211 S SEYMOUR CT, Portland OR 97230",424900,Condo - Townhouse,2,3.0,1591,2007,0.02,unknown,Multnomah,Portland,97230,Wilson,Jackson,Capitol Hill
+"14607 NW BENNY DR, Portland OR 97229",424900,Single Family - Traditional,3,3.0,1560,1999,0.09,KAISER WOODS,Washington,Portland,97229,Westview,Stoller,Jacob Wismer
+"3716 NE 115TH AVE, Portland OR 97220",425000,Single Family - Capecod,3,2.0,2182,1945,0.16,PARKROSE,Multnomah,Portland,97220,Parkrose,Parkrose,Prescott
+"5423 SE INSLEY ST, Portland OR 97206",425000,Single Family - Bungalow,2,2.0,1713,1912,0.1,Woodstock,Multnomah,Portland,97206,Cleveland,Hosford,Woodstock
+"141 SE 55TH AVE B, Portland OR 97215",425000,Single Family - 2 Story,2,3.0,792,1909,,unknown,Multnomah,Portland,97215,Franklin,Mt Tabor,Glencoe
+"5921 SW 54TH AVE, Portland OR 97221",430000,Single Family - Ranch,3,2.0,1321,1977,0.16,HAYHURST,Multnomah,Portland,97221,Wilson,Gray,Hayhurst
+"3939 N Marine DR 13, Portland OR 97217",434900,Floating Home - Contemporary,4,3.0,1735,1992,,CLASS HARBOR,Multnomah,Portland,97217,Jefferson,Faubion,Faubion
+"6224 SE HARNEY ST, Portland OR 97206",435000,Single Family - Contemporary,5,4.0,2115,1997,0.11,BRENTWOOD - DARLINGTON,Multnomah,Portland,97206,Cleveland,Lane,Whitman
+"503 S TAYLORS FERRY RD, Portland OR 97219",435000,Single Family - Contemporary,2,2.0,1306,1981,0.24,Fulton Park/Burlingame,Multnomah,Portland,97219,Wilson,Gray,Rieke
+"1255 NW 9TH AVE 602, Portland OR 97209",439000,Condo - Contemporary,1,1.0,861,2004,,PEARL DISTRICT / PINNACLE,Multnomah,Portland,97209,Lincoln,West Sylvan,Chapman
+"1100 SW 84TH AVE, Portland OR 97225",439900,Single Family - Ranch,3,2.0,1167,1949,0.38,WEST HAVEN,Washington,Portland,97225,Beaverton,Cedar Park,W Tualatin View
+"352 NE 75TH AVE, Portland OR 97213",439900,Single Family - Bungalow,4,2.0,2036,1903,0.11,unknown,Multnomah,Portland,97213,Madison,Roseway Heights,Vestal
+"415 NE 71ST AVE, Portland OR 97213",449900,Single Family - Ranch,3,2.0,1344,1981,0.11,Jonesmore/Tabor,Multnomah,Portland,97213,Madison,Roseway Heights,Vestal
+"3723 SE 27TH AVE, Portland OR 97202",449900,Single Family - Bungalow,3,1.0,2275,1910,0.08,CRESTON - KENILWORTH,Multnomah,Portland,97202,Cleveland,Hosford,Grout
+"9101 N CHARLESTON AVE, Portland OR 97203",450000,Single Family - Capecod,3,2.0,2125,1954,0.12,ST. JOHNS,Multnomah,Portland,97203,Roosevelt,George,James John
+"15708 SE BYBEE DR, Portland OR 97236",450000,Single Family - Ranch,3,3.0,2349,2000,0.18,unknown,Multnomah,Portland,97236,Centennial,Centennial,Pleasant Valley
+"5802 N KERBY AVE, Portland OR 97217",459000,Single Family - Bungalow,2,1.0,2019,1910,0.11,Humbolt,Multnomah,Portland,97217,Roosevelt,Ockley Green,Beach
+"337 N BALDWIN ST, Portland OR 97217",469900,Single Family - Bungalow,2,2.0,2554,1940,0.11,PIEDMONT,Multnomah,Portland,97217,Roosevelt,Ockley Green,Woodlawn
+"16186 NW RELIANCE LN 35, Portland OR 97229",469995,Condo - 2 Story,3,3.0,1925,2019,0.07,VINEYARDS AT ABBEY CREEK,Washington,Portland,97229,Westview,Stoller,Springville
+"6465 SW LOOP DR, Portland OR 97221",474900,Single Family - Ranch,3,3.0,1954,1954,0.18,unknown,Multnomah,Portland,97221,Wilson,Other,Hayhurst
+"4421 NE 78TH AVE, Portland OR 97218",474999,Single Family - Bungalow,2,2.0,2049,1922,0.11,ROSEWAY,Multnomah,Portland,97218,Madison,Roseway Heights,Scott
+"6955 N KNOWLES AVE, Portland OR 97217",475000,Single Family - Bungalow,2,1.0,2070,1922,0.1,ARBOR LODGE,Multnomah,Portland,97217,Jefferson,Ockley Green,Chief Joseph
+"7515 SE MADISON ST, Portland OR 97215",478900,Single Family - Ranch,3,1.0,1008,1983,0.11,MT. TABOR,Multnomah,Portland,97215,Franklin,Harrison Park,Bridger
+"706 SE 33RD PL #13, Portland OR 97214",479900,Condo - Townhouse,3,3.0,1449,2006,,BELMONT DISTRICT,Multnomah,Portland,97214,Franklin,Sunnyside Env,Sunnyside Env
+"8115 SE YAMHILL ST, Portland OR 97215",479950,Single Family - 2 Story,5,2.0,2386,1917,0.18,unknown,Multnomah,Portland,97215,Franklin,Bridger,Bridger
+"4137 SE 37TH AVE, Portland OR 97202",484990,Single Family - Bungalow,4,2.0,1642,1913,0.08,CRESTON - KENILWORTH,Multnomah,Portland,97202,Cleveland,Hosford,Grout
+"4113 NE 8TH AVE, Portland OR 97211",485000,Single Family - Bungalow,3,3.0,1830,1906,0.11,unknown,Multnomah,Portland,97211,Grant,Harriet Tubman,Sabin
+"7552 N DENVER AVE, Portland OR 97217",489950,Single Family - Tudor,4,2.0,2547,1926,0.12,unknown,Multnomah,Portland,97217,Jefferson,Ockley Green,Chief Joseph
+"3330 NE 75th AVE, Portland OR 97213",495000,Single Family - Traditional,3,3.0,1543,2016,0.06,ROSEWAY,Multnomah,Portland,97213,Madison,Roseway Heights,Jason Lee
+"5223 NE 33RD AVE, Portland OR 97211",495000,Single Family - Cottage,4,3.0,2582,1927,0.11,CONCORDIA,Multnomah,Portland,97211,Madison,Vernon,Vernon
+"2410 NE 164TH AVE, Portland OR 97230",498000,Single Family - Ranch,3,2.0,2124,1986,0.29,SANDSTONE,Multnomah,Portland,97230,Reynolds,H.B. Lee,Wilkes
+"25 NE WYGANT ST, Portland OR 97211",498700,Single Family - FourSquare,4,2.0,2400,1909,0.07,HUMBOLDT,Multnomah,Portland,97211,Grant,Harriet Tubman,Boise-Eliot
+"1930 S RIVER DR W104, Portland OR 97201",499900,Condo - Contemporary,2,2.0,1171,2006,,"Riverplace, Strand, Downt",Multnomah,Portland,97201,Lincoln,West Sylvan,Ainsworth
+"1421 SE 50TH AVE, Portland OR 97215",499900,Single Family - Bungalow,4,2.0,2458,1911,0.08,RICHMOND / HAWTHORNE,Multnomah,Portland,97215,Franklin,Mt Tabor,Glencoe
+"14911 NW ROSSETTA ST, Portland OR 97229",499900,Single Family - Traditional,3,3.0,1500,2015,0.07,unknown,Washington,Portland,97229,Westview,Stoller,Springville
+"5805 SW TAYLOR ST, Portland OR 97221",499900,Single Family - Dutch Colonial,4,2.0,3128,1922,0.47,unknown,Multnomah,Portland,97221,Lincoln,West Sylvan,Bridlemile
+"15232 NW MARIANNA ST, Portland OR 97229",509888,Single Family - Tri Level,4,5.0,2368,2018,0.04,unknown,Washington,Portland,97229,Westview,Stoller,Sato
+"8731 NE BEECH ST, Portland OR 97220",519000,Single Family - Bungalow,4,2.0,2571,1947,0.14,ROCKY BUTTE,Multnomah,Portland,97220,Madison,Roseway Heights,Jason Lee
+"8415 SE 146TH PL, Portland OR 97236",519000,Single Family - Traditional,4,3.0,2697,2007,0.18,CAMBRIDGE CREEK,Multnomah,Portland,97236,Centennial,Centennial,Pleasant Valley
+"5224 SE BOISE ST, Portland OR 97206",519900,Single Family - Farmhouse,3,2.0,2489,1913,0.14,Foster Powell/Creston,Multnomah,Portland,97206,Franklin,Creston,Creston
+"60 NW 87TH AVE, Portland OR 97229",520000,Single Family - 2 Story,3,3.0,1968,1960,0.24,unknown,Washington,Portland,97229,Beaverton,Cedar Park,W Tualatin View
+"5580 SE COOPER ST A, Portland OR 97206",524900,Single Family - NW Contemporary,3,3.0,1814,2020,0.19,WOODSTOCK AREA,Multnomah,Portland,97206,Cleveland,Sellwood,Lewis
+"6714 SW CANYON TER, Portland OR 97225",525000,Condo - Townhouse,2,3.0,2018,2000,0.07,unknown,Washington,Portland,97225,Lincoln,West Sylvan,Bridlemile
+"4326 SW FALLING CREEK CT, Portland OR 97219",525000,Single Family - Traditional,4,3.0,2480,2003,0.12,West Portland Park,Multnomah,Portland,97219,Wilson,Jackson,Markham
+"4946 NE 35TH PL, Portland OR 97211",525000,Single Family - Capecod,4,2.0,1832,1913,0.09,CONCORDIA,Multnomah,Portland,97211,Jefferson,Vernon,Vernon
+"937 NW GLISAN ST 732, Portland OR 97209",534500,Condo - Contemporary,1,1.0,943,2008,,PEARL DISTRICT / 937 COND,Multnomah,Portland,97209,Lincoln,West Sylvan,Chapman
+"2807 SW 1ST AVE, Portland OR 97201",540000,Single Family - Victorian,4,2.0,2337,1890,0.03,unknown,Multnomah,Portland,97201,Lincoln,West Sylvan,Chapman
+"4636 SE 33RD PL, Portland OR 97202",545000,Single Family - 2 Story,4,3.0,1910,1971,0.12,unknown,Multnomah,Portland,97202,Cleveland,Hosford,Grout
+"7929 N DANA AVE, Portland OR 97203",545000,Single Family - Craftsman,4,3.0,2712,1900,0.17,unknown,Multnomah,Portland,97203,Roosevelt,Astor,Astor
+"7429 SE 141ST AVE, Portland OR 97236",549900,Single Family - Traditional,4,4.0,3696,1993,0.16,unknown,Multnomah,Portland,97236,David Douglas,Alice Ott,Gilbert Park
+"3020 SE 51ST AVE, Portland OR 97206",550000,Single Family - Craftsman,3,2.0,1904,1908,0.1,unknown,Multnomah,Portland,97206,Franklin,Creston,Creston
+"8500 SW CECILIA TER, Portland OR 97223",550000,Single Family - 1 Story,4,2.0,2071,1966,0.23,unknown,Washington,Portland,97223,Beaverton,Whitford,Raleigh Hills
+"20012 NW METOLIUS DR, Portland OR 97229",550000,Single Family - Farmhouse,5,3.0,2561,1978,0.22,ROCK CREEK,Washington,Portland,97229,Westview,Stoller,Rock Creek
+"6363 NE 31ST AVE, Portland OR 97211",560000,Single Family - Traditional,4,2.0,2519,1943,0.11,CONCORDIA,Multnomah,Portland,97211,Jefferson,Faubion,Faubion
+"3405 NE 15TH AVE, Portland OR 97212",569900,Single Family - Bungalow,3,2.0,2653,1938,0.13,unknown,Multnomah,Portland,97212,Grant,Harriet Tubman,Sabin
+"866 SW SHAKER PL, Portland OR 97225",574900,Condo - Craftsman,3,3.0,2304,2005,0.05,Braedon Heights,Washington,Portland,97225,Sunset,Cedar Park,W Tualatin View
+"2704 N TERRY ST, Portland OR 97217",575000,Single Family - Bungalow,3,2.0,2610,1914,0.11,KENTON,Multnomah,Portland,97217,Jefferson,Ockley Green,Peninsula
+"10298 SW LANCASTER RD, Portland OR 97219",575000,Single Family - Daylight Ranch,5,2.0,2772,1950,0.71,unknown,Multnomah,Portland,97219,Wilson,Jackson,Stephenson
+"132 SW 105TH TER, Portland OR 97225",575000,Single Family - Traditional,5,3.0,2996,2003,0.13,PETERKORT VILLAGE,Washington,Portland,97225,Beaverton,Cedar Park,W Tualatin View
+"6630 SW BOUNDARY ST, Portland OR 97225",579000,Single Family - Traditional,3,3.0,2183,1986,0.21,RALEIGH HILLS,Washington,Portland,97225,Southridge,Whitford,Montclair
+"12592 NW FOREST SPRING LN, Portland OR 97229",590000,Single Family - English,4,4.0,2404,2002,0.1,Bauer Highlands,Washington,Portland,97229,Sunset,Stoller,Findley
+"3011 NE 33RD AVE, Portland OR 97212",599000,Single Family - English,3,1.0,2855,1928,0.08,ALAMEDA,Multnomah,Portland,97212,Grant,Beaumont,Alameda
+"3440 N WILLIS BLVD, Portland OR 97217",599900,Single Family - FourSquare,3,3.0,2111,2013,0.1,unknown,Multnomah,Portland,97217,Roosevelt,Peninsula,Peninsula
+"6824 NE EMERSON ST, Portland OR 97218",625000,Single Family - Contemporary,3,2.0,2139,1943,0.4,CULLY ASSOCIATION OF NEIG,Multnomah,Portland,97218,Madison,Roseway Heights,Scott
+"17512 NW WALTUCK CT, Portland OR 97229",625000,Single Family - Traditional,4,3.0,3095,1995,0.16,GRENELEFE/BETHANY,Washington,Portland,97229,Westview,Meadow Park,Bethany
+"800 NE 148TH AVE, Portland OR 97230",625000,Single Family - Ranch,7,4.0,2827,1955,0.27,unknown,Multnomah,Portland,97230,Reynolds,H.B. Lee,Glenfair
+"8306 NW REED DR, Portland OR 97229",639900,Single Family - Traditional,4,3.0,2746,1991,0.34,NORTHWEST HEIGHTS,Multnomah,Portland,97229,Lincoln,West Sylvan,Forest Park
+"4904 SW FAIRHAVEN LN, Portland OR 97221",640000,Single Family - Daylight Ranch,4,2.0,2778,1972,0.37,SYLVAN,Multnomah,Portland,97221,Lincoln,West Sylvan,Ainsworth
+"8946 SW TERWILLIGER BLVD, Portland OR 97219",649900,Single Family - Craftsman,4,3.0,2602,2008,0.1,unknown,Multnomah,Portland,97219,Wilson,Jackson,Capitol Hill
+"4017 N ALBINA AVE, Portland OR 97227",650000,Condo - Row House,3,3.0,1960,2014,0.05,MISSISSIPPI,Multnomah,Portland,97227,Jefferson,Harriet Tubman,Boise-Eliot
+"4686 NW DRESDEN PL, Portland OR 97229",669000,Single Family - Traditional,3,3.0,2279,2005,0.09,BAUER HIGHLANDS/ BETHANY,Washington,Portland,97229,Sunset,Stoller,Findley
+"17641 SW 80TH PL, Portland OR 97224",686000,Single Family - Traditional,4,3.0,2654,1995,0.19,unknown,Washington,Portland,97224,Tualatin,Twality,Durham
+"211 SW FLORIDA ST, Portland OR 97219",689500,Single Family - Contemporary,3,3.0,3300,2002,0.11,BURLINGAME,Multnomah,Portland,97219,Wilson,Gray,Rieke
+"4038 SE MADISON ST, Portland OR 97214",699900,Single Family - Bungalow,4,3.0,2260,1908,0.1,SUNNYSIDE / HAWTHORNE,Multnomah,Portland,97214,Franklin,Sunnyside Env,Sunnyside Env
+"9729 NW RANDALL LN, Portland OR 97229",699900,Single Family - Traditional,5,4.0,3696,2001,0.18,unknown,Washington,Portland,97229,Lincoln,West Sylvan,Forest Park
+"2443 NE 8TH AVE, Portland OR 97212",700000,Single Family - Bungalow,4,2.0,3184,1913,0.11,IRVINGTON,Multnomah,Portland,97212,Grant,Harriet Tubman,Irvington
+"3100 SE 21ST AVE, Portland OR 97202",709000,Single Family - FourSquare,3,2.0,2690,1907,0.09,unknown,Multnomah,Portland,97202,Cleveland,Hosford,Abernethy
+"4423 NE 31ST AVE, Portland OR 97211",724990,Single Family - Bungalow,4,2.0,2026,1921,0.11,ALAMEDA PARK,Multnomah,Portland,97211,Grant,Harriet Tubman,Sabin
+"13382 NW HARTFORD ST, Portland OR 97229",725000,Single Family - Contemporary,5,3.0,2756,2000,0.15,Crystal Park,Washington,Portland,97229,Sunset,Stoller,Findley
+"4720 SE OGDEN ST, Portland OR 97206",729000,Single Family - Contemporary,4,3.0,2565,2018,0.11,WOODSTOCK,Multnomah,Portland,97206,Cleveland,Sellwood,Lewis
+"5240 NE COUCH ST, Portland OR 97213",734900,Condo - Contemporary,3,4.0,2102,2019,0.03,NORTH MT TABOR,Multnomah,Portland,97213,Franklin,Mt Tabor,Glencoe
+"1604 NE 48TH AVE, Portland OR 97213",735000,Single Family - Craftsman,4,2.0,2980,1910,0.11,Hollywood,Multnomah,Portland,97213,Madison,Roseway Heights,Rose City Park
+"4618 N CONGRESS AVE, Portland OR 97217",735000,Single Family - FourSquare,3,4.0,2609,2007,0.06,HUMBOLDT,Multnomah,Portland,97217,Jefferson,Harriet Tubman,Boise-Eliot
+"14638 NW LILIANA LN, Portland OR 97229",739900,Single Family - Contemporary,4,3.0,3279,2020,0.13,OAK HILLS / BETHANY,Washington,Portland,97229,Sunset,Meadow Park,Oak Hills
+"2442 NE 8TH AVE, Portland OR 97212",749000,Single Family - Bungalow,4,2.0,2663,1923,0.11,IRVINGTON,Multnomah,Portland,97212,Grant,Harriet Tubman,Irvington
+"7105 SE LINCOLN ST, Portland OR 97215",749000,Single Family - Bungalow,4,2.0,2956,1956,0.12,MT TABOR,Multnomah,Portland,97215,Franklin,Bridger,Bridger
+"14656 NW LILIANA LN, Portland OR 97229",749000,Single Family - Contemporary,5,3.0,3023,2020,0.14,Oak Hills/Bethany,Washington,Portland,97229,Sunset,Meadow Park,Oak Hills
+"239 SW WHITAKER ST, Portland OR 97239",749000,Single Family - Tudor,4,3.0,2773,1934,0.11,LAIR HILL,Multnomah,Portland,97239,Lincoln,West Sylvan,Ainsworth
+"1310 NW NAITO PKWY, Portland OR 97209",749900,Condo - Contemporary,2,2.0,1475,2007,,Watrerfront Pearl,Multnomah,Portland,97209,Lincoln,West Sylvan,Chapman
+"4034 SE SHERMAN ST, Portland OR 97214",759950,Single Family - Craftsman,4,4.0,2271,2017,0.05,Richmond,Multnomah,Portland,97214,Franklin,Mt Tabor,Glencoe
+"937 NW GLISAN ST 930, Portland OR 97209",765000,Condo - Common Wall,2,2.0,1335,2008,,PEARL DISTRICT / 937 COND,Multnomah,Portland,97209,Lincoln,West Sylvan,Chapman
+"7479 SW 51ST AVE, Portland OR 97219",768500,Single Family - NW Contemporary,5,3.0,2717,2017,0.13,MAPLEWOOD,Multnomah,Portland,97219,Wilson,Jackson,Maplewood
+"5711 NW PRIMINO AVE, Portland OR 97229",775000,Single Family - Craftsman,4,4.0,3631,2016,0.11,Arbor Heights,Washington,Portland,97229,Sunset,Stoller,Jacob Wismer
+"5589 NW 133RD AVE, Portland OR 97229",789000,Single Family - 2 Story,5,3.0,3705,2016,0.13,unknown,Washington,Portland,97229,Sunset,Stoller,Jacob Wismer
+"14884 NW VANCE DR, Portland OR 97229",797900,Single Family - Ranch,4,3.0,3298,2001,0.16,Wismer Ridge,Washington,Portland,97229,Sunset,Stoller,Jacob Wismer
+"1626 NW RIVERSCAPE ST, Portland OR 97209",799000,Condo - Contemporary,3,4.0,1872,2006,,NW DISTRICT,Multnomah,Portland,97209,Lincoln,West Sylvan,Chapman
+"3701 NE Davis ST, Portland OR 97232",800000,Single Family - Craftsman,3,3.0,3099,1913,0.11,LAURELHURST,Multnomah,Portland,97232,Grant,Laurelhurst,Laurelhurst
+"1310 NW NAITO PKWY 806A, Portland OR 97209",825000,Condo - Contemporary,3,2.0,1711,2007,,NW PORTLAND,Multnomah,Portland,97209,Lincoln,West Sylvan,Chapman
+"7330 SW BRENNE LN, Portland OR 97225",829000,Single Family - Daylight Ranch,5,3.0,4237,1970,0.32,RALEIGH PARK,Washington,Portland,97225,Beaverton,Whitford,Raleigh Park
+"141 SE 55TH AVE A, Portland OR 97215",839000,Single Family - 2 Story,5,3.0,2942,2020,,unknown,Multnomah,Portland,97215,Franklin,Mt Tabor,Glencoe
+"13905 SW 158TH TER, Portland OR 97224",849900,Single Family - Traditional,4,3.0,2793,1983,0.47,unknown,Washington,Portland,97224,Tigard,Fowler,Mary Woodward
+"6901 SE OAKS PARK WAY G, Portland OR 97202",850000,Floating Home - Contemporary,3,3.0,3000,1987,,Oregon Yacht Club,Multnomah,Portland,97202,Cleveland,Sellwood,Llewellyn
+"15411 NW DOMINION DR, Portland OR 97229",875000,Single Family - Traditional,7,5.0,4224,2013,0.12,unknown,Washington,Portland,97229,Sunset,Meadow Park,Oak Hills
+"1414 SW 3RD AVE 2002, Portland OR 97201",895000,Condo - Contemporary,2,2.0,1960,1985,,KOIN TOWER,Multnomah,Portland,97201,Lincoln,West Sylvan,Chapman
+"6601 SE 38TH AVE, Portland OR 97202",899900,Single Family - Daylight Ranch,4,3.0,3335,1956,0.32,EASTMORELAND,Multnomah,Portland,97202,Cleveland,Sellwood,Duniway
+"3947 NE RODNEY AVE, Portland OR 97212",940000,Single Family - Live Work Unit,5,3.0,2401,1912,0.23,unknown,Multnomah,Portland,97212,Jefferson,Harriet Tubman,Boise-Eliot
+"1334 SE 43RD AVE, Portland OR 97215",945000,Single Family - Contemporary,4,3.0,2739,2017,0.1,HAWTHORNE / RICHMOND,Multnomah,Portland,97215,Franklin,Mt Tabor,Glencoe
+"2930 SE CLAYBOURNE ST, Portland OR 97202",1000000,Single Family - Capecod,4,4.0,3971,1941,0.13,EASTMORELAND,Multnomah,Portland,97202,Cleveland,Sellwood,Duniway
+"311 NW 12TH AVE, Portland OR 97209",1200000,Condo - Contemporary,2,2.0,2126,2007,,PEARL DISTRICT,Multnomah,Portland,97209,Lincoln,West Sylvan,Chapman
+"3341 N WILLAMETTE BLVD, Portland OR 97217",1229000,Single Family - Contemporary,3,3.0,2434,1956,0.12,unknown,Multnomah,Portland,97217,Jefferson,Ockley Green,Chief Joseph
+"294 NW MACLEAY BLVD, Portland OR 97210",1249500,Single Family - English,3,4.0,3098,1925,0.16,KINGS HEIGHTS,Multnomah,Portland,97210,Lincoln,West Sylvan,Chapman
+"700 SW 48th DR, Portland OR 97221",1275000,Single Family - Contemporary,3,4.0,3600,1994,0.88,unknown,Multnomah,Portland,97221,Lincoln,West Sylvan,Ainsworth
+"841 S GAINES ST 1812, Portland OR 97239",1350000,Condo - Contemporary,2,3.0,2157,2007,,SOUTH WATERFRONT ATWATER ,Multnomah,Portland,97239,Wilson,Jackson,Capitol Hill
+"2020 SW MARKET STREET DR 104, Portland OR 97201",1375000,Condo - Common Wall,2,3.0,2137,1997,,unknown,Multnomah,Portland,97201,Lincoln,West Sylvan,Chapman
+"8336 NW Thompson RD, Portland OR 97229",1450000,Single Family - Traditional,4,4.0,6637,2003,0.27,FOREST HEIGHTS,Multnomah,Portland,97229,Lincoln,West Sylvan,Forest Park
+"836 SW CURRY ST 1200, Portland OR 97239",1495000,Condo - Contemporary,2,3.0,2382,2006,,unknown,Multnomah,Portland,97239,Wilson,Jackson,Capitol Hill
+"8711 NW SAVOY LN, Portland OR 97229",1595000,Single Family - Contemporary,4,4.0,3917,2017,0.14,FOREST PARK,Washington,Portland,97229,Sunset,Cedar Park,Cedar Mill
+"1530 S CAREY LN, Portland OR 97219",1695000,Single Family - FourSquare,4,6.0,4602,1910,0.29,Dunthorpe,Multnomah,Portland,97219,Riverdale,Riverdale,Riverdale
+"6835 SE 29TH AVE, Portland OR 97202",1750000,Single Family - Colonial,5,5.0,7206,1951,0.24,EASTMORELAND,Multnomah,Portland,97202,Cleveland,Sellwood,Duniway
+"2351 NW WESTOVER RD 1201, Portland OR 97210",1895000,Condo - Contemporary,2,2.0,2327,2007,,NOB HILL,Multnomah,Portland,97210,Lincoln,West Sylvan,Chapman
+"11510 S MILITARY CT, Portland OR 97219",2150000,Single Family - Colonial,5,5.0,6898,1942,0.62,DUNTHORPE RIVERDALE,Multnomah,Portland,97219,Riverdale,Riverdale,Riverdale
+"707 NW SKYLINE CREST RD, Portland OR 97229",2645000,Single Family - Contemporary,5,5.0,5870,2017,0.82,NW PORTLAND / SKYLINE,Multnomah,Portland,97229,Lincoln,West Sylvan,Forest Park
