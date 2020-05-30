@@ -52,11 +52,12 @@ def home():
     # Load the model, scaler and label encoder.
     district_df = pd.read_csv("Resources/district.csv")
     zipcode_df = pd.read_csv("Resources/zipcode.csv")	
-
+    generic_search = [2, 1, 700, 1950, 0, "Portland Public", 97266]
     # Zipcodes and Districts accepted by model
     # listD = district_df.district.tolist()
     # listZ = zipcode_df.zipcode.tolist()
-    listDisZip = [district_df.district.tolist(),zipcode_df.zipcode.tolist()]
+    listDisZip = [district_df.district.tolist(),zipcode_df.zipcode.tolist(), 
+            generic_search]
     models_range = "Input values to find your price range."
 
     # Return template and data
@@ -143,7 +144,7 @@ def machineLearning():
     data_input = [bed, bath, sq, built, lot, sd, zcode] 
 
     # Items to display on website
-    listDisZip = [listD,listZ, warning1, warning2, data_input]
+    listDisZip = [listD, listZ, data_input, warning1, warning2]
 
 
     # Input data as bathrooms, bedrooms, built, lot_size, square_feet
