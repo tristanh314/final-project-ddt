@@ -104,17 +104,10 @@
 						{{prediction}}
 					</div>
 					<p class="caution-sign">
-						*** Generic values (unless changed): <br>
-						2 beds, 1 bath, 700 sqft, 1950, 0 acres, Portland Public, 97266 <br>
-						*** List of Zipcodes: <br>
-						{% for z in list[1] %}
-						{{z}}, 
-						{% endfor %}
-						<br>
-						*** List of School Districts:<br>
-						{% for d in list[0] %}
-						{{d}}, 
-						{% endfor %}
+						*** Your search was: <br>
+						{{list[4][0]}} beds, {{list[4][1]}} bath, {{list[4][2]}} sqft, 
+						{{list[4][3]}}, {{list[4][4]}} acres, {{list[4][5]}}, 
+						{{list[4][6]}} <br>
 					</p>
 					<p class="caution-sign" style="color:maroon">
 						{{list[2]}}<br>
@@ -123,6 +116,25 @@
 				</div>
 			</div> <!-- closes ML output -->
 		</div> <!-- closes Data Section -->
+		<!-- Accepted Zipcodes and Districts -->
+		<div class="row zip-district">
+			<div class="col-md-6">
+				<p>
+					*** Available Zipcodes: <br>
+					{% for z in list[1] %}
+					{{z}}, 
+					{% endfor %}
+				</p>
+			</div>
+			<div class="col-md-6">
+				<p>
+					*** Available School Districts:<br>
+					{% for d in list[0] %}
+					{{d}}, 
+					{% endfor %}
+				</p>
+			</div>
+		</div> <!-- closes Zipcodes and Districts  -->	
 	</div> <!-- closes Website Container -->
 	<!-- Footer -->
 	<div class="row col-md-12">

@@ -130,11 +130,24 @@ def machineLearning():
         districtAVG = district_df.loc[district_df["district"]=="Portland Public",
                                                 "districtAVGcost"].values[0]
         warning2 = ["District was not found or inputted. Portland Public was used."]
-        
+    # User input
+    if (user_input["schoolDistrict"]):
+        sd = user_input["schoolDistrict"]
+    else:
+        sd = "Portland Public"
+    if (user_input["zipcode"]):
+        zcode = (user_input["zipcode"])
+    else:
+        zcode = 97266
+
+    data_input = [bed, bath, sq, built, lot, sd, zcode] 
+
     # Items to display on website
-    listDisZip = [listD,listZ, warning1, warning2]
+    listDisZip = [listD,listZ, warning1, warning2, data_input]
+
 
     # Input data as bathrooms, bedrooms, built, lot_size, square_feet
+    # district avg cost, district rank, zipcode avg cost, zipcode rank
     input_data = np.array([[bath,bed,built,lot,sq, districtAVG, 
                         districtRank, zipcodeAVG, zipcodeRank]])
     print(input_data)

@@ -78,6 +78,10 @@ button {
 }
 
 .data-section {
+    /* padding-bottom: 75px; */
+    padding-bottom: 15px;
+}
+.zip-district {
     padding-bottom: 75px;
 }
 
