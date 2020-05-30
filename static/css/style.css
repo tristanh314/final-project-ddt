@@ -66,13 +66,12 @@ button {
 .card-footer {
     color:rgb(136,165,142);
     font-size: xx-large;
-    
     padding-top: 20px;
     padding-bottom: 20px;
 }
 
 .caution-sign {
-    padding-top: 25px;
+    padding-top: 15px;
     padding-bottom: 5px;
     padding-left: 15px;
 }
@@ -83,6 +82,7 @@ button {
 }
 .zip-district {
     padding-bottom: 75px;
+    color:rgb(136,165,142);
 }
 
 /* footer of page */
