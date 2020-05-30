@@ -47,32 +47,32 @@
 							<input  type="integer" class="form-control"  name="bedrooms">
 						</div>
 						<div class="form-group col-md-6">
+							<label for="Lot Size">
+								Lot Size (Acres):
+							</label>
+							<input type="float" class="form-control" name="lotSize">
+						</div>
+					</div>
+					<div class="row">
+						<div class="form-group col-md-6">
 							<label for="Bathrooms">
 								Number of Bathrooms:
 							</label>
 							<input  type="float" class="form-control" name="bathrooms">
 						</div>
+						<div class="form-group col-md-6">
+							<label for="School District">
+								School District:
+							</label>
+							<input type="integer" class="form-control" name="schoolDistrict">
+						</div>
 					</div>
 					<div class="row">
-						<div class="form-group col-md-6">
-							<label for="Year Built">
-								Year Built:
-							</label>
-							<input type="integer" class="form-control" name="yearBuilt">
-						</div>
 						<div class="form-group col-md-6">	
 							<label for="Square Footage">
 								Square Feet:
 							</label>
 							<input type="integer" class="form-control" name="sqFoot">
-						</div>
-					</div>
-					<div class="row">
-						<div class="form-group col-md-6">
-							<label for="Lot Size">
-								Lot Size (Acres):
-							</label>
-							<input type="float" class="form-control" name="lotSize">
 						</div>
 						<div class="form-group col-md-6">
 							<label for="Zipcode">
@@ -82,7 +82,13 @@
 						</div>
 					</div>
 					<div class="row">
-						<div class="col-md-12 button-class">
+						<div class="form-group col-md-6">
+							<label for="Year Built">
+								Year Built:
+							</label>
+							<input type="integer" class="form-control" name="yearBuilt">
+						</div>
+						<div class="col-md-6 button-class">
 							<button type="submit" class="btn btn-primary" valign="bottom">Submit</button>
 						</div>
 					</div>
@@ -98,13 +104,37 @@
 						{{prediction}}
 					</div>
 					<p class="caution-sign">
-						*** Fields left blank will be filled in with the following generic values: <br>
-						2 beds, 1 bath, 700 sqft, 2000 (built year), 0 acres, 97266 <br>
-						Please fill in each field for a more specific search.
+						*** Your search was: <br>
+						{{list[4][0]}} beds, {{list[4][1]}} bath, {{list[4][2]}} sqft, 
+						{{list[4][3]}}, {{list[4][4]}} acres, {{list[4][5]}}, 
+						{{list[4][6]}} <br>
+					</p>
+					<p class="caution-sign" style="color:maroon">
+						{{list[2]}}<br>
+						{{list[3]}}
 					</p>
 				</div>
 			</div> <!-- closes ML output -->
 		</div> <!-- closes Data Section -->
+		<!-- Accepted Zipcodes and Districts -->
+		<div class="row zip-district">
+			<div class="col-md-6">
+				<p>
+					*** Available Zipcodes: <br>
+					{% for z in list[1] %}
+					{{z}}, 
+					{% endfor %}
+				</p>
+			</div>
+			<div class="col-md-6">
+				<p>
+					*** Available School Districts:<br>
+					{% for d in list[0] %}
+					{{d}}, 
+					{% endfor %}
+				</p>
+			</div>
+		</div> <!-- closes Zipcodes and Districts  -->	
 	</div> <!-- closes Website Container -->
 	<!-- Footer -->
 	<div class="row col-md-12">
