@@ -25,17 +25,18 @@
 		<div class="row">
 			<div class="col-md-12 title text-center">
 				<h2>
-					PDX Housing Prices
+					PDX Housing Price Estimator
 				</h2>
+				<hr>
 			</div>
 		</div> <!-- closes Header -->
 		<!-- Data Section -->
 		<div class="row data-section">
 			<div class="MLinput col-md-7">
 				<div class="row">
-					<p>	
+					<p class="instructions">	
 						Below are input fields you can fill out to return a 
-						suggested buying/selling price for your home.
+						suggested buying/selling price range for your home.
 					</p>
 				</div>
 				<form role="form" action="{{ url_for('machineLearning')}}" method="POST">
