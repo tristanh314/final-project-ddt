@@ -1,7 +1,6 @@
 import numpy as np
 import pandas as pd
 import requests
-from flask_pymongo import PyMongo
 import sqlalchemy
 from sqlalchemy.ext.automap import automap_base
 from sqlalchemy.orm import Session
@@ -25,10 +24,6 @@ Base.prepare(engine, reflect=True)
 # Create a database session object.
 session = Session(engine)
 
-# # Get the table names of the database.
-# inspector = inspect(engine)
-# inspector.get_table_names()
-
 # Save a reference to the listings table as "Listings".
 Listings = Base.classes.listings
 
@@ -36,12 +31,6 @@ Listings = Base.classes.listings
 #################################################
 app = Flask(__name__)
 CORS(app)
-
-# Database Setup - Model Prediction
-#################################################
-
-# # Use PyMongo to establish Mongo connection
-# mongo = PyMongo(app, uri="mongodb://localhost:27017/housing_model_predictions")
 
 # Flask Routes
 #################################################
