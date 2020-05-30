@@ -104,14 +104,14 @@
 						{{prediction}}
 					</div>
 					<p class="caution-sign">
-						*** Your search was: <br>
-						{{list[4][0]}} beds, {{list[4][1]}} bath, {{list[4][2]}} sqft, 
-						{{list[4][3]}}, {{list[4][4]}} acres, {{list[4][5]}}, 
-						{{list[4][6]}} <br>
+						Search inputs: <br>
+						{{list[2][0]}} beds, {{list[2][1]}} bath, {{list[2][2]}} sqft, 
+						{{list[2][3]}}, {{list[2][4]}} acres, {{list[2][5]}}, 
+						{{list[2][6]}} <br>
 					</p>
 					<p class="caution-sign" style="color:maroon">
-						{{list[2]}}<br>
-						{{list[3]}}
+						{{list[3]}}<br>
+						{{list[4]}}
 					</p>
 				</div>
 			</div> <!-- closes ML output -->
@@ -120,7 +120,7 @@
 		<div class="row zip-district">
 			<div class="col-md-6">
 				<p>
-					*** Available Zipcodes: <br>
+					Available Zipcodes: <br>
 					{% for z in list[1] %}
 					{{z}}, 
 					{% endfor %}
@@ -128,7 +128,7 @@
 			</div>
 			<div class="col-md-6">
 				<p>
-					*** Available School Districts:<br>
+					Available School Districts:<br>
 					{% for d in list[0] %}
 					{{d}}, 
 					{% endfor %}
@@ -139,7 +139,7 @@
 	<!-- Footer -->
 	<div class="row col-md-12">
 		<p class="text-center copyright fixed-bottom">
-			© Copyright © DANIEL LOVE, TRISTAN HOLMES, & DEVIN MILIGAN 2020
+			© Copyright © DANIEL LOVE, TRISTAN HOLMES, & DEVIN MILLIGAN 2020
 		</p>
 	</div> <!-- closes Footer -->
 
