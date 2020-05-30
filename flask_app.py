@@ -1,7 +1,6 @@
 import numpy as np
 import pandas as pd
 import requests
-from flask_pymongo import PyMongo
 import sqlalchemy
 from sqlalchemy.ext.automap import automap_base
 from sqlalchemy.orm import Session
