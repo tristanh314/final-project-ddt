@@ -1,4 +1,5 @@
 import numpy as np
+import pandas as pd
 import requests
 from flask_pymongo import PyMongo
 import sqlalchemy
@@ -48,11 +49,18 @@ CORS(app)
 # Route to render index.html
 @app.route("/")
 def home():
+    # Load the model, scaler and label encoder.
+    district_df = pd.read_csv("Resources/district.csv")
+    zipcode_df = pd.read_csv("Resources/zipcode.csv")	
 
+    # Zipcodes and Districts accepted by model
+    # listD = district_df.district.tolist()
+    # listZ = zipcode_df.zipcode.tolist()
+    listDisZip = [district_df.district.tolist(),zipcode_df.zipcode.tolist()]
     models_range = "Input values to find your price range."
 
     # Return template and data
-    return render_template("index.html", prediction = models_range)
+    return render_template("index.html", prediction = models_range, list = listDisZip)
 
 @app.route("/machineLearning", methods=['POST'])
 def machineLearning():
@@ -60,22 +68,29 @@ def machineLearning():
     model = load_model("ML Models/housing_model_trained.h5")
     scaler = load("ML Models/minmax_scaler.bin")
     label_encoder = load("ML Models/label_encoder.bin")
+    district_df = pd.read_csv("Resources/district.csv")
+    zipcode_df = pd.read_csv("Resources/zipcode.csv")	
+
+    # Zipcodes and Districts accepted by model
+    listD = district_df.district.tolist()
+    listZ = zipcode_df.zipcode.tolist()
     
     # Grabs the entire request dictionary
     user_input = request.values
 
+    # Grab user data (bath, bed, built, lot, sqfoot)
     if user_input["bathrooms"]:
         bath = float(user_input["bathrooms"])
     else:
-        bath = 0
+        bath = 1
     if user_input["bedrooms"]:
         bed = int(user_input["bedrooms"])
     else:
-        bed = 0
+        bed = 2
     if user_input["yearBuilt"]:
         built = int(user_input["yearBuilt"])
     else:
-        built = 0
+        built = 1950
     if user_input["lotSize"]:
         lot = float(user_input["lotSize"])
     else:
@@ -83,19 +98,69 @@ def machineLearning():
     if user_input["sqFoot"]:
         sq = int(user_input["sqFoot"])
     else:
-        sq = 0
+        sq = 700
+
+    # Print user input
+    print(user_input["zipcode"])
+    print(user_input["schoolDistrict"])
+
+    # Grab complicated user data (zipcode, school district)
+    try:
+        zipcodeRank = zipcode_df.loc[zipcode_df["zipcode"]==int(user_input["zipcode"]),
+                                                        "zipcode_rank"].values[0]
+        zipcodeAVG = zipcode_df.loc[zipcode_df["zipcode"]==int(user_input["zipcode"]),
+                                                        "zipcodeAVGcost"].values[0]
+        warning1=""
+    except:
+        zipcodeRank = zipcode_df.loc[zipcode_df["zipcode"] == 97266,
+                                            "zipcode_rank"].values[0]
+        zipcodeAVG = zipcode_df.loc[zipcode_df["zipcode"] == 97266,
+                                            "zipcodeAVGcost"].values[0]
+        warning1 = ["Zipcode was not found or inputted. 97266 was used."]
+        
+    try:
+        districtRank = district_df.loc[district_df["district"]==(user_input["schoolDistrict"]),
+                                                        "district_rank"].values[0]
+        districtAVG = district_df.loc[district_df["district"]==(user_input["schoolDistrict"]),
+                                                        "districtAVGcost"].values[0]
+        warning2=""
+    except:
+        districtRank = district_df.loc[district_df["district"]=="Portland Public",
+                                                "district_rank"].values[0]
+        districtAVG = district_df.loc[district_df["district"]=="Portland Public",
+                                                "districtAVGcost"].values[0]
+        warning2 = ["District was not found or inputted. Portland Public was used."]
+    # User input
+    if (user_input["schoolDistrict"]):
+        sd = user_input["schoolDistrict"]
+    else:
+        sd = "Portland Public"
+    if (user_input["zipcode"]):
+        zcode = (user_input["zipcode"])
+    else:
+        zcode = 97266
+
+    data_input = [bed, bath, sq, built, lot, sd, zcode] 
+
+    # Items to display on website
+    listDisZip = [listD,listZ, warning1, warning2, data_input]
+
 
     # Input data as bathrooms, bedrooms, built, lot_size, square_feet
-    input_data = np.array([[bath,bed,built,lot,sq]])
+    # district avg cost, district rank, zipcode avg cost, zipcode rank
+    input_data = np.array([[bath,bed,built,lot,sq, districtAVG, 
+                        districtRank, zipcodeAVG, zipcodeRank]])
     print(input_data)
     
-    encoded_predictions = model.predict_classes(input_data)
+    encoded_predictions = model.predict_classes(scaler.transform(input_data))
     prediction_labels = label_encoder.inverse_transform(encoded_predictions)
 
-    models_range = prediction_labels
+    high = prediction_labels[0].right
+    low = prediction_labels[0].left
+    models_range = f'${low:,.0f} - ${high:,.0f}'
 
     # Return template and data
-    return render_template("index.html", prediction = models_range)
+    return render_template("index.html", prediction = models_range, list = listDisZip)
     # return jsonify(initial_request)
 
 @app.route("/housingDataAPI")

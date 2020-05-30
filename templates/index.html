@@ -1,87 +1,150 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>PDX Housing Price Predictor</title>
+	<title>PDX Housing Price Predictor</title>
 
-    <meta name="description" content="Source code generated using layoutit.com">
-    <meta name="author" content="LayoutIt!">
+	<meta name="description" content="Source code generated using layoutit.com">
+	<meta name="author" content="LayoutIt!">
 
-    <link href="../static/css/bootstrap.css" rel="stylesheet">
-    <link href="../static/css/style.css" rel="stylesheet">
-
-  </head>
-  <body>
-
+	<link href="../static/css/bootstrap.css" rel="stylesheet">
+	<link href="../static/css/style.css" rel="stylesheet">
+</head>
+<body>
+	<!-- Top Picture -->
+	<div class="top">
+		<img class="banner" src="../static/images/bridge.jpg">
+		<div class="house-title">PDX Housing Prices</div>
+	</div> <!-- closes Top Picture -->
+	<!-- Website Container -->
     <div class="container-fluid">
-		<!-- <a>
-			<img class="banner" src="../static/images/skyline-of-portland-oregon.jpg">
-		</a> -->
-	<div class="row">
-		<div class="col-md-12">
-			<h2>
-				PDX Housing Prices
-			</h2>
-			<p>
-				Below are input fields you must fill out to return a suggested buying/selling price for your home. 
-			</p>
-			<form role="form" action="{{ url_for('machineLearning')}}" method="POST">
-				<div class="form-group">
-					 
-					<label for="Bedrooms">
-						Number of Bedrooms:
-					</label>
-					<input  type="integer" class="form-control"  name="bedrooms">
-				</div>
-				<div class="form-group">
-					 
-					<label for="Bathrooms">
-						Number of Bathrooms:
-					</label>
-					<input  type="float" class="form-control" name="bathrooms">
-				</div>
-				<div class="form-group">
-					 
-					<label for="Year built">
-						Year Built:
-					</label>
-					<input type="integer" class="form-control" name="yearBuilt">
-				</div>
-				<div class="form-group">
-					 
-					<label for="Square Footage">
-						Square Feet:
-					</label>
-					<input type="integer" class="form-control" name="sqFoot">
-				</div>
-
-				<div class="form-group">
-					 
-					<label for="Square Footage">
-						Lot Size (Acres):
-					</label>
-					<input type="float" class="form-control" name="lotSize">
-				</div>
-
-				<button type="submit" class="btn btn-primary">Submit</button>
-			</form>
-			<div class="card">
-				<h5 class="card-header">
-					Your Expected Price
-				</h5>
-				<div class="card-footer">
-					{{prediction}}
-				</div>
+		<!-- Header -->
+		<div class="row">
+			<div class="col-md-12 title text-center">
+				<h2>
+					PDX Housing Prices
+				</h2>
 			</div>
-		</div>
-	</div>
-</div>
+		</div> <!-- closes Header -->
+		<!-- Data Section -->
+		<div class="row data-section">
+			<div class="MLinput col-md-7">
+				<div class="row">
+					<p>	
+						Below are input fields you can fill out to return a 
+						suggested buying/selling price for your home.
+					</p>
+				</div>
+				<form role="form" action="{{ url_for('machineLearning')}}" method="POST">
+					<div class="row">
+						<div class="form-group col-md-6">
+							<label for="Bedrooms">
+								Number of Bedrooms:
+							</label>
+							<input  type="integer" class="form-control"  name="bedrooms">
+						</div>
+						<div class="form-group col-md-6">
+							<label for="Lot Size">
+								Lot Size (Acres):
+							</label>
+							<input type="float" class="form-control" name="lotSize">
+						</div>
+					</div>
+					<div class="row">
+						<div class="form-group col-md-6">
+							<label for="Bathrooms">
+								Number of Bathrooms:
+							</label>
+							<input  type="float" class="form-control" name="bathrooms">
+						</div>
+						<div class="form-group col-md-6">
+							<label for="School District">
+								School District:
+							</label>
+							<input type="integer" class="form-control" name="schoolDistrict">
+						</div>
+					</div>
+					<div class="row">
+						<div class="form-group col-md-6">	
+							<label for="Square Footage">
+								Square Feet:
+							</label>
+							<input type="integer" class="form-control" name="sqFoot">
+						</div>
+						<div class="form-group col-md-6">
+							<label for="Zipcode">
+								Zipcode:
+							</label>
+							<input type="integer" class="form-control" name="zipcode">
+						</div>
+					</div>
+					<div class="row">
+						<div class="form-group col-md-6">
+							<label for="Year Built">
+								Year Built:
+							</label>
+							<input type="integer" class="form-control" name="yearBuilt">
+						</div>
+						<div class="col-md-6 button-class">
+							<button type="submit" class="btn btn-primary" valign="bottom">Submit</button>
+						</div>
+					</div>
+				</form>
+			</div> <!-- closes ML input -->
+			<!-- ML output -->
+			<div class="col-md-5 MLoutput"> 
+				<div class="card">
+					<h5 class="card-header">
+						Your Expected Price Range
+					</h5>
+					<div class="card-footer">
+						{{prediction}}
+					</div>
+					<p class="caution-sign">
+						*** Your search was: <br>
+						{{list[4][0]}} beds, {{list[4][1]}} bath, {{list[4][2]}} sqft, 
+						{{list[4][3]}}, {{list[4][4]}} acres, {{list[4][5]}}, 
+						{{list[4][6]}} <br>
+					</p>
+					<p class="caution-sign" style="color:maroon">
+						{{list[2]}}<br>
+						{{list[3]}}
+					</p>
+				</div>
+			</div> <!-- closes ML output -->
+		</div> <!-- closes Data Section -->
+		<!-- Accepted Zipcodes and Districts -->
+		<div class="row zip-district">
+			<div class="col-md-6">
+				<p>
+					*** Available Zipcodes: <br>
+					{% for z in list[1] %}
+					{{z}}, 
+					{% endfor %}
+				</p>
+			</div>
+			<div class="col-md-6">
+				<p>
+					*** Available School Districts:<br>
+					{% for d in list[0] %}
+					{{d}}, 
+					{% endfor %}
+				</p>
+			</div>
+		</div> <!-- closes Zipcodes and Districts  -->	
+	</div> <!-- closes Website Container -->
+	<!-- Footer -->
+	<div class="row col-md-12">
+		<p class="text-center copyright fixed-bottom">
+			© Copyright © DANIEL LOVE, TRISTAN HOLMES, & DEVIN MILIGAN 2020
+		</p>
+	</div> <!-- closes Footer -->
 
     <script src="../static/js/jquery.min.js"></script>
     <script src="../static/js/bootstrap.min.js"></script>
     <script src="../static/js/scripts.js"></script>
-  </body>
+</body>
 </html>
