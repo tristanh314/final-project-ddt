@@ -74,11 +74,11 @@ def machineLearning():
     else:
         bath = 1
     if user_input["bedrooms"]:
-        bed = int(user_input["bedrooms"])
+        bed = float(user_input["bedrooms"])
     else:
         bed = 2
     if user_input["yearBuilt"]:
-        built = int(user_input["yearBuilt"])
+        built = float(user_input["yearBuilt"])
     else:
         built = 1950
     if user_input["lotSize"]:
@@ -86,7 +86,7 @@ def machineLearning():
     else:
         lot = 0
     if user_input["sqFoot"]:
-        sq = int(user_input["sqFoot"])
+        sq = float(user_input["sqFoot"])
     else:
         sq = 700
 
