@@ -47,7 +47,7 @@ def home():
     # listZ = zipcode_df.zipcode.tolist()
     listDisZip = [district_df.district.tolist(),zipcode_df.zipcode.tolist(), 
             generic_search]
-    models_range = "Input values to find your price range."
+    models_range = "Input values to see your results."
 
     # Return template and data
     return render_template("index.html", prediction = models_range, list = listDisZip)
