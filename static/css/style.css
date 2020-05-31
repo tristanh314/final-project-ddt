@@ -32,9 +32,9 @@
 }
 
 .instructions {
-    margin: auto;
+    /* margin: auto; */
+    padding-left: 15px;
     padding-bottom: 10px;
-    text-align: center;
 }
 .form-control{
     width: 100%;
@@ -86,7 +86,7 @@ button {
     padding-bottom: 15px;
 }
 .zip-district {
-    padding-bottom: 75px;
+    padding-bottom: 70px;
     color:rgb(136,165,142);
 }
 

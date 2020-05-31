@@ -120,6 +120,7 @@ def machineLearning():
         districtAVG = district_df.loc[district_df["district"]=="Portland Public",
                                                 "districtAVGcost"].values[0]
         warning2 = ["District was not found or inputted. Portland Public was used."]
+    
     # User input
     if (user_input["schoolDistrict"]):
         sd = user_input["schoolDistrict"]
@@ -129,7 +130,7 @@ def machineLearning():
         zcode = (user_input["zipcode"])
     else:
         zcode = 97266
-
+    
     data_input = [bed, bath, sq, built, lot, sd, zcode] 
 
     # Items to display on website
