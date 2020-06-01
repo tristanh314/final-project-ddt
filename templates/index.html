@@ -65,7 +65,7 @@
 							<label for="School District">
 								School District:
 							</label>
-							<input type="integer" class="form-control" name="schoolDistrict" value="{{list[2][5]}}"> 
+							<input type="string" class="form-control" name="schoolDistrict" value="{{list[2][5]}}"> 
 						</div>
 					</div>
 					<div class="row">
@@ -111,12 +111,11 @@
 						{{list[2][6]}} <br>
 					</p>
 					<p class="caution-sign" style="color:maroon">
-						{% for a in list[3] %}
-						{{a}}
-						{% endfor %}<br>
-						{% for b in list[4] %}
-						{{b}}
-						{% endfor %}
+						{{list[3]}} 
+						{{list[4]}}
+						{{list[5]}} 
+						{{list[6]}}
+						{{list[7]}}
 					</p>
 				</div>
 			</div> <!-- closes ML output -->
@@ -128,7 +127,7 @@
 				<p>
 					Available Zipcodes: <br>
 					{% for z in list[1] %}
-					{{z}}, 
+					{{z}} |  
 					{% endfor %}
 				</p>
 			</div>
@@ -136,7 +135,7 @@
 				<p>
 					Available School Districts:<br>
 					{% for d in list[0] %}
-					{{d}}, 
+					{{d}} | 
 					{% endfor %}
 				</p>
 			</div>
