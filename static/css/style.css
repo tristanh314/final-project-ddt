@@ -73,12 +73,14 @@ button {
     font-size: xx-large;
     padding-top: 20px;
     padding-bottom: 20px;
+    padding-right: 15px;
 }
 
 .caution-sign {
     padding-top: 15px;
     padding-bottom: 5px;
     padding-left: 15px;
+    padding-right: 15px;
 }
 
 .data-section {
