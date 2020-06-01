@@ -96,27 +96,27 @@ def machineLearning():
 
     # Grab complicated user data (zipcode, school district)
     try:
-        zipcodeRank = zipcode_df.loc[zipcode_df["zipcode"]==int(user_input["zipcode"]),
-                                                        "zipcode_rank"].values[0]
+        # zipcodeRank = zipcode_df.loc[zipcode_df["zipcode"]==int(user_input["zipcode"]),
+        #                                                 "zipcode_rank"].values[0]
         zipcodeAVG = zipcode_df.loc[zipcode_df["zipcode"]==int(user_input["zipcode"]),
                                                         "zipcodeAVGcost"].values[0]
         warning1=""
     except:
-        zipcodeRank = zipcode_df.loc[zipcode_df["zipcode"] == 97266,
-                                            "zipcode_rank"].values[0]
+        # zipcodeRank = zipcode_df.loc[zipcode_df["zipcode"] == 97266,
+        #                                     "zipcode_rank"].values[0]
         zipcodeAVG = zipcode_df.loc[zipcode_df["zipcode"] == 97266,
                                             "zipcodeAVGcost"].values[0]
         warning1 = ["Zipcode was not found or inputted. 97266 was used."]
         
     try:
-        districtRank = district_df.loc[district_df["district"]==(user_input["schoolDistrict"]),
-                                                        "district_rank"].values[0]
+        # districtRank = district_df.loc[district_df["district"]==(user_input["schoolDistrict"]),
+        #                                                 "district_rank"].values[0]
         districtAVG = district_df.loc[district_df["district"]==(user_input["schoolDistrict"]),
                                                         "districtAVGcost"].values[0]
         warning2=""
     except:
-        districtRank = district_df.loc[district_df["district"]=="Portland Public",
-                                                "district_rank"].values[0]
+        # districtRank = district_df.loc[district_df["district"]=="Portland Public",
+        #                                         "district_rank"].values[0]
         districtAVG = district_df.loc[district_df["district"]=="Portland Public",
                                                 "districtAVGcost"].values[0]
         warning2 = ["District was not found or inputted. Portland Public was used."]
@@ -139,8 +139,7 @@ def machineLearning():
 
     # Input data as bathrooms, bedrooms, built, lot_size, square_feet
     # district avg cost, district rank, zipcode avg cost, zipcode rank
-    input_data = np.array([[bath,bed,built,lot,sq, districtAVG, 
-                        districtRank, zipcodeAVG, zipcodeRank]])
+    input_data = np.array([[bath,bed,built,lot,sq, districtAVG, zipcodeAVG]])
     print(input_data)
     
     encoded_predictions = model.predict_classes(scaler.transform(input_data))
