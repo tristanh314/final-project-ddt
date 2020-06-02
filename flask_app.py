@@ -130,10 +130,22 @@ def machineLearning():
         zcode = 97266
     
     data_input = [bed, bath, sq, built, lot, sd, zcode] 
+    warning_messages = ["Bedrooms requires an integer.", "Square Feet requires an integer.",
+                        "Year Built requires an integer.", "District was not found.",
+                        "Zipcode was not found."]
+    warning_list = [warning1, warning2, warning3, warning4, warning5]
+
+    for warning in warning_list:
+        if warning in warning_messages:
+            warning6 = "Replaced with value(s) listed above."
+            break
+        else:
+            warning6 = ""
+    print(warning_list) 
 
     # Items to display on website
     listDisZip = [listD, listZ, data_input, warning1, warning2,
-                 warning3, warning4, warning5]
+                 warning3, warning4, warning5, warning6]
 
 
     # Input data as bathrooms, bedrooms, built, lot_size, square_feet
