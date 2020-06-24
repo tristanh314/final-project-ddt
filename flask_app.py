@@ -10,7 +10,8 @@ from flask_cors import CORS
 from flask import request
 from flask import render_template, redirect
 from flask import url_for
-import pickle
+from tensorflow.keras.models import load_model
+from joblib import load
 
 #################################################
 # Database Setup - Housing Data
@@ -54,9 +55,9 @@ def home():
 @app.route("/machineLearning", methods=['POST'])
 def machineLearning():
     # Load the model, scaler and label encoder.
-    scaler = pickle.load(open("ML Models/minmax_scaler.pkl", "rb"))
-    label_encoder = pickle.load(open("ML Models/label_encoder.pkl", "rb"))
-    model = pickle.load(open("ML Models/housing_model_trained.pkl", "rb"))
+    model = load_model("ML Models/housing_model_trained.h5")
+    scaler = load("ML Models/minmax_scaler.bin")
+    label_encoder = load("ML Models/label_encoder.bin")
     district_df = pd.read_csv("Resources/district.csv")
     zipcode_df = pd.read_csv("Resources/zipcode.csv")	
 
@@ -68,26 +69,32 @@ def machineLearning():
     user_input = request.values
 
     # Grab user data (bath, bed, built, lot, sqfoot)
-    if user_input["bathrooms"]:
+    try:
         bath = float(user_input["bathrooms"])
-    else:
+    except:
         bath = 1
-    if user_input["bedrooms"]:
-        bed = float(user_input["bedrooms"])
-    else:
+    try:
+        bed = int(user_input["bedrooms"])
+        warning1 = ""
+    except:
         bed = 2
-    if user_input["yearBuilt"]:
-        built = float(user_input["yearBuilt"])
-    else:
+        warning1 = "Bedrooms requires an integer."
+    try:
+        built = int(user_input["yearBuilt"])
+        warning3 = ""
+    except:
         built = 1950
-    if user_input["lotSize"]:
+        warning3 = "Year Built requires an integer."
+    try:
         lot = float(user_input["lotSize"])
-    else:
+    except:
         lot = 0
-    if user_input["sqFoot"]:
-        sq = float(user_input["sqFoot"])
-    else:
-        sq = 700
+    try:
+        sq = int(user_input["sqFoot"])
+        warning2 = ""
+    except:
+        sq = 900
+        warning2 = "Square Feet requires an integer."
 
     # Print user input
     print(user_input["zipcode"])
@@ -95,51 +102,56 @@ def machineLearning():
 
     # Grab complicated user data (zipcode, school district)
     try:
-#         zipcodeRank = zipcode_df.loc[zipcode_df["zipcode"]==int(user_input["zipcode"]),
-#                                                         "zipcode_rank"].values[0]
         zipcodeAVG = zipcode_df.loc[zipcode_df["zipcode"]==int(user_input["zipcode"]),
                                                         "zipcodeAVGcost"].values[0]
-        warning1=""
+        warning5 = ""
     except:
-#         zipcodeRank = zipcode_df.loc[zipcode_df["zipcode"] == 97266,
-#                                             "zipcode_rank"].values[0]
         zipcodeAVG = zipcode_df.loc[zipcode_df["zipcode"] == 97266,
                                             "zipcodeAVGcost"].values[0]
-        warning1 = ["Zipcode was not found or inputted. 97266 was used."]
+        warning5 = ("Zipcode was not found.")
         
     try:
-#         districtRank = district_df.loc[district_df["district"]==(user_input["schoolDistrict"]),
-#                                                         "district_rank"].values[0]
         districtAVG = district_df.loc[district_df["district"]==(user_input["schoolDistrict"]),
                                                         "districtAVGcost"].values[0]
-        warning2=""
+        warning4 = ""
     except:
-#         districtRank = district_df.loc[district_df["district"]=="Portland Public",
-#                                                 "district_rank"].values[0]
         districtAVG = district_df.loc[district_df["district"]=="Portland Public",
                                                 "districtAVGcost"].values[0]
-        warning2 = ["District was not found or inputted. Portland Public was used."]
+        warning4 = ("District was not found.")
     
     # User input
-    if (user_input["schoolDistrict"]):
+    if (user_input["schoolDistrict"]) in district_df["district"] :
         sd = user_input["schoolDistrict"]
     else:
         sd = "Portland Public"
-    if (user_input["zipcode"]):
+    if (user_input["zipcode"]) in zipcode_df["zipcode"]:
         zcode = (user_input["zipcode"])
     else:
         zcode = 97266
     
     data_input = [bed, bath, sq, built, lot, sd, zcode] 
+    warning_messages = ["Bedrooms requires an integer.", "Square Feet requires an integer.",
+                        "Year Built requires an integer.", "District was not found.",
+                        "Zipcode was not found."]
+    warning_list = [warning1, warning2, warning3, warning4, warning5]
+
+    for warning in warning_list:
+        if warning in warning_messages:
+            warning6 = "Replaced with value(s) listed above."
+            break
+        else:
+            warning6 = ""
+    print(warning_list) 
 
     # Items to display on website
-    listDisZip = [listD, listZ, data_input, warning1, warning2]
+    listDisZip = [listD, listZ, data_input, warning1, warning2,
+                 warning3, warning4, warning5, warning6]
 
 
     # Input data as bathrooms, bedrooms, built, lot_size, square_feet
     # district avg cost, district rank, zipcode avg cost, zipcode rank
-    input_data = np.array([[bath,bed,built,lot,sq, districtAVG, 
-                            zipcodeAVG]])
+    input_data = np.array([[bath,bed,(2020-built),lot,sq, 
+                            districtAVG, zipcodeAVG]])
     print(input_data)
     
     encoded_predictions = model.predict_classes(scaler.transform(input_data))
@@ -151,7 +163,6 @@ def machineLearning():
 
     # Return template and data
     return render_template("index.html", prediction = models_range, list = listDisZip)
-    # return jsonify(initial_request)
 
 @app.route("/housingDataAPI")
 def welcome():
