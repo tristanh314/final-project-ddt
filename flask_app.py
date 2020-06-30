@@ -16,7 +16,7 @@ from joblib import load
 #################################################
 # Database Setup - Housing Data
 #################################################
-engine = create_engine("sqlite:///Resources/housingUpdated.sqlite")
+engine = create_engine("sqlite:///Resources/housing.sqlite")
 
 Base = automap_base()
 Base.prepare(engine, reflect=True)
