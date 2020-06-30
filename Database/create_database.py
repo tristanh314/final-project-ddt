@@ -26,7 +26,7 @@ class Listing(Base):
     elementary_school = Column(String(255))
 
 # Create the database connection.
-database_path = "Resources/housingUpdated.sqlite"
+database_path = "../Resources/housing.sqlite"
 engine = create_engine(f"sqlite:///{database_path}")
 conn = engine.connect()
 session = Session(bind=engine)
@@ -38,7 +38,7 @@ Base.metadata.drop_all(engine)
 Base.metadata.create_all(engine)
 
 # Store the scraped data as a data frame.
-scraped_data = pd.read_csv("Resources/housingDataUpdated.csv")
+scraped_data = pd.read_csv("../Resources/housingData.csv")
 
 # Insert data into the database.
 for _, row in scraped_data.iterrows():
