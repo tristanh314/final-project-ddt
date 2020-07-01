@@ -248,6 +248,10 @@ for _, row in data_combined.iterrows():
 # Commit all listings
 session.commit()
 
+# Remove rows where high school is listed as "Current Price:".
+deletion = Listing.__table__.delete().where(Listings.high_school=="Current Price:")
+engine.execute(deletion)
+
 # Close the session.
 session.close()
 
