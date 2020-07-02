@@ -10,7 +10,7 @@ from flask_cors import CORS
 from flask import request
 from flask import render_template, redirect
 from flask import url_for
-from tensorflow.keras.models import load_model
+from sklearn.model_selection import GridSearchCV
 from joblib import load
 
 #################################################
@@ -55,7 +55,7 @@ def home():
 @app.route("/machineLearning", methods=['POST'])
 def machineLearning():
     # Load the model, scaler and label encoder.
-    model = load_model("ML Models/housing_model_trained.h5")
+    model = load("ML Models/mlp_classifier.bin")
     scaler = load("ML Models/minmax_scaler.bin")
     label_encoder = load("ML Models/label_encoder.bin")
     district_df = pd.read_csv("Resources/district.csv")
@@ -149,7 +149,8 @@ def machineLearning():
 
 
     # Input data as bathrooms, bedrooms, built, lot_size, square_feet
-    # district avg cost, district rank, zipcode avg cost, zipcode rank
+    # district, and zip code.
+    
     input_data = np.array([[bath,bed,(2020-built),lot,sq, 
                             districtAVG, zipcodeAVG]])
     print(input_data)
