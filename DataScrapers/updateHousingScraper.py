@@ -12,11 +12,11 @@ from sqlalchemy.orm import Session
 from sqlalchemy.ext.declarative import declarative_base
 
 # Initialize Splinter
-executable_path = {'executable_path': '/Users/daniellove/Downloads/chromedriver'}
+executable_path = {'executable_path': '../Resources/chromedriver.exe'}
 browser = Browser('chrome', **executable_path, headless=True)
 
 # Directing splinter to webpage
-portlandMLS_url = 'https://www.portlandmlsdirect.com/cgi-bin/real?pge=newsearch&state=na&widget=true&sortby=price&area=Portland+%28City%29&price_lo=0&price_hi=100000000&tot_bed_lo=0&tot_bath_lo=0&htype=ALL'
+portlandMLS_url = 'https://www.portlandmlsdirect.com/fine/real/estate/newsearch/cityname/Portland'
 browser.visit(portlandMLS_url)
 
 # Create variables
@@ -59,7 +59,7 @@ for p in range(1, page_count):
 print(len(updated_links))
 
 # List of links of the data previously scrape
-with open("../Resources/housing_linksUpdated.txt", "rb") as fp:   # Unpickling
+with open("../Resources/housing_links.txt", "rb") as fp:   # Unpickling
     link_list = pickle.load(fp)
 
 # Create variables
@@ -174,15 +174,15 @@ new_housing_data_df = pd.DataFrame(list_home_dict)
 new_housing_data_df.drop_duplicates(inplace=True)
 
 # Combine new data, drop duplicates
-scraped_data = pd.read_csv("../Resources/housingDataUpdated.csv")
+scraped_data = pd.read_csv("../Resources/housingData.csv")
 data_combined = scraped_data.append(new_housing_data_df)
 data_combined.drop_duplicates(inplace=True)
 
 # Drop duplicates and save housing data
-data_combined.to_csv("../Resources/housingDataUpdated.csv", index = False, header = True)
+data_combined.to_csv("../Resources/housingData.csv", index = False, header = True)
 
 # Save updated list of links
-with open("../Resources/housing_linksUpdated.txt", "wb") as fp:   #Pickling
+with open("../Resources/housing_links.txt", "wb") as fp:   #Pickling
     pickle.dump(link_list, fp)
 
 print(data_combined.shape)
@@ -213,7 +213,7 @@ class Listing(Base):
     elementary_school = Column(String(255))
 
 # Create the database connection.
-database_path = "../Resources/housingUpdated.sqlite"
+database_path = "../Resources/housing.sqlite"
 engine = create_engine(f"sqlite:///{database_path}")
 conn = engine.connect()
 session = Session(bind=engine)
@@ -247,6 +247,10 @@ for _, row in data_combined.iterrows():
 
 # Commit all listings
 session.commit()
+
+# Remove rows where high school is listed as "Current Price:".
+deletion = Listing.__table__.delete().where(Listings.high_school=="Current Price:")
+engine.execute(deletion)
 
 # Close the session.
 session.close()
