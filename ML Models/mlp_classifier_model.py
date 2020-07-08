@@ -7,7 +7,6 @@
 import numpy as np
 import pandas as pd
 
-import requests
 import json
 
 from sklearn.neural_network import MLPClassifier
@@ -17,13 +16,69 @@ from sklearn.preprocessing import LabelEncoder
 from sklearn.model_selection import GridSearchCV
 from sklearn.metrics import mean_squared_error
 
+from sqlalchemy.ext.automap import automap_base
+from sqlalchemy.orm import Session
+from sqlalchemy import create_engine, inspect, func
+
 from joblib import dump, load
 
-# Fetch the data from the API.
-listings_json = requests.get("http://127.0.0.1:5000/housingDataAPI/v1.0/listings").json()
+# Prepare engine for database connection.
+engine = create_engine("sqlite:///Resources/housing.sqlite")
+
+Base = automap_base()
+Base.prepare(engine, reflect=True)
+
+# Create a database session object.
+session = Session(engine)
+
+# Save a reference to the listings table as "Listings".
+Listings = Base.classes.listings
+
+# Query listing data
+housing_data = session.query(
+    Listings.address,
+    Listings.price,
+    Listings.home_type,
+    Listings.bedrooms,
+    Listings.bathrooms,
+    Listings.square_feet,
+    Listings.built,
+    Listings.lot_size,
+    Listings.neighborhood,
+    Listings.county,
+    Listings.city,
+    Listings.zipcode,
+    Listings.high_school,
+    Listings.middle_school,
+    Listings.elementary_school,
+).all()
+    
+session.close()
+
+# Create a dictionary to hold listing data
+listing_data = []
+for (address, price, home_type, bedrooms, bathrooms, square_feet, built, lot_size, neighborhood, 
+county, city, zipcode, high_school, middle_school, elementary_school) in housing_data:
+    structure_dict = {}
+    structure_dict["address"] = address
+    structure_dict["price"] = price
+    structure_dict["home_type"] = home_type
+    structure_dict["bedrooms"] = bedrooms
+    structure_dict["bathrooms"] = bathrooms
+    structure_dict["square_feet"] = square_feet
+    structure_dict["built"] = built
+    structure_dict["lot_size"] = lot_size
+    structure_dict["neighborhood"] = neighborhood
+    structure_dict["county"] = county
+    structure_dict["city"] = city
+    structure_dict["zipcode"] = zipcode
+    structure_dict["high_school"] = high_school
+    structure_dict["middle_school"] = middle_school
+    structure_dict["elementary_school"] = elementary_school
+    listing_data.append(structure_dict)
 
 # Create a dataframe to use for our model.
-data_df = pd.DataFrame(listings_json)
+data_df = pd.DataFrame(listing_data)
 
 # Data Preprocessing
 
@@ -160,8 +215,7 @@ grid = GridSearchCV(model,
                     {
                         "alpha":10.0 ** -np.arange(1, 7),
                         "learning_rate_init":10.0 ** -np.arange(1, 7),
-                        "max_iter":[100, 200, 300],
-                        
+                        "max_iter":[100, 200, 300],    
                     },
                     verbose=2)
 grid.fit(X_train_scaled, encoded_y_train)
@@ -174,18 +228,3 @@ print(f"Accuracy: {model_accuracy}")
 
 # Save the model
 dump(grid, 'mlp_classifier.bin', compress=True)
-
-# Test the Saved Model, Scaler, and Label Encoder
-
-# Load the model, scaler and label encoder.
-model = load("mlp_classifier.bin")
-scaler = load("standard_scaler.bin")
-label_encoder = load("label_encoder.bin")
-
-# Input data for testing.
-input_data = np.array(np.array([X.iloc[0]]))
-
-encoded_predictions = model.predict(scaler.transform(input_data))
-prediction_labels = label_encoder.inverse_transform(encoded_predictions)
-
-print(f"{prediction_labels[0].left}, {prediction_labels[0].right}")

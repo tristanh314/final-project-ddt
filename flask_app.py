@@ -1,7 +1,6 @@
 import numpy as np
 import pandas as pd
 import requests
-import sqlalchemy
 from sqlalchemy.ext.automap import automap_base
 from sqlalchemy.orm import Session
 from sqlalchemy import create_engine, inspect, func
@@ -153,12 +152,12 @@ def machineLearning():
 
     # Input data as bathrooms, bedrooms, built, lot_size, square_feet
     # district, and zip code.
-    input_data = np.array(np.array([[bath,
+    input_data = np.array([[bath,
         bed,
         2020-built,
         lot,
         sq, 
-    ] + ([0] * 45 )]))
+    ] + ([0] * 45 )])
 
     # Place the value for district in the appropriate dummy column.
     i = 5
