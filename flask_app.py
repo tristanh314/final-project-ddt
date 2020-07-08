@@ -56,7 +56,7 @@ def home():
 def machineLearning():
     # Load the model, scaler and label encoder.
     model = load("ML Models/mlp_classifier.bin")
-    scaler = load("ML Models/minmax_scaler.bin")
+    scaler = load("ML Models/standard_scaler.bin")
     label_encoder = load("ML Models/label_encoder.bin")
     district_df = pd.read_csv("Resources/district.csv")
     zipcode_df = pd.read_csv("Resources/zipcode.csv")	
@@ -71,89 +71,113 @@ def machineLearning():
     # Grab user data (bath, bed, built, lot, sqfoot)
     try:
         bath = float(user_input["bathrooms"])
-    except:
-        bath = 1
-    try:
-        bed = int(user_input["bedrooms"])
         warning1 = ""
     except:
+        bath = 1
+        warning1 = "Bathrooms requires an integer."
+    try:
+        bed = int(user_input["bedrooms"])
+        warning2 = ""
+    except:
         bed = 2
-        warning1 = "Bedrooms requires an integer."
+        warning2 = "Bedrooms requires an integer."
     try:
         built = int(user_input["yearBuilt"])
         warning3 = ""
     except:
         built = 1950
-        warning3 = "Year Built requires an integer."
+        warning3 = "Year built requires an integer."
     try:
         lot = float(user_input["lotSize"])
-    except:
-        lot = 0
-    try:
-        sq = int(user_input["sqFoot"])
-        warning2 = ""
-    except:
-        sq = 900
-        warning2 = "Square Feet requires an integer."
-
-    # Print user input
-    print(user_input["zipcode"])
-    print(user_input["schoolDistrict"])
-
-    # Grab complicated user data (zipcode, school district)
-    try:
-        zipcodeAVG = zipcode_df.loc[zipcode_df["zipcode"]==int(user_input["zipcode"]),
-                                                        "zipcodeAVGcost"].values[0]
-        warning5 = ""
-    except:
-        zipcodeAVG = zipcode_df.loc[zipcode_df["zipcode"] == 97266,
-                                            "zipcodeAVGcost"].values[0]
-        warning5 = ("Zipcode was not found.")
-        
-    try:
-        districtAVG = district_df.loc[district_df["district"]==(user_input["schoolDistrict"]),
-                                                        "districtAVGcost"].values[0]
         warning4 = ""
     except:
-        districtAVG = district_df.loc[district_df["district"]=="Portland Public",
-                                                "districtAVGcost"].values[0]
-        warning4 = ("District was not found.")
-    
+        lot = 0
+        warning4 = "Lot size requires a decimal."
+    try:
+        sq = int(user_input["sqFoot"])
+        warning5 = ""
+    except:
+        sq = 900
+        warning5 = "Square Feet requires an integer."
+
+    # Print user input
+    # print(user_input["zipcode"])
+    # print(user_input["schoolDistrict"])
+
     # User input
     if (user_input["schoolDistrict"]) in district_df["district"] :
         sd = user_input["schoolDistrict"]
+        warning6 = ""
     else:
         sd = "Portland Public"
+        warning6 = "District was not found."
     if (user_input["zipcode"]) in zipcode_df["zipcode"]:
         zcode = (user_input["zipcode"])
+        warning7 = ""
     else:
         zcode = 97266
+        warning7 = "Zipcode was not found."
     
-    data_input = [bed, bath, sq, built, lot, sd, zcode] 
-    warning_messages = ["Bedrooms requires an integer.", "Square Feet requires an integer.",
-                        "Year Built requires an integer.", "District was not found.",
-                        "Zipcode was not found."]
-    warning_list = [warning1, warning2, warning3, warning4, warning5]
+    data_input = [bed, bath, sq, built, lot, sd, zcode]
+    warning_messages = ["Bathrooms requires an integer.",
+        "Bedrooms requires an integer.",
+        "Year built requires an integer.",
+        "Lot size requires a decimal.",
+        "Square Feet requires an integer.",
+        "District was not found.",
+        "Zipcode was not found."
+    ]
+    warning_list = [warning1, warning2, warning3, warning4, warning5, warning6, warning7]
 
     for warning in warning_list:
         if warning in warning_messages:
-            warning6 = "Replaced with value(s) listed above."
+            warning8 = "Replaced with value(s) listed above."
             break
         else:
-            warning6 = ""
-    print(warning_list) 
+            warning8 = ""
+    # print(warning_list) 
 
     # Items to display on website
-    listDisZip = [listD, listZ, data_input, warning1, warning2,
-                 warning3, warning4, warning5, warning6]
-
+    listDisZip = [listD,
+        listZ,
+        data_input,
+        warning1,
+        warning2,
+        warning3,
+        warning4,
+        warning5,
+        warning6,
+        warning7,
+        warning8
+    ]
 
     # Input data as bathrooms, bedrooms, built, lot_size, square_feet
     # district, and zip code.
+    input_data = np.array([[bath,
+        bed,
+        2020-built,
+        lot,
+        sq, 
+    ] + ([0] * 45 )])
+
+    # Place the value for district in the appropriate dummy column.
+    i = 6
+    for district in listD:
+        if sd == district:
+            input_data[0][i] = 1
+            break
+        else:
+            i += 1
     
-    input_data = np.array([[bath,bed,(2020-built),lot,sq, 
-                            districtAVG, zipcodeAVG]])
-    print(input_data)
+    # Place the value for zipcode in the appropriate dummy column.
+    j = 18
+    for zipcode in listZ:
+        if zcode == zipcode:
+            input_data[0][j] = 1
+            break
+        else:
+            j += 1
+    # print(input_data)
     
     encoded_predictions = model.predict_classes(scaler.transform(input_data))
     prediction_labels = label_encoder.inverse_transform(encoded_predictions)
