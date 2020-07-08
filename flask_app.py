@@ -153,15 +153,15 @@ def machineLearning():
 
     # Input data as bathrooms, bedrooms, built, lot_size, square_feet
     # district, and zip code.
-    input_data = np.array([[bath,
+    input_data = np.array(np.array([[bath,
         bed,
         2020-built,
         lot,
         sq, 
-    ] + ([0] * 45 )])
+    ] + ([0] * 45 )]))
 
     # Place the value for district in the appropriate dummy column.
-    i = 6
+    i = 5
     for district in listD:
         if sd == district:
             input_data[0][i] = 1
@@ -170,7 +170,7 @@ def machineLearning():
             i += 1
     
     # Place the value for zipcode in the appropriate dummy column.
-    j = 18
+    j = 17
     for zipcode in listZ:
         if zcode == zipcode:
             input_data[0][j] = 1
@@ -178,8 +178,8 @@ def machineLearning():
         else:
             j += 1
     # print(input_data)
-    
-    encoded_predictions = model.predict_classes(scaler.transform(input_data))
+
+    encoded_predictions = model.predict(scaler.transform(input_data))
     prediction_labels = label_encoder.inverse_transform(encoded_predictions)
 
     high = prediction_labels[0].right
