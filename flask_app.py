@@ -54,9 +54,9 @@ def home():
 @app.route("/machineLearning", methods=['POST'])
 def machineLearning():
     # Load the model, scaler and label encoder.
-    model = load("ML Models/mlp_classifier.bin")
-    scaler = load("ML Models/standard_scaler.bin")
-    label_encoder = load("ML Models/label_encoder.bin")
+    model = load("mlp_classifier.pkl")
+    scaler = load("standard_scaler.pkl")
+    label_encoder = load("label_encoder.pkl")
     district_df = pd.read_csv("Resources/district.csv")
     zipcode_df = pd.read_csv("Resources/zipcode.csv")	
 

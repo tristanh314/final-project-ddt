@@ -190,7 +190,7 @@ X_train.loc[48]
 X_scaler = StandardScaler().fit(X_train)
 
 # Save the scalar.
-dump(X_scaler, 'standard_scaler.bin', compress=True)
+dump(X_scaler, 'standard_scaler.pkl', compress=True)
 
 # Transform the training and testing data using the X_scaler.
 X_train_scaled = X_scaler.transform(X_train)
@@ -203,7 +203,7 @@ encoded_y_train = label_encoder.transform(np.ravel(y_train))
 encoded_y_test = label_encoder.transform(np.ravel(y_test))
 
 # Save the label encoder
-dump(label_encoder, 'label_encoder.bin', compress=True)
+dump(label_encoder, 'label_encoder.pkl', compress=True)
 
 # Model Creation, Training, and Testing
 
@@ -227,4 +227,4 @@ print(f"Accuracy: {model_accuracy}")
 # Save the Trained Model
 
 # Save the model
-dump(grid, 'mlp_classifier.bin', compress=True)
+dump(grid, 'mlp_classifier.pkl', compress=True)
