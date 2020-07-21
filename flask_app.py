@@ -37,13 +37,11 @@ CORS(app)
 # Route to render index.html
 @app.route("/")
 def home():
-    # Load the model, scaler and label encoder.
+    # Load districts, zipcodes, and generic search values.
     district_df = pd.read_csv("Resources/district.csv")
     zipcode_df = pd.read_csv("Resources/zipcode.csv")	
     generic_search = [2, 1, 700, 1950, 0, "Portland Public", 97266]
     # Zipcodes and Districts accepted by model
-    # listD = district_df.district.tolist()
-    # listZ = zipcode_df.zipcode.tolist()
     listDisZip = [district_df.district.tolist(),zipcode_df.zipcode.tolist(), 
             generic_search]
     models_range = "Input values to see your results."
@@ -63,6 +61,7 @@ def machineLearning():
     # Zipcodes and Districts accepted by model
     listD = district_df.district.tolist()
     listZ = zipcode_df.zipcode.tolist()
+
     
     # Grabs the entire request dictionary
     user_input = request.values
@@ -99,18 +98,14 @@ def machineLearning():
         sq = 900
         warning5 = "Square Feet requires an integer."
 
-    # Print user input
-    # print(user_input["zipcode"])
-    # print(user_input["schoolDistrict"])
-
     # User input
-    if (user_input["schoolDistrict"]) in district_df["district"] :
+    if (user_input["schoolDistrict"]) in listD :
         sd = user_input["schoolDistrict"]
         warning6 = ""
     else:
         sd = "Portland Public"
         warning6 = "District was not found."
-    if (user_input["zipcode"]) in zipcode_df["zipcode"]:
+    if (user_input["zipcode"]) in listZ:
         zcode = (user_input["zipcode"])
         warning7 = ""
     else:
