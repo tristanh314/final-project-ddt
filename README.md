@@ -68,7 +68,9 @@ From the command terminal, navigagate to the directory where the repository is s
 ```
 python flask_app.py
 ```
-Copy and paste the link that appears into your web browser, or navigate to `http://localhost:5000/`.
+Copy and paste the link that appears into your web browser, or navigate to `http://localhost:5000/`. You should see a page that looks like the following.
+
+![landing page](/Resources/images/2020-08-04.png)
 
 ## Contributors
 Tristan Holmes, Daniel Love, and Devin Milligan
