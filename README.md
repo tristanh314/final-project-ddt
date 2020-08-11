@@ -9,7 +9,7 @@ Buying a house is a huge investment in time, money, and energy. Consumer needs a
 Data on individual housing listings was scraped from [Portland MLS Search](https://www.portlandmlsdirect.com/). Information scraped includes the address of property, the price of the listing, the classification of the type of home, the number of bedrooms, the number of bathrooms, square footage of the home, the year the home was built, the size of the lot the home occupies, the neighborhood the home is located in, the county the home is located in, the city the home is located in, the zipcode the home is located in, the local elementary school, the local middle school, and the local high school. Not every listing contains all of this information, so a number of listings have blank or unknown entries following the scraping. The scraping was also limited to the Portland area to ensure a somewhat homogeneous data set. The scraped data was then saved as a .csv file for further processing.
 
 ### Step 2: Data Storage
-Using the .csv of scraped data, a sqlite database was created and the .csv imported as a single table. This data can be accessed in json format using an [API route]("<home url>/housingDataAPI/v1.0/listings"). Currently there is only one API route available that allows users to pull in all the information in the database as a single return that can then be processed as the user sees fit. This API is then accessed to build and train a machine learning model.
+Using the .csv of scraped data, a sqlite database was created and the .csv imported as a single table. This data can be accessed in json format using an [API route]("https://pdx-housing-estimator.herokuapp.com/housingDataAPI/v1.0/listings"). Currently there is only one API route available that allows users to pull in all the information in the database as a single return that can then be processed as the user sees fit. This API is then accessed to build and train a machine learning model.
 
 ### Step 3: Data Preprocessing
 After some trial and error it was decided the variables that would be used to train the predictive model would be number of bathrooms, number of bedrooms, year built, lot size, square footage, school district, and zipcode. Many properties, specifically condominiums and floating homes, lacked a lot size entry. For properties such as these a lot size of 0 was input. School district is not specifically listed on the web pages scraped. Using the local high school for each listing a list of districts present in the database was generated and this information added to the data frame used to train the predictive model. The price for each listing was put into one of five equally sized bins (that is, each bin contains roughly the same number of listings).
@@ -48,13 +48,13 @@ For the purposes of this application, the most convenient method to install Pyth
 ### Step 2: Create Virtual Environment
 From the command terminal, create a new virtual environment to use to run the application.
 ```
-conda create --name simpsons_dashboard_env python=3.7
+conda create --name housing_env python=3.7
 ```
 When conda asks if you want to proceed, type "y" and press Enter.
 
 Activate the new virtual environment so the required software packages can be installed.
 ```
-conda activate simpsons_dashboard_env
+conda activate housing_env
 ```
 
 Next, install all required packages to run the app.
@@ -64,13 +64,25 @@ pip install -r requirements.txt
 When pip asks if you want to proceed, type "y" and press Enter.
 
 ### Step 3: Activate Virtual Environment and Test the Application
-From the command terminal, navigagate to the directory where the repository is stored. Use the following command to run the application on your local machine.
+From the command terminal, navigate to the directory where the repository is stored. Use the following command to run the application on your local machine.
 ```
 python flask_app.py
 ```
 Copy and paste the link that appears into your web browser, or navigate to `http://localhost:5000/`. You should see a page that looks like the following.
 
 ![landing page](/Resources/images/2020-08-04.png)
+
+Click the "Submit" button. Afer processing the application should return a page that looks like the following.
+
+![successful submission](/Resources/images/2020-08-10.png)
+
+You will notice that input fields with displayed possible input values were used for zipcode and school district rather than dropdown menus. This was a matter of convenience for reading results into the Flask application. Should a user input an improper value, the model is run using appropriate default values and a warning is shown. For instance, should "Submit" be clicked with the displayed values input
+
+![bad inputs](/Resources/images/2020-08-10_(1).png)
+
+results in the following.
+
+![unsuccessful submission](/Resources/images/2020-08-10_(2).png)
 
 ## Contributors
 Tristan Holmes, Daniel Love, and Devin Milligan
