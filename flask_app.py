@@ -61,7 +61,6 @@ def machineLearning():
     # Zipcodes and Districts accepted by model
     listD = district_df.district.tolist()
     listZ = zipcode_df.zipcode.tolist()
-
     
     # Grabs the entire request dictionary
     user_input = request.values
@@ -105,13 +104,18 @@ def machineLearning():
     else:
         sd = "Portland Public"
         warning6 = "District was not found."
-    if (user_input["zipcode"]) in listZ:
+    
+    try:
         zcode = (user_input["zipcode"])
-        warning7 = ""
-    else:
+        if (int(user_input["zipcode"])) in listZ:
+            warning7 = ""
+        else:
+            zcode = 97266
+            warning7 = "Zipcode was not found."
+    except:
         zcode = 97266
         warning7 = "Zipcode was not found."
-    
+        
     data_input = [bed, bath, sq, built, lot, sd, zcode]
     warning_messages = ["Bathrooms requires an integer.",
         "Bedrooms requires an integer.",
@@ -219,7 +223,7 @@ def housing_data():
     
     session.close()
 
-    # Create a dictionary to hold boise data
+    # Create a dictionary to hold listing data
     listing_data = []
     for (address, price, home_type, bedrooms, bathrooms, square_feet, built, lot_size, neighborhood, 
     county, city, zipcode, high_school, middle_school, elementary_school) in housing_data:
