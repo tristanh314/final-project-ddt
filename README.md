@@ -29,7 +29,7 @@ Using the .csv of scraped data, a sqlite database was created and the .csv impor
     "zipcode":97201
 }
 ```
-Not all variables were present for every entry, as seen above where lot size was absent for this listing and so was read as `null` by the scraper. Where possible reasonable default values were substituted for this missing data (see below), and the comparatively few entries (approximately 100 of nearly 1500 scraped) that still had missing or inconsistent data were dropped.
+Not all variables were present for every entry, as seen above where lot size was absent for this listing and so was read as `null` by the scraper. Where possible reasonable default values were substituted for this missing data (see below). The comparatively few entries (approximately 100 of nearly 1500 scraped) that still had erroneous or inconsistent data were dropped.
 
 ### Step 3: Data Preprocessing
 After some trial and error it was decided the variables that would be used to train the predictive model would be number of bathrooms, number of bedrooms, year built, lot size, square footage, school district, and zipcode. Many properties, specifically condominiums and floating homes, lacked a lot size entry. For properties such as these a lot size of 0 was input. School district is not specifically listed on the web pages scraped. Using the local high school for each listing a list of districts present in the database was generated and this information added to the data frame used to train the predictive model. The price for each listing was put into one of five equally sized bins (that is, each bin contains roughly the same number of listings).
