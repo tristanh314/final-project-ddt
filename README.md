@@ -9,7 +9,27 @@ Buying a house is a huge investment in time, money, and energy. Consumer needs a
 Data on individual housing listings was scraped from [Portland MLS Search](https://www.portlandmlsdirect.com/). Information scraped includes the address of property, the price of the listing, the classification of the type of home, the number of bedrooms, the number of bathrooms, square footage of the home, the year the home was built, the size of the lot the home occupies, the neighborhood the home is located in, the county the home is located in, the city the home is located in, the zipcode the home is located in, the local elementary school, the local middle school, and the local high school. Not every listing contains all of this information, so a number of listings have blank or unknown entries following the scraping. The scraping was also limited to the Portland area to ensure a somewhat homogeneous data set. The scraped data was then saved as a .csv file for further processing.
 
 ### Step 2: Data Storage
-Using the .csv of scraped data, a sqlite database was created and the .csv imported as a single table. This data can be accessed in json format using an [API route]("https://pdx-housing-estimator.herokuapp.com/housingDataAPI/v1.0/listings"). Currently there is only one API route available that allows users to pull in all the information in the database as a single return that can then be processed as the user sees fit. This API is then accessed to build and train a machine learning model.
+Using the .csv of scraped data, a sqlite database was created and the .csv imported as a single table. This data can be accessed in json format using an [API route]("https://pdx-housing-estimator.herokuapp.com/housingDataAPI/v1.0/listings"). Currently there is only one API route available that allows users to pull in all the information in the database as a single return that can then be processed as the user sees fit. This API is then accessed to build and train a machine learning model. A sample entry for a single listing is displayed below.
+```
+{   
+    "address":"255 SW HARRISON ST 19b, Portland OR 97201",
+    "bathrooms":1.0,
+    "bedrooms":1,
+    "built":1965,
+    "city":"Portland",
+    "county":"Multnomah",
+    "elementary_school":"Ainsworth",
+    "high_school":"Lincoln",
+    "home_type":"Condo - Contemporary",
+    "lot_size":null,
+    "middle_school":"West Sylvan",
+    "neighborhood":"HARRISON WEST PSU OHSU",
+    "price":250000,
+    "square_feet":744,
+    "zipcode":97201
+}
+```
+Not all variables were present for every entry, as seen above where lot size was absent for this listing and so was read as `null` by the scraper. Where possible reasonable default values were substituted for this missing data (see below), and the comparatively few entries (approximately 100 of nearly 1500 scraped) that still had missing or inconsistent data were dropped.
 
 ### Step 3: Data Preprocessing
 After some trial and error it was decided the variables that would be used to train the predictive model would be number of bathrooms, number of bedrooms, year built, lot size, square footage, school district, and zipcode. Many properties, specifically condominiums and floating homes, lacked a lot size entry. For properties such as these a lot size of 0 was input. School district is not specifically listed on the web pages scraped. Using the local high school for each listing a list of districts present in the database was generated and this information added to the data frame used to train the predictive model. The price for each listing was put into one of five equally sized bins (that is, each bin contains roughly the same number of listings).
